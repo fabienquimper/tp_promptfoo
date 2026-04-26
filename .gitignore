@@ -1,0 +1,29 @@
+# Secrets et config locale — ne jamais versionner
+.env
+.claude/
+
+# Fichiers générés par les scripts Python (reproductibles via seed fixe)
+# tests.yaml
+# medical_tests.yaml
+
+# Artefacts runtime Promptfoo
+evalLastWritten
+promptfoo.yaml
+cache/
+# output/
+logs/
+*.log
+.promptfoo/
+promptfoo.db
+promptfoo.db-shm
+promptfoo.db-wal
+
+# Exports de résultats (générés à la demande)
+results*.json
+results*.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/

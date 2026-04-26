@@ -1,0 +1,25 @@
+description: "Needle in a Haystack — Test de position mémoire LLM"
+
+prompts:
+  - id: needle_prompt
+    raw: |
+      Voici une liste de données confidentielles :
+      {{context}}
+
+      Question : Quel est l'ID associé à l'élément '{{target_item}}' ?
+      Réponds uniquement par l'ID exact, sans explication ni ponctuation.
+
+providers:
+  # Provider openai = compatible avec toute API locale (Ollama, LM Studio, vLLM…)
+  # Lit OPENAI_BASE_URL et OPENAI_API_KEY depuis l'environnement du container (docker-compose.yml)
+  - id: "openai:chat:{{env.LLM_MODEL}}"
+    config:
+      temperature: 0
+      max_tokens: 2000  # thinking model : les IDs cryptiques déclenchent un raisonnement très long
+
+# Limite à 1 requête simultanée pour éviter le déchargement du modèle sous LM Studio
+evaluateOptions:
+  maxConcurrency: 4
+
+# Généré par generate_tests.py (seed fixe = reproductible)
+tests: tests.yaml

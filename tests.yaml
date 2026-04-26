@@ -1,0 +1,1700 @@
+- description: '[DÉBUT] Ligne 1/40 — cible : ALBATROS → ID-2824A-45'
+  vars:
+    target_item: ALBATROS
+    context: 'ID-2824A-45: ALBATROS
+
+      ID-5333B-68: KEID
+
+      ID-9785D-58: FURUD
+
+      ID-2291T-47: RIGEL
+
+      ID-6925V-34: NORMA
+
+      ID-2139B-94: KABDHILINAN
+
+      ID-4733K-20: LACERTA
+
+      ID-4814D-58: PORRIMA
+
+      ID-5554Q-91: ELECTRA
+
+      ID-6977F-57: DENEBOLA
+
+      ID-6820G-95: PRAECIPUA
+
+      ID-5374Z-97: ERIDANI
+
+      ID-2169W-91: HAMAL
+
+      ID-3803T-41: ERRAI
+
+      ID-3677Q-58: MAASYM
+
+      ID-5422X-98: CORVUS
+
+      ID-4598Y-51: NAVI
+
+      ID-1916H-14: UNUK
+
+      ID-6168N-44: DABIH
+
+      ID-2084G-82: TEJAT
+
+      ID-6155G-93: TARAZED
+
+      ID-9179N-92: LESATH
+
+      ID-8517E-43: ROTANEV
+
+      ID-3287H-81: ALCYONE
+
+      ID-9830J-84: IKLIL
+
+      ID-8019V-61: ZAVIJAVA
+
+      ID-6930H-27: KAPPA
+
+      ID-9348R-21: ENIF
+
+      ID-1771D-29: RASTABAN
+
+      ID-3621Y-64: VEGA
+
+      ID-2040N-58: ACRAB
+
+      ID-8668S-42: JANUS
+
+      ID-1188Y-24: SCHEAT
+
+      ID-9797J-92: UKDAH
+
+      ID-6573D-47: GEMINI
+
+      ID-8123F-68: FORNAX
+
+      ID-1053J-74: ACRUX
+
+      ID-3927S-23: GIENAH
+
+      ID-5889X-74: XIPHIAS
+
+      ID-4258E-57: CELAENO'
+  assert:
+  - type: equals
+    value: ID-2824A-45
+- description: '[DÉBUT] Ligne 2/40 — cible : CYCLONE → ID-3646T-77'
+  vars:
+    target_item: CYCLONE
+    context: 'ID-8177S-67: ALCYONE
+
+      ID-3646T-77: CYCLONE
+
+      ID-2982H-38: SCHEAT
+
+      ID-2049L-12: BEID
+
+      ID-4770V-38: CURSA
+
+      ID-1117C-90: CAPELLA
+
+      ID-1964H-18: OCTANS
+
+      ID-1514L-19: GIENAH
+
+      ID-9423H-45: WASAT
+
+      ID-8953G-79: IZAR
+
+      ID-3167V-83: HYDRA
+
+      ID-8744H-70: MAASYM
+
+      ID-7669G-22: KAPPA
+
+      ID-2588Y-65: JISHUI
+
+      ID-6804P-62: UNUK
+
+      ID-8651B-96: INDUS
+
+      ID-2612B-61: QUASAR
+
+      ID-6559D-41: ERRAI
+
+      ID-4139G-78: CELAENO
+
+      ID-8350E-64: KABDHILINAN
+
+      ID-4006J-69: ACRAB
+
+      ID-5092C-66: PHACT
+
+      ID-2604B-93: IMAI
+
+      ID-9856A-21: DABIH
+
+      ID-4872F-62: MIMOSA
+
+      ID-8956R-37: ROTANEV
+
+      ID-7570B-31: VINDEMIATRIX
+
+      ID-7209A-59: ERIDANI
+
+      ID-5345Q-46: NORMA
+
+      ID-7930Z-81: NAOS
+
+      ID-8973E-34: IKLIL
+
+      ID-5861G-17: OKAB
+
+      ID-9883B-50: ENIF
+
+      ID-1936B-84: MIZAR
+
+      ID-8811S-77: FOMALHAUT
+
+      ID-3579B-75: TAURUS
+
+      ID-2312F-18: CORVUS
+
+      ID-2113Y-40: HEZE
+
+      ID-7615D-82: TARAZED
+
+      ID-5033V-86: ZAURAK'
+  assert:
+  - type: equals
+    value: ID-3646T-77
+- description: '[DÉBUT] Ligne 3/40 — cible : SPHINX → ID-1651W-20'
+  vars:
+    target_item: SPHINX
+    context: 'ID-1128Y-80: NAVI
+
+      ID-5905Y-23: PRAECIPUA
+
+      ID-1651W-20: SPHINX
+
+      ID-3200J-24: NASHIRA
+
+      ID-2753T-29: HEZE
+
+      ID-5462K-87: ADHARA
+
+      ID-4450Z-53: MIMOSA
+
+      ID-4335Y-91: DRACO
+
+      ID-5325S-72: RASTABAN
+
+      ID-5114B-21: IZAR
+
+      ID-7939J-15: UNUK
+
+      ID-1058L-26: KOCHAB
+
+      ID-5291F-66: QUASAR
+
+      ID-8007T-11: VINDEMIATRIX
+
+      ID-2832C-98: UKDAH
+
+      ID-3442T-14: TARAZED
+
+      ID-7049V-80: JANUS
+
+      ID-3426P-26: BELLATRIX
+
+      ID-1685K-56: HAMAL
+
+      ID-1653M-36: WASAT
+
+      ID-5088Y-23: SABIK
+
+      ID-6794T-62: GEMINI
+
+      ID-3532H-30: ELECTRA
+
+      ID-3900P-13: NAOS
+
+      ID-3938L-62: NORMA
+
+      ID-5065J-30: LUCIDA
+
+      ID-2771N-14: JISHUI
+
+      ID-8711H-35: INDUS
+
+      ID-8541M-49: XIPHIAS
+
+      ID-4728H-13: SCHEAT
+
+      ID-4164N-52: PUPPIS
+
+      ID-5564C-45: ZAURAK
+
+      ID-6753X-75: SIRIUS
+
+      ID-7548Y-78: KAPPA
+
+      ID-6425A-24: FURUD
+
+      ID-5279F-84: TALITHA
+
+      ID-5349B-23: TAURUS
+
+      ID-8119M-50: BOTEIN
+
+      ID-8149W-75: BEID
+
+      ID-2894N-83: LARAWAG'
+  assert:
+  - type: equals
+    value: ID-1651W-20
+- description: '[DÉBUT] Ligne 4/40 — cible : TORNADE → ID-4114J-15'
+  vars:
+    target_item: TORNADE
+    context: 'ID-6279Q-66: ROTANEV
+
+      ID-8244Y-37: ALCYONE
+
+      ID-9375R-31: HEZE
+
+      ID-4114J-15: TORNADE
+
+      ID-2389K-75: JISHUI
+
+      ID-6491C-40: CORVUS
+
+      ID-6085H-35: GIENAH
+
+      ID-3414A-15: XENOPHON
+
+      ID-5011R-88: INDUS
+
+      ID-2193Q-63: CELAENO
+
+      ID-4185Z-99: ADHARA
+
+      ID-7291R-61: PUPPIS
+
+      ID-4997E-93: VINDEMIATRIX
+
+      ID-1090D-64: ERRAI
+
+      ID-4585F-99: WASAT
+
+      ID-9486Q-16: MARKAB
+
+      ID-5082D-68: BEID
+
+      ID-3184Q-95: LESATH
+
+      ID-9702T-86: ENIF
+
+      ID-6198Q-88: SIRIUS
+
+      ID-9270P-80: PHACT
+
+      ID-8305F-70: NASHIRA
+
+      ID-8373J-41: MIZAR
+
+      ID-5543S-72: DRACO
+
+      ID-4919J-66: MAASYM
+
+      ID-2269Z-46: ACRUX
+
+      ID-4841J-52: DIPHDA
+
+      ID-6238T-20: HASSALEH
+
+      ID-3267E-39: LACERTA
+
+      ID-7275Z-29: TARAZED
+
+      ID-4505C-63: SABIK
+
+      ID-7678L-79: TAURUS
+
+      ID-8633P-17: RASTABAN
+
+      ID-4388P-59: ACRAB
+
+      ID-1320V-58: UNUK
+
+      ID-8814A-55: JABBAH
+
+      ID-5892N-63: BOTEIN
+
+      ID-9818T-87: NORMA
+
+      ID-4613R-38: ERIDANI
+
+      ID-5471P-72: TEJAT'
+  assert:
+  - type: equals
+    value: ID-4114J-15
+- description: '[DÉBUT] Ligne 5/40 — cible : METEOR → ID-1475N-53'
+  vars:
+    target_item: METEOR
+    context: 'ID-1659A-41: LESATH
+
+      ID-4266A-89: VEGA
+
+      ID-3496H-26: ZAVIJAVA
+
+      ID-8758Y-24: QUASAR
+
+      ID-1475N-53: METEOR
+
+      ID-4571Q-99: JISHUI
+
+      ID-5198M-31: DENEBOLA
+
+      ID-2876F-49: KOCHAB
+
+      ID-2771V-13: NASHIRA
+
+      ID-6111V-96: PRAECIPUA
+
+      ID-7149N-35: KAPPA
+
+      ID-2245V-98: PORRIMA
+
+      ID-4978D-99: RIGEL
+
+      ID-5941Y-86: TARAZED
+
+      ID-2983V-15: ZAURAK
+
+      ID-6688T-64: GEMINI
+
+      ID-7071C-74: MIMOSA
+
+      ID-6590A-63: IKLIL
+
+      ID-9031D-65: URANUS
+
+      ID-6934X-68: NORMA
+
+      ID-3506P-32: HAMAL
+
+      ID-9548X-44: CURSA
+
+      ID-9817R-69: UNUK
+
+      ID-8136V-44: DABIH
+
+      ID-6280H-21: SUALOCIN
+
+      ID-5569Q-41: ACRUX
+
+      ID-8613V-88: RASTABAN
+
+      ID-7209L-13: TALITHA
+
+      ID-9098L-33: DRACO
+
+      ID-8988G-55: SCHEAT
+
+      ID-5232L-45: FORNAX
+
+      ID-5526T-11: IZAR
+
+      ID-9464G-20: BELLATRIX
+
+      ID-4954P-72: HASSALEH
+
+      ID-4937Z-70: NAOS
+
+      ID-9041Q-12: MAASYM
+
+      ID-2524K-38: XIPHIAS
+
+      ID-7625Z-41: OCTANS
+
+      ID-6016Y-84: BEID
+
+      ID-7046R-80: ELECTRA'
+  assert:
+  - type: equals
+    value: ID-1475N-53
+- description: '[DÉBUT] Ligne 2/40 — cible : FALCON → ID-9698M-64'
+  vars:
+    target_item: FALCON
+    context: 'ID-5786Z-26: LARAWAG
+
+      ID-9698M-64: FALCON
+
+      ID-9042D-11: CELAENO
+
+      ID-5658R-71: FOMALHAUT
+
+      ID-8216L-33: UKDAH
+
+      ID-1841J-71: NAOS
+
+      ID-2869C-61: WASAT
+
+      ID-9056C-83: LUCIDA
+
+      ID-1878E-29: HAMAL
+
+      ID-5978C-41: PUPPIS
+
+      ID-2940T-63: ACRUX
+
+      ID-4697S-58: ADHARA
+
+      ID-8381Q-48: MAASYM
+
+      ID-8025K-82: ZAURAK
+
+      ID-1986W-22: XENOPHON
+
+      ID-4404X-37: ERIDANI
+
+      ID-5335Y-20: BOTEIN
+
+      ID-3573H-32: PHACT
+
+      ID-2229F-10: GIENAH
+
+      ID-7693Q-98: TEJAT
+
+      ID-8699K-14: IKLIL
+
+      ID-4792K-46: MIMOSA
+
+      ID-8438C-97: VINDEMIATRIX
+
+      ID-4824J-90: SIRIUS
+
+      ID-4241P-24: GEMINI
+
+      ID-9922H-92: NAVI
+
+      ID-3441J-28: MIZAR
+
+      ID-2169B-31: TALITHA
+
+      ID-6039W-82: OCTANS
+
+      ID-5728Q-25: IMAI
+
+      ID-8679Z-48: LACERTA
+
+      ID-7594J-74: TAURUS
+
+      ID-9847R-66: ALCYONE
+
+      ID-2317W-15: TARAZED
+
+      ID-8078L-87: RASTABAN
+
+      ID-5102A-21: INDUS
+
+      ID-4750Y-83: RIGEL
+
+      ID-1339Y-44: CAPELLA
+
+      ID-1659F-70: DENEBOLA
+
+      ID-9502X-66: DABIH'
+  assert:
+  - type: equals
+    value: ID-9698M-64
+- description: '[MILIEU] Ligne 15/40 — cible : AURORA → ID-5557F-84'
+  vars:
+    target_item: AURORA
+    context: 'ID-8242B-36: ROTANEV
+
+      ID-5375T-26: CURSA
+
+      ID-5719Q-99: LACERTA
+
+      ID-8941D-13: ACRAB
+
+      ID-4920Z-30: ENIF
+
+      ID-6091T-11: MARKAB
+
+      ID-7684C-38: CELAENO
+
+      ID-2858Q-25: BEID
+
+      ID-3522R-47: NORMA
+
+      ID-9337Z-44: URANUS
+
+      ID-7807R-70: OKAB
+
+      ID-4993Q-80: PRAECIPUA
+
+      ID-3369N-34: DABIH
+
+      ID-9327E-18: SABIK
+
+      ID-5557F-84: AURORA
+
+      ID-5526P-53: LESATH
+
+      ID-9318J-10: ELECTRA
+
+      ID-5634K-85: UKDAH
+
+      ID-9022E-67: FORNAX
+
+      ID-9824R-54: LARAWAG
+
+      ID-6446T-79: QUASAR
+
+      ID-7180Q-51: BOTEIN
+
+      ID-4090Z-40: HYDRA
+
+      ID-7274H-62: JABBAH
+
+      ID-1715L-70: CORVUS
+
+      ID-7246N-94: XENOPHON
+
+      ID-3492R-14: LUCIDA
+
+      ID-3068S-85: JISHUI
+
+      ID-6439D-66: ALCYONE
+
+      ID-2633S-68: KABDHILINAN
+
+      ID-1251E-62: NAOS
+
+      ID-3529C-70: HAMAL
+
+      ID-5342L-89: DRACO
+
+      ID-7512X-20: DENEBOLA
+
+      ID-6383Y-78: MIZAR
+
+      ID-7226L-90: MIMOSA
+
+      ID-8994T-14: ZAURAK
+
+      ID-2121H-90: WASAT
+
+      ID-5708H-21: KEID
+
+      ID-8110D-91: ADHARA'
+  assert:
+  - type: icontains
+    value: ID-5557F-84
+- description: '[MILIEU] Ligne 17/40 — cible : ECLIPSE → ID-2646Q-31'
+  vars:
+    target_item: ECLIPSE
+    context: 'ID-2210Q-54: VINDEMIATRIX
+
+      ID-5901X-64: DENEBOLA
+
+      ID-5097Q-48: FORNAX
+
+      ID-4263N-71: BEID
+
+      ID-2747H-58: HYDRA
+
+      ID-6881V-47: TEJAT
+
+      ID-5837A-94: FOMALHAUT
+
+      ID-7484J-11: HASSALEH
+
+      ID-1803W-73: ROTANEV
+
+      ID-5689H-87: SIRIUS
+
+      ID-6772H-91: KEID
+
+      ID-4115W-42: IMAI
+
+      ID-3240X-22: MARKAB
+
+      ID-1645K-66: ZAURAK
+
+      ID-1546V-56: VEGA
+
+      ID-3153C-47: XIPHIAS
+
+      ID-2646Q-31: ECLIPSE
+
+      ID-6352P-32: KAPPA
+
+      ID-4289E-79: WASAT
+
+      ID-6994S-74: MAASYM
+
+      ID-5465F-42: ACRUX
+
+      ID-8894K-53: CURSA
+
+      ID-2886Q-19: DIPHDA
+
+      ID-3306H-96: PUPPIS
+
+      ID-7511T-56: KABDHILINAN
+
+      ID-2479N-11: PRAECIPUA
+
+      ID-5332T-25: JANUS
+
+      ID-8451M-96: OCTANS
+
+      ID-5295V-58: HAMAL
+
+      ID-7086D-96: ADHARA
+
+      ID-4830R-13: QUASAR
+
+      ID-6374W-38: JISHUI
+
+      ID-2035X-69: KOCHAB
+
+      ID-5951X-62: CELAENO
+
+      ID-2911E-15: ALCYONE
+
+      ID-1609K-73: JABBAH
+
+      ID-2902D-40: LARAWAG
+
+      ID-9807E-59: UKDAH
+
+      ID-8432M-95: NAOS
+
+      ID-9850P-85: DABIH'
+  assert:
+  - type: icontains
+    value: ID-2646Q-31
+- description: '[MILIEU] Ligne 19/40 — cible : SOLSTICE → ID-3531P-93'
+  vars:
+    target_item: SOLSTICE
+    context: 'ID-4538H-52: MIZAR
+
+      ID-3417W-10: CURSA
+
+      ID-5542E-26: MARKAB
+
+      ID-9850J-32: PHACT
+
+      ID-2801Y-13: ELECTRA
+
+      ID-3159A-55: HASSALEH
+
+      ID-4898V-51: ERIDANI
+
+      ID-1258F-43: SUALOCIN
+
+      ID-1858E-63: NASHIRA
+
+      ID-9619D-18: IZAR
+
+      ID-8802Q-56: GIENAH
+
+      ID-9408V-23: XENOPHON
+
+      ID-8405S-38: PRAECIPUA
+
+      ID-1710Y-76: FOMALHAUT
+
+      ID-5941Q-92: HYDRA
+
+      ID-1510B-71: KOCHAB
+
+      ID-7580P-97: SCHEAT
+
+      ID-2768R-66: JISHUI
+
+      ID-3531P-93: SOLSTICE
+
+      ID-2204C-51: BOTEIN
+
+      ID-3430C-26: GRAFFIAS
+
+      ID-5505W-91: PORRIMA
+
+      ID-9984Z-51: TARAZED
+
+      ID-7240W-77: HAMAL
+
+      ID-5831Q-74: FORNAX
+
+      ID-8048D-99: CELAENO
+
+      ID-2874X-93: NORMA
+
+      ID-4522P-67: BEID
+
+      ID-4743P-53: ADHARA
+
+      ID-8430N-63: VINDEMIATRIX
+
+      ID-2557L-64: BELLATRIX
+
+      ID-6120Y-42: DENEBOLA
+
+      ID-7132E-97: VEGA
+
+      ID-8770C-21: PUPPIS
+
+      ID-2398C-65: INDUS
+
+      ID-2582M-26: SABIK
+
+      ID-1982V-81: ZAVIJAVA
+
+      ID-6400Y-25: RASTABAN
+
+      ID-7730M-95: DABIH
+
+      ID-7929B-46: ENIF'
+  assert:
+  - type: icontains
+    value: ID-3531P-93
+- description: '[MILIEU] Ligne 20/40 — cible : PEGASE → ID-6119M-23'
+  vars:
+    target_item: PEGASE
+    context: 'ID-7878Q-53: OKAB
+
+      ID-3578M-49: ERRAI
+
+      ID-6314V-86: ERIDANI
+
+      ID-2391B-29: TAURUS
+
+      ID-3579W-16: BOTEIN
+
+      ID-2336J-66: FURUD
+
+      ID-7947R-87: NORMA
+
+      ID-8242P-44: ENIF
+
+      ID-4531S-24: MAASYM
+
+      ID-6655P-24: HASSALEH
+
+      ID-5640Y-96: OCTANS
+
+      ID-8972S-95: PHACT
+
+      ID-6053B-38: PRAECIPUA
+
+      ID-7475W-17: PORRIMA
+
+      ID-1125G-48: DENEBOLA
+
+      ID-4460E-42: NAOS
+
+      ID-5742L-25: GRAFFIAS
+
+      ID-1126R-65: LACERTA
+
+      ID-3878E-58: RIGEL
+
+      ID-6119M-23: PEGASE
+
+      ID-9725Z-39: NASHIRA
+
+      ID-9196T-95: IKLIL
+
+      ID-6802C-60: SCHEAT
+
+      ID-1693P-12: VEGA
+
+      ID-8532C-50: XIPHIAS
+
+      ID-8033V-61: ALCYONE
+
+      ID-7843K-24: CURSA
+
+      ID-7636A-51: JANUS
+
+      ID-3815W-68: SABIK
+
+      ID-6928C-65: CELAENO
+
+      ID-2734H-65: CORVUS
+
+      ID-7560S-20: ELECTRA
+
+      ID-7484K-53: NAVI
+
+      ID-4630L-31: LARAWAG
+
+      ID-2251S-91: ADHARA
+
+      ID-2868S-75: BELLATRIX
+
+      ID-4176M-54: FORNAX
+
+      ID-3419H-23: MIMOSA
+
+      ID-3399J-35: XENOPHON
+
+      ID-3842W-29: ACRUX'
+  assert:
+  - type: icontains
+    value: ID-6119M-23
+- description: '[MILIEU] Ligne 21/40 — cible : MINERVE → ID-2234F-90'
+  vars:
+    target_item: MINERVE
+    context: 'ID-4084L-87: DABIH
+
+      ID-8792S-29: ZAVIJAVA
+
+      ID-2013Q-23: NASHIRA
+
+      ID-6626Z-20: PRAECIPUA
+
+      ID-9266X-32: TALITHA
+
+      ID-1641H-66: TARAZED
+
+      ID-8199S-76: BEID
+
+      ID-3600M-57: ADHARA
+
+      ID-5634N-62: TAURUS
+
+      ID-6543Y-86: SUALOCIN
+
+      ID-1857X-92: INDUS
+
+      ID-6482C-52: ACRAB
+
+      ID-2548T-96: LARAWAG
+
+      ID-7333K-42: VINDEMIATRIX
+
+      ID-3463L-20: PHACT
+
+      ID-3317M-49: HYDRA
+
+      ID-7421E-86: FOMALHAUT
+
+      ID-2388K-81: LUCIDA
+
+      ID-7171X-52: ELECTRA
+
+      ID-3093Y-99: MAASYM
+
+      ID-2234F-90: MINERVE
+
+      ID-9624C-92: HAMAL
+
+      ID-7937S-56: FURUD
+
+      ID-1298M-49: CAPELLA
+
+      ID-3953G-53: DENEBOLA
+
+      ID-8967G-38: ZAURAK
+
+      ID-3253E-19: NAVI
+
+      ID-5846D-74: SIRIUS
+
+      ID-9843S-14: BOTEIN
+
+      ID-6517W-26: OKAB
+
+      ID-7172E-30: FORNAX
+
+      ID-3962Z-89: WASAT
+
+      ID-3712Q-15: HEZE
+
+      ID-7731M-96: CURSA
+
+      ID-4891Q-88: ACRUX
+
+      ID-5668Q-39: UNUK
+
+      ID-9749H-49: TEJAT
+
+      ID-8684G-57: GRAFFIAS
+
+      ID-8218Q-46: RASTABAN
+
+      ID-7256S-77: UKDAH'
+  assert:
+  - type: icontains
+    value: ID-2234F-90
+- description: '[MILIEU] Ligne 22/40 — cible : TITAN → ID-7859F-35'
+  vars:
+    target_item: TITAN
+    context: 'ID-6493E-27: TARAZED
+
+      ID-1627K-70: RIGEL
+
+      ID-3273Z-70: LUCIDA
+
+      ID-8349W-10: GEMINI
+
+      ID-2298A-42: BOTEIN
+
+      ID-4533E-80: HASSALEH
+
+      ID-9647P-24: LARAWAG
+
+      ID-5720H-48: NORMA
+
+      ID-2996B-40: HEZE
+
+      ID-7878X-89: PUPPIS
+
+      ID-8489C-24: SABIK
+
+      ID-9189W-78: KAPPA
+
+      ID-1269X-75: URANUS
+
+      ID-4963Z-28: NAOS
+
+      ID-5772P-10: TALITHA
+
+      ID-6780H-83: SIRIUS
+
+      ID-7825F-95: ROTANEV
+
+      ID-2402S-56: FORNAX
+
+      ID-2108S-79: ACRAB
+
+      ID-9312S-80: UKDAH
+
+      ID-1333N-70: OCTANS
+
+      ID-7859F-35: TITAN
+
+      ID-1713X-59: MARKAB
+
+      ID-7116J-12: FURUD
+
+      ID-6850C-54: SUALOCIN
+
+      ID-4950Y-90: XIPHIAS
+
+      ID-2698V-52: BELLATRIX
+
+      ID-3185B-55: DRACO
+
+      ID-9945L-92: DENEBOLA
+
+      ID-3868Y-69: CORVUS
+
+      ID-8840X-33: XENOPHON
+
+      ID-3209C-68: ZAURAK
+
+      ID-1605K-35: OKAB
+
+      ID-1717G-15: ACRUX
+
+      ID-6170K-75: CURSA
+
+      ID-7524T-70: JABBAH
+
+      ID-5150B-92: ZAVIJAVA
+
+      ID-4131K-55: PORRIMA
+
+      ID-1783X-52: IMAI
+
+      ID-5476D-57: SCHEAT'
+  assert:
+  - type: icontains
+    value: ID-7859F-35
+- description: '[MILIEU] Ligne 23/40 — cible : ORION → ID-8159N-66'
+  vars:
+    target_item: ORION
+    context: 'ID-7655M-75: JABBAH
+
+      ID-3621A-28: DIPHDA
+
+      ID-8179B-26: ZAURAK
+
+      ID-2101H-92: DABIH
+
+      ID-7001M-59: SCHEAT
+
+      ID-1530W-29: HASSALEH
+
+      ID-8371M-57: HEZE
+
+      ID-8273C-83: NAOS
+
+      ID-3255S-56: KAPPA
+
+      ID-7521L-93: PORRIMA
+
+      ID-5566H-24: MAASYM
+
+      ID-1424F-73: ROTANEV
+
+      ID-9482N-81: TARAZED
+
+      ID-2929J-43: TEJAT
+
+      ID-8311G-88: BEID
+
+      ID-5678Z-72: NORMA
+
+      ID-4279D-27: KABDHILINAN
+
+      ID-2213Q-32: URANUS
+
+      ID-8292C-97: CELAENO
+
+      ID-6236Y-54: SIRIUS
+
+      ID-2063T-79: TAURUS
+
+      ID-5757K-30: FURUD
+
+      ID-8159N-66: ORION
+
+      ID-3852M-75: VINDEMIATRIX
+
+      ID-4673D-35: FOMALHAUT
+
+      ID-3275H-73: ERIDANI
+
+      ID-1430M-80: RASTABAN
+
+      ID-7044Q-80: ENIF
+
+      ID-3126W-21: UKDAH
+
+      ID-2077K-60: XIPHIAS
+
+      ID-8842S-62: MARKAB
+
+      ID-7708V-19: CAPELLA
+
+      ID-3053L-92: GIENAH
+
+      ID-2215Q-69: LESATH
+
+      ID-9476M-26: WASAT
+
+      ID-3981E-65: JISHUI
+
+      ID-9238B-25: RIGEL
+
+      ID-9488E-48: ADHARA
+
+      ID-3697F-51: DENEBOLA
+
+      ID-4694M-76: ELECTRA'
+  assert:
+  - type: icontains
+    value: ID-8159N-66
+- description: '[MILIEU] Ligne 25/40 — cible : PHOENIX → ID-5653C-42'
+  vars:
+    target_item: PHOENIX
+    context: 'ID-3589Q-63: CORVUS
+
+      ID-8933Q-36: LARAWAG
+
+      ID-6573W-28: PHACT
+
+      ID-6121Z-50: QUASAR
+
+      ID-6658N-26: VINDEMIATRIX
+
+      ID-7070S-81: JISHUI
+
+      ID-2739L-40: LACERTA
+
+      ID-8642D-44: ERRAI
+
+      ID-8366H-28: VEGA
+
+      ID-2586B-47: TAURUS
+
+      ID-7293W-63: MAASYM
+
+      ID-5067F-51: DIPHDA
+
+      ID-6123G-30: FORNAX
+
+      ID-9163S-69: DENEBOLA
+
+      ID-9171K-73: KAPPA
+
+      ID-1379C-60: IMAI
+
+      ID-9281Q-40: MIMOSA
+
+      ID-4524V-55: BEID
+
+      ID-1797B-46: NORMA
+
+      ID-9108W-93: JABBAH
+
+      ID-8710K-78: SABIK
+
+      ID-1133D-65: DRACO
+
+      ID-3194J-56: WASAT
+
+      ID-7606M-15: ADHARA
+
+      ID-5653C-42: PHOENIX
+
+      ID-7563B-82: BELLATRIX
+
+      ID-4189M-80: KEID
+
+      ID-5728C-59: SUALOCIN
+
+      ID-9261Q-80: NAOS
+
+      ID-5582W-97: SIRIUS
+
+      ID-2946E-22: CURSA
+
+      ID-7453M-53: UNUK
+
+      ID-6990E-35: IZAR
+
+      ID-9341N-74: PUPPIS
+
+      ID-1659B-14: PRAECIPUA
+
+      ID-3245Z-52: XENOPHON
+
+      ID-8761S-68: ACRAB
+
+      ID-3440W-75: HAMAL
+
+      ID-3290L-88: ELECTRA
+
+      ID-6218F-60: HEZE'
+  assert:
+  - type: icontains
+    value: ID-5653C-42
+- description: '[FIN] Ligne 36/40 — cible : TRITON → ID-5902V-53'
+  vars:
+    target_item: TRITON
+    context: 'ID-7861E-62: ERRAI
+
+      ID-4340P-74: GRAFFIAS
+
+      ID-8726B-27: JISHUI
+
+      ID-9498G-81: CURSA
+
+      ID-6325Y-71: NASHIRA
+
+      ID-9609N-50: VINDEMIATRIX
+
+      ID-3837Q-78: ACRAB
+
+      ID-6608T-55: CAPELLA
+
+      ID-5331W-71: HASSALEH
+
+      ID-4150H-45: CELAENO
+
+      ID-5890H-48: OCTANS
+
+      ID-5735Z-36: NAVI
+
+      ID-9011L-71: WASAT
+
+      ID-6714T-45: DENEBOLA
+
+      ID-5715D-83: OKAB
+
+      ID-9899N-60: MIMOSA
+
+      ID-6654E-47: HAMAL
+
+      ID-1689K-20: GIENAH
+
+      ID-6674Q-93: HEZE
+
+      ID-5201R-37: TEJAT
+
+      ID-4310T-44: IZAR
+
+      ID-5450E-23: KAPPA
+
+      ID-4920H-16: XENOPHON
+
+      ID-9700H-91: ADHARA
+
+      ID-4814B-22: SCHEAT
+
+      ID-7771L-70: IMAI
+
+      ID-2647Y-27: JABBAH
+
+      ID-1084T-30: ACRUX
+
+      ID-7666X-70: JANUS
+
+      ID-8822X-35: DIPHDA
+
+      ID-5706L-46: PUPPIS
+
+      ID-1969C-93: RASTABAN
+
+      ID-4804T-14: SABIK
+
+      ID-3868P-32: ENIF
+
+      ID-1595N-73: HYDRA
+
+      ID-5902V-53: TRITON
+
+      ID-4052K-14: MIZAR
+
+      ID-1151K-82: BELLATRIX
+
+      ID-2758L-46: FURUD
+
+      ID-8444X-79: URANUS'
+  assert:
+  - type: equals
+    value: ID-5902V-53
+- description: '[FIN] Ligne 37/40 — cible : NEPTUNE → ID-9590R-27'
+  vars:
+    target_item: NEPTUNE
+    context: 'ID-5285X-56: ERRAI
+
+      ID-4871B-95: ZAVIJAVA
+
+      ID-2936Q-49: NAOS
+
+      ID-3616N-97: ACRUX
+
+      ID-9233Z-49: OCTANS
+
+      ID-2923X-47: CELAENO
+
+      ID-7021W-38: URANUS
+
+      ID-4590E-71: UKDAH
+
+      ID-3509Q-87: LUCIDA
+
+      ID-7121P-99: ZAURAK
+
+      ID-9998R-78: BELLATRIX
+
+      ID-4578H-97: DIPHDA
+
+      ID-2341S-67: TEJAT
+
+      ID-9653Z-56: SCHEAT
+
+      ID-2279V-24: XIPHIAS
+
+      ID-2011T-74: LESATH
+
+      ID-4312V-78: PORRIMA
+
+      ID-3455F-51: MAASYM
+
+      ID-9525Q-24: OKAB
+
+      ID-4365Z-84: FORNAX
+
+      ID-9008C-75: CORVUS
+
+      ID-8298B-68: PRAECIPUA
+
+      ID-3161S-63: GEMINI
+
+      ID-8484V-17: LACERTA
+
+      ID-8575Y-49: INDUS
+
+      ID-1356N-42: IZAR
+
+      ID-1049G-84: BOTEIN
+
+      ID-2196B-64: PUPPIS
+
+      ID-6644Z-18: ALCYONE
+
+      ID-9866B-18: QUASAR
+
+      ID-8734B-46: HEZE
+
+      ID-7698F-27: MARKAB
+
+      ID-7887M-58: FURUD
+
+      ID-8348N-58: RIGEL
+
+      ID-2314Y-94: VEGA
+
+      ID-9835E-93: TAURUS
+
+      ID-9590R-27: NEPTUNE
+
+      ID-6697D-32: IMAI
+
+      ID-9802N-77: SABIK
+
+      ID-3086H-10: XENOPHON'
+  assert:
+  - type: equals
+    value: ID-9590R-27
+- description: '[FIN] Ligne 38/40 — cible : SATURNE → ID-1372K-69'
+  vars:
+    target_item: SATURNE
+    context: 'ID-6224V-86: KABDHILINAN
+
+      ID-6253H-48: PORRIMA
+
+      ID-3347Y-76: JISHUI
+
+      ID-4621P-48: IKLIL
+
+      ID-5508B-81: HAMAL
+
+      ID-3869X-96: KEID
+
+      ID-7999T-73: UKDAH
+
+      ID-1768M-92: ENIF
+
+      ID-7244S-50: TAURUS
+
+      ID-7821P-29: PHACT
+
+      ID-5913N-33: ACRUX
+
+      ID-9813R-40: OCTANS
+
+      ID-4692K-28: ELECTRA
+
+      ID-8586B-81: NAVI
+
+      ID-7761P-81: CAPELLA
+
+      ID-9683E-59: IZAR
+
+      ID-4978J-36: DRACO
+
+      ID-6411X-20: IMAI
+
+      ID-8369M-21: GEMINI
+
+      ID-9775G-16: VINDEMIATRIX
+
+      ID-5398N-96: GRAFFIAS
+
+      ID-1647C-34: FURUD
+
+      ID-4555R-36: ACRAB
+
+      ID-6455K-11: DIPHDA
+
+      ID-4470G-25: FOMALHAUT
+
+      ID-8846H-99: DENEBOLA
+
+      ID-4350N-40: PUPPIS
+
+      ID-6269K-58: HASSALEH
+
+      ID-8639T-93: ZAVIJAVA
+
+      ID-6886K-43: CORVUS
+
+      ID-6892S-73: OKAB
+
+      ID-8635D-70: TARAZED
+
+      ID-6246G-57: NAOS
+
+      ID-6126P-15: NORMA
+
+      ID-4625E-12: UNUK
+
+      ID-5272T-84: INDUS
+
+      ID-7841K-29: LUCIDA
+
+      ID-1372K-69: SATURNE
+
+      ID-4214L-39: SIRIUS
+
+      ID-7223V-41: SCHEAT'
+  assert:
+  - type: equals
+    value: ID-1372K-69
+- description: '[FIN] Ligne 39/40 — cible : MERCURE → ID-9180T-93'
+  vars:
+    target_item: MERCURE
+    context: 'ID-1108T-80: DIPHDA
+
+      ID-7739A-12: LUCIDA
+
+      ID-9673J-78: CURSA
+
+      ID-5697A-74: TARAZED
+
+      ID-8054F-23: UKDAH
+
+      ID-2578S-29: VEGA
+
+      ID-4948G-89: FOMALHAUT
+
+      ID-9625J-55: PRAECIPUA
+
+      ID-5379N-20: RIGEL
+
+      ID-7112N-68: KABDHILINAN
+
+      ID-4984Z-38: SCHEAT
+
+      ID-5914Y-20: ZAURAK
+
+      ID-1519C-61: HYDRA
+
+      ID-7213N-80: ELECTRA
+
+      ID-8798B-91: JANUS
+
+      ID-1154Z-31: GEMINI
+
+      ID-2354R-65: ALCYONE
+
+      ID-6427V-22: DRACO
+
+      ID-9653B-39: INDUS
+
+      ID-4463Z-82: NAVI
+
+      ID-8790J-15: ADHARA
+
+      ID-2218Y-45: OCTANS
+
+      ID-9897V-94: HEZE
+
+      ID-1539F-50: OKAB
+
+      ID-1256G-85: GRAFFIAS
+
+      ID-3362Z-60: DABIH
+
+      ID-2260K-30: NORMA
+
+      ID-4939V-59: UNUK
+
+      ID-9856L-59: HAMAL
+
+      ID-3292Z-20: JISHUI
+
+      ID-9204M-16: DENEBOLA
+
+      ID-2600P-39: WASAT
+
+      ID-2245L-87: ZAVIJAVA
+
+      ID-7499L-13: CELAENO
+
+      ID-5478Q-72: IKLIL
+
+      ID-4737M-80: IZAR
+
+      ID-7150P-33: GIENAH
+
+      ID-7227C-89: KEID
+
+      ID-9180T-93: MERCURE
+
+      ID-5839H-19: BELLATRIX'
+  assert:
+  - type: equals
+    value: ID-9180T-93
+- description: '[FIN] Ligne 40/40 — cible : ANDROMEDE → ID-2344J-29'
+  vars:
+    target_item: ANDROMEDE
+    context: 'ID-9537F-97: IKLIL
+
+      ID-7237F-27: TAURUS
+
+      ID-5405K-44: JABBAH
+
+      ID-9079E-18: ADHARA
+
+      ID-3739P-45: GIENAH
+
+      ID-7899K-71: NORMA
+
+      ID-2260M-42: LACERTA
+
+      ID-5040X-73: ALCYONE
+
+      ID-4203Q-23: WASAT
+
+      ID-3219K-10: SUALOCIN
+
+      ID-7483L-89: RASTABAN
+
+      ID-7224L-66: NAOS
+
+      ID-6484P-93: PRAECIPUA
+
+      ID-3230K-51: QUASAR
+
+      ID-4290R-50: OKAB
+
+      ID-3910N-50: ZAURAK
+
+      ID-5775Z-91: ROTANEV
+
+      ID-9044V-41: FURUD
+
+      ID-6339N-45: PHACT
+
+      ID-7437M-24: BOTEIN
+
+      ID-4273V-79: LUCIDA
+
+      ID-3947Y-80: DRACO
+
+      ID-1440Q-36: GEMINI
+
+      ID-8183K-98: BELLATRIX
+
+      ID-2133P-96: FORNAX
+
+      ID-9180E-91: XIPHIAS
+
+      ID-5961H-42: ACRAB
+
+      ID-3525Z-64: DABIH
+
+      ID-7176C-67: VINDEMIATRIX
+
+      ID-8851V-61: LESATH
+
+      ID-9755S-98: URANUS
+
+      ID-7853T-14: ACRUX
+
+      ID-6890Z-78: NASHIRA
+
+      ID-2392D-41: SIRIUS
+
+      ID-6816F-92: UKDAH
+
+      ID-1725V-92: XENOPHON
+
+      ID-7547L-65: MARKAB
+
+      ID-2735A-22: NAVI
+
+      ID-5239H-75: PUPPIS
+
+      ID-2344J-29: ANDROMEDE'
+  assert:
+  - type: equals
+    value: ID-2344J-29
+- description: '[FIN] Ligne 38/40 — cible : CASSIOPEE → ID-9499T-84'
+  vars:
+    target_item: CASSIOPEE
+    context: 'ID-2791Y-31: OKAB
+
+      ID-4996S-32: FURUD
+
+      ID-3623L-81: TALITHA
+
+      ID-7985Q-39: HASSALEH
+
+      ID-7636X-33: KOCHAB
+
+      ID-4053X-94: ZAVIJAVA
+
+      ID-8080N-13: ERRAI
+
+      ID-4232Q-85: TAURUS
+
+      ID-8037N-10: ENIF
+
+      ID-4519G-45: DENEBOLA
+
+      ID-2025V-23: BOTEIN
+
+      ID-9796F-56: NORMA
+
+      ID-6340G-68: TEJAT
+
+      ID-2867J-95: NAVI
+
+      ID-9019S-91: KAPPA
+
+      ID-6134W-59: OCTANS
+
+      ID-7431V-24: SIRIUS
+
+      ID-6700M-68: XIPHIAS
+
+      ID-3826Y-48: NASHIRA
+
+      ID-2388Y-27: VEGA
+
+      ID-6131D-40: HAMAL
+
+      ID-6003D-33: RASTABAN
+
+      ID-7116Z-28: JISHUI
+
+      ID-9369N-63: MIMOSA
+
+      ID-3258V-59: IZAR
+
+      ID-7931F-72: CURSA
+
+      ID-9804Z-92: ROTANEV
+
+      ID-3838T-31: GEMINI
+
+      ID-9022K-27: UNUK
+
+      ID-4065L-67: GIENAH
+
+      ID-1878M-11: MAASYM
+
+      ID-8939E-34: LESATH
+
+      ID-7290T-74: URANUS
+
+      ID-9109P-97: ELECTRA
+
+      ID-9056P-66: KABDHILINAN
+
+      ID-9006F-20: CAPELLA
+
+      ID-1505H-47: HYDRA
+
+      ID-9499T-84: CASSIOPEE
+
+      ID-1535J-38: BELLATRIX
+
+      ID-9808K-31: ACRAB'
+  assert:
+  - type: equals
+    value: ID-9499T-84

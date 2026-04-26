@@ -1,0 +1,213 @@
+#  docker exec -it promptfoo_local promptfoo eval -c promptfooconfig.medical.yaml
+Starting evaluation eval-Hng-2026-04-26T06:50:01
+Running 20 test cases (up to 4 at a time)...
+Evaluating [████████████████████████████████████████] 100% | 20/20 | openai:chat:{{env.LLM_MODEL}} "Vous êtes " context=COMPTE RENDU MÉDICAL — CONFIDENT
+
+┌────────────────────────────────────────────┬────────────────────────────────────────────┬────────────────────────────────────────────┬────────────────────────────────────────────┐
+│ blood_type                                 │ context                                    │ medication                                 │ [openai:chat:{{env.LLM_MODEL}}] Vous êtes  │
+│                                            │                                            │                                            │ un assistant médical. Lisez attentivement  │
+│                                            │                                            │                                            │ le compte rendu suivant.                   │
+│                                            │                                            │                                            │ ---                                        │
+│                                            │                                            │                                            │ {{context}}                                │
+│                                            │                                            │                                            │ ---                                        │
+│                                            │                                            │                                            │ Répondez aux deux questions ci-dessous en  │
+│                                            │                                            │                                            │ vous basant UNIQUEMENT sur le texte        │
+│                                            │                                            │                                            │ fourni.                                    │
+│                                            │                                            │                                            │ 1. Quel est le groupe sanguin...           │
+├────────────────────────────────────────────┼────────────────────────────────────────────┼────────────────────────────────────────────┼────────────────────────────────────────────┤
+│ O Rh positif (O+)                          │ COMPTE RENDU MÉDICAL — CONFIDENTIEL        │ Rosuvastatine 10 mg                        │ [PASS] [THINK]Je vais commencer par lire   │
+│                                            │ Patient : DURANT Jean-Pierre               │                                            │ attentivement le compte rendu médical pour │
+│                                            │ Date de naissance : 14/03/1962 (63 ans)    │                                            │ répondre aux deux questions posées.        │
+│                                            │ Numéro de dossier : 2024-CHU-04471         │                                            │ Pour la première question, je cherche des  │
+│                                            │ Date de consultation : 18 novembre 2024    │                                            │ informations sur le groupe sanguin de Mr.  │
+│                                            │ Praticien : Dr. Sophie LEBLANC, MD —       │                                            │ Durant. Dans le document, je trouve cette  │
+│                                            │ Médecine Interne                           │                                            │ informa...                                 │
+│                                            │ Établissement...                           │                                            │                                            │
+├────────────────────────────────────────────┼────────────────────────────────────────────┼────────────────────────────────────────────┼────────────────────────────────────────────┤
+│ A Rh négatif (A-)                          │ COMPTE RENDU MÉDICAL — CONFIDENTIEL        │ Candesartan 16 mg                          │ [PASS] [THINK]Je vais commencer par lire   │
+│                                            │ Patient : DURANT Jean-Pierre               │                                            │ attentivement le compte rendu médical pour │
+│                                            │ Date de naissance : 14/03/1962 (63 ans)    │                                            │ répondre aux deux questions posées.        │
+│                                            │ Numéro de dossier : 2024-CHU-04471         │                                            │ Pour la première question : "Quel est le   │
+│                                            │ Date de consultation : 18 novembre 2024    │                                            │ groupe sanguin de Mr. Durant ?"            │
+│                                            │ Praticien : Dr. Sophie LEBLANC, MD —       │                                            │ Je cherche dans le texte une mention du    │
+│                                            │ Médecine Interne                           │                                            │ groupe sanguin. Je t...                    │
+│                                            │ Établissement...                           │                                            │                                            │
+├────────────────────────────────────────────┼────────────────────────────────────────────┼────────────────────────────────────────────┼────────────────────────────────────────────┤
+│ B Rh positif (B+)                          │ COMPTE RENDU MÉDICAL — CONFIDENTIEL        │ Dapagliflozine 10 mg                       │ [PASS] [THINK]Je vais lire attentivement   │
+│                                            │ Patient : DURANT Jean-Pierre               │                                            │ le compte rendu médical pour répondre aux  │
+│                                            │ Date de naissance : 14/03/1962 (63 ans)    │                                            │ deux questions posées.                     │
+│                                            │ Numéro de dossier : 2024-CHU-04471         │                                            │ Pour la première question : "Quel est le   │
+│                                            │ Date de consultation : 18 novembre 2024    │                                            │ groupe sanguin de Mr. Durant ?"            │
+│                                            │ Praticien : Dr. Sophie LEBLANC, MD —       │                                            │ Je cherche dans le texte une mention du    │
+│                                            │ Médecine Interne                           │                                            │ groupe sanguin. Je trouve cette in...      │
+│                                            │ Établissement...                           │                                            │                                            │
+├────────────────────────────────────────────┼────────────────────────────────────────────┼────────────────────────────────────────────┼────────────────────────────────────────────┤
+│ AB Rh négatif (AB-)                        │ COMPTE RENDU MÉDICAL — CONFIDENTIEL        │ Spironolactone 25 mg                       │ [PASS] [THINK]Je vais lire attentivement   │
+│                                            │ Patient : DURANT Jean-Pierre               │                                            │ le compte rendu médical pour répondre aux  │
+│                                            │ Date de naissance : 14/03/1962 (63 ans)    │                                            │ deux questions posées.                     │
+│                                            │ Numéro de dossier : 2024-CHU-04471         │                                            │ Pour la première question, je cherche le   │
+│                                            │ Date de consultation : 18 novembre 2024    │                                            │ groupe sanguin de Mr. Durant. Dans la      │
+│                                            │ Praticien : Dr. Sophie LEBLANC, MD —       │                                            │ section "MOTIF DE CONSULTATION", il est    │
+│                                            │ Médecine Interne                           │                                            │ mentionné : "Groupe sanguin ...            │
+│                                            │ Établissement...                           │                                            │                                            │
+├────────────────────────────────────────────┼────────────────────────────────────────────┼────────────────────────────────────────────┼────────────────────────────────────────────┤
+│ O Rh négatif (O-)                          │ COMPTE RENDU MÉDICAL — CONFIDENTIEL        │ Bisoprolol 5 mg                            │ [PASS] [THINK]Je vais commencer par lire   │
+│                                            │ Patient : DURANT Jean-Pierre               │                                            │ attentivement le compte rendu médical pour │
+│                                            │ Date de naissance : 14/03/1962 (63 ans)    │                                            │ répondre aux deux questions posées.        │
+│                                            │ Numéro de dossier : 2024-CHU-04471         │                                            │ Pour la première question : "Quel est le   │
+│                                            │ Date de consultation : 18 novembre 2024    │                                            │ groupe sanguin de Mr. Durant ?"            │
+│                                            │ Praticien : Dr. Sophie LEBLANC, MD —       │                                            │ Je cherche dans le texte une mention du    │
+│                                            │ Médecine Interne                           │                                            │ groupe sanguin. Je t...                    │
+│                                            │ Établissement...                           │                                            │                                            │
+├────────────────────────────────────────────┼────────────────────────────────────────────┼────────────────────────────────────────────┼────────────────────────────────────────────┤
+│ A Rh positif (A+)                          │ COMPTE RENDU MÉDICAL — CONFIDENTIEL        │ Lercanidipine 20 mg                        │ [PASS] [THINK]Je vais commencer par lire   │
+│                                            │ Patient : DURANT Jean-Pierre               │                                            │ attentivement le compte rendu médical pour │
+│                                            │ Date de naissance : 14/03/1962 (63 ans)    │                                            │ répondre aux deux questions posées.        │
+│                                            │ Numéro de dossier : 2024-CHU-04471         │                                            │ Pour la première question : "Quel est le   │
+│                                            │ Date de consultation : 18 novembre 2024    │                                            │ groupe sanguin de Mr. Durant ?"            │
+│                                            │ Praticien : Dr. Sophie LEBLANC, MD —       │                                            │ Je cherche dans le texte une mention du    │
+│                                            │ Médecine Interne                           │                                            │ groupe sanguin. Je t...                    │
+│                                            │ Établissement...                           │                                            │                                            │
+├────────────────────────────────────────────┼────────────────────────────────────────────┼────────────────────────────────────────────┼────────────────────────────────────────────┤
+│ B Rh négatif (B-)                          │ COMPTE RENDU MÉDICAL — CONFIDENTIEL        │ Glipizide 5 mg                             │ [PASS] [THINK]Je vais commencer par lire   │
+│                                            │ Patient : DURANT Jean-Pierre               │                                            │ attentivement le compte rendu médical pour │
+│                                            │ Date de naissance : 14/03/1962 (63 ans)    │                                            │ répondre aux deux questions posées.        │
+│                                            │ Numéro de dossier : 2024-CHU-04471         │                                            │ Pour la première question : "Quel est le   │
+│                                            │ Date de consultation : 18 novembre 2024    │                                            │ groupe sanguin de Mr. Durant ?"            │
+│                                            │ Praticien : Dr. Sophie LEBLANC, MD —       │                                            │ Je cherche dans le texte une mention du    │
+│                                            │ Médecine Interne                           │                                            │ groupe sanguin. Je t...                    │
+│                                            │ Établissement...                           │                                            │                                            │
+├────────────────────────────────────────────┼────────────────────────────────────────────┼────────────────────────────────────────────┼────────────────────────────────────────────┤
+│ AB Rh positif (AB+)                        │ COMPTE RENDU MÉDICAL — CONFIDENTIEL        │ Empagliflozine 10 mg                       │ [PASS] [THINK]Je vais commencer par lire   │
+│                                            │ Patient : DURANT Jean-Pierre               │                                            │ attentivement le compte rendu médical pour │
+│                                            │ Date de naissance : 14/03/1962 (63 ans)    │                                            │ répondre aux deux questions posées.        │
+│                                            │ Numéro de dossier : 2024-CHU-04471         │                                            │ Pour la première question, je cherche des  │
+│                                            │ Date de consultation : 18 novembre 2024    │                                            │ informations sur le groupe sanguin de Mr.  │
+│                                            │ Praticien : Dr. Sophie LEBLANC, MD —       │                                            │ Durant. Je trouve cette information dans   │
+│                                            │ Médecine Interne                           │                                            │ la secti...                                │
+│                                            │ Établissement...                           │                                            │                                            │
+├────────────────────────────────────────────┼────────────────────────────────────────────┼────────────────────────────────────────────┼────────────────────────────────────────────┤
+│ O Rh positif (O+)                          │ COMPTE RENDU MÉDICAL — CONFIDENTIEL        │ Valsartan 160 mg                           │ [PASS] [THINK]Je vais lire attentivement   │
+│                                            │ Patient : DURANT Jean-Pierre               │                                            │ le compte rendu médical pour répondre aux  │
+│                                            │ Date de naissance : 14/03/1962 (63 ans)    │                                            │ deux questions posées.                     │
+│                                            │ Numéro de dossier : 2024-CHU-04471         │                                            │ Pour la première question, je cherche le   │
+│                                            │ Date de consultation : 18 novembre 2024    │                                            │ groupe sanguin de Mr. Durant. Dans la      │
+│                                            │ Praticien : Dr. Sophie LEBLANC, MD —       │                                            │ section "DIAGNOSTICS RETENUS", il est      │
+│                                            │ Médecine Interne                           │                                            │ mentionné : "Groupe sanguin (v...          │
+│                                            │ Établissement...                           │                                            │                                            │
+├────────────────────────────────────────────┼────────────────────────────────────────────┼────────────────────────────────────────────┼────────────────────────────────────────────┤
+│ A Rh négatif (A-)                          │ COMPTE RENDU MÉDICAL — CONFIDENTIEL        │ Carvedilol 12,5 mg                         │ [PASS] [THINK]Je vais lire attentivement   │
+│                                            │ Patient : DURANT Jean-Pierre               │                                            │ le compte rendu médical pour répondre aux  │
+│                                            │ Date de naissance : 14/03/1962 (63 ans)    │                                            │ deux questions posées.                     │
+│                                            │ Numéro de dossier : 2024-CHU-04471         │                                            │ Pour la première question, je cherche le   │
+│                                            │ Date de consultation : 18 novembre 2024    │                                            │ groupe sanguin de Mr. Durant. Dans la      │
+│                                            │ Praticien : Dr. Sophie LEBLANC, MD —       │                                            │ section "DIAGNOSTICS RETENUS", il est      │
+│                                            │ Médecine Interne                           │                                            │ mentionné : "Groupe sanguin (v...          │
+│                                            │ Établissement...                           │                                            │                                            │
+├────────────────────────────────────────────┼────────────────────────────────────────────┼────────────────────────────────────────────┼────────────────────────────────────────────┤
+│ B Rh positif (B+)                          │ COMPTE RENDU MÉDICAL — CONFIDENTIEL        │ Irbesartan 300 mg                          │ [PASS] [THINK]Je vais lire attentivement   │
+│                                            │ Patient : DURANT Jean-Pierre               │                                            │ le compte rendu médical pour répondre aux  │
+│                                            │ Date de naissance : 14/03/1962 (63 ans)    │                                            │ deux questions posées.                     │
+│                                            │ Numéro de dossier : 2024-CHU-04471         │                                            │ Pour la première question, je cherche le   │
+│                                            │ Date de consultation : 18 novembre 2024    │                                            │ groupe sanguin de Mr. Durant. Dans la      │
+│                                            │ Praticien : Dr. Sophie LEBLANC, MD —       │                                            │ section "EXAMENS COMPLÉMENTAIRES", il est  │
+│                                            │ Médecine Interne                           │                                            │ mentionné : "Groupe sangui...              │
+│                                            │ Établissement...                           │                                            │                                            │
+├────────────────────────────────────────────┼────────────────────────────────────────────┼────────────────────────────────────────────┼────────────────────────────────────────────┤
+│ AB Rh négatif (AB-)                        │ COMPTE RENDU MÉDICAL — CONFIDENTIEL        │ Torasémide 10 mg                           │ [PASS] [THINK]Je vais commencer par lire   │
+│                                            │ Patient : DURANT Jean-Pierre               │                                            │ attentivement le compte rendu médical pour │
+│                                            │ Date de naissance : 14/03/1962 (63 ans)    │                                            │ répondre aux deux questions posées.        │
+│                                            │ Numéro de dossier : 2024-CHU-04471         │                                            │ Pour la première question, je dois trouver │
+│                                            │ Date de consultation : 18 novembre 2024    │                                            │ le groupe sanguin de Mr. Durant. En        │
+│                                            │ Praticien : Dr. Sophie LEBLANC, MD —       │                                            │ parcourant le document, je tombe sur la    │
+│                                            │ Médecine Interne                           │                                            │ section "EXAME...                          │
+│                                            │ Établissement...                           │                                            │                                            │
+├────────────────────────────────────────────┼────────────────────────────────────────────┼────────────────────────────────────────────┼────────────────────────────────────────────┤
+│ O Rh négatif (O-)                          │ COMPTE RENDU MÉDICAL — CONFIDENTIEL        │ Amlodipine 10 mg                           │ [PASS] [THINK]Je vais commencer par lire   │
+│                                            │ Patient : DURANT Jean-Pierre               │                                            │ attentivement le compte rendu médical pour │
+│                                            │ Date de naissance : 14/03/1962 (63 ans)    │                                            │ répondre aux deux questions posées.        │
+│                                            │ Numéro de dossier : 2024-CHU-04471         │                                            │ Pour la première question : "Quel est le   │
+│                                            │ Date de consultation : 18 novembre 2024    │                                            │ groupe sanguin de Mr. Durant ?"            │
+│                                            │ Praticien : Dr. Sophie LEBLANC, MD —       │                                            │ Je cherche dans le texte une mention du    │
+│                                            │ Médecine Interne                           │                                            │ groupe sanguin. Je t...                    │
+│                                            │ Établissement...                           │                                            │                                            │
+├────────────────────────────────────────────┼────────────────────────────────────────────┼────────────────────────────────────────────┼────────────────────────────────────────────┤
+│ A Rh positif (A+)                          │ COMPTE RENDU MÉDICAL — CONFIDENTIEL        │ Sitagliptine 100 mg                        │ [PASS] [THINK]Je vais commencer par lire   │
+│                                            │ Patient : DURANT Jean-Pierre               │                                            │ attentivement le compte rendu médical pour │
+│                                            │ Date de naissance : 14/03/1962 (63 ans)    │                                            │ répondre aux deux questions posées.        │
+│                                            │ Numéro de dossier : 2024-CHU-04471         │                                            │ Pour la première question : "Quel est le   │
+│                                            │ Date de consultation : 18 novembre 2024    │                                            │ groupe sanguin de Mr. Durant ?"            │
+│                                            │ Praticien : Dr. Sophie LEBLANC, MD —       │                                            │ Je cherche dans le texte une mention du    │
+│                                            │ Médecine Interne                           │                                            │ groupe sanguin. Je t...                    │
+│                                            │ Établissement...                           │                                            │                                            │
+├────────────────────────────────────────────┼────────────────────────────────────────────┼────────────────────────────────────────────┼────────────────────────────────────────────┤
+│ B Rh négatif (B-)                          │ COMPTE RENDU MÉDICAL — CONFIDENTIEL        │ Ézetimibe 10 mg                            │ [PASS] [THINK]Je vais commencer par lire   │
+│                                            │ Patient : DURANT Jean-Pierre               │                                            │ attentivement le compte rendu médical pour │
+│                                            │ Date de naissance : 14/03/1962 (63 ans)    │                                            │ répondre aux deux questions posées.        │
+│                                            │ Numéro de dossier : 2024-CHU-04471         │                                            │ Pour la première question, je cherche des  │
+│                                            │ Date de consultation : 18 novembre 2024    │                                            │ informations sur le groupe sanguin de Mr.  │
+│                                            │ Praticien : Dr. Sophie LEBLANC, MD —       │                                            │ Durant. Dans la section "Groupe sanguin    │
+│                                            │ Médecine Interne                           │                                            │ (vérif. p...                               │
+│                                            │ Établissement...                           │                                            │                                            │
+├────────────────────────────────────────────┼────────────────────────────────────────────┼────────────────────────────────────────────┼────────────────────────────────────────────┤
+│ AB Rh positif (AB+)                        │ COMPTE RENDU MÉDICAL — CONFIDENTIEL        │ Allopurinol 300 mg                         │ [FAIL] [THINK]Je vais commencer par        │
+│                                            │ Patient : DURANT Jean-Pierre               │                                            │ lire<SPECIAL_30><SPECIAL_30><SPECIAL_30><… │
+│                                            │ Date de naissance : 14/03/1962 (63 ans)    │                                            │                                            │
+│                                            │ Numéro de dossier : 2024-CHU-04471         │                                            │                                            │
+│                                            │ Date de consultation : 18 novembre 2024    │                                            │                                            │
+│                                            │ Praticien : Dr. Sophie LEBLANC, MD —       │                                            │                                            │
+│                                            │ Médecine Interne                           │                                            │                                            │
+│                                            │ Établissement...                           │                                            │                                            │
+├────────────────────────────────────────────┼────────────────────────────────────────────┼────────────────────────────────────────────┼────────────────────────────────────────────┤
+│ O Rh positif (O+)                          │ COMPTE RENDU MÉDICAL — CONFIDENTIEL        │ Gabapentine 300 mg                         │ [FAIL]                                     │
+│                                            │ Patient : DURANT Jean-Pierre               │                                            │ <SPECIAL_30><SPECIAL_30><SPECIAL_30><SPEC… │
+│                                            │ Date de naissance : 14/03/1962 (63 ans)    │                                            │                                            │
+│                                            │ Numéro de dossier : 2024-CHU-04471         │                                            │                                            │
+│                                            │ Date de consultation : 18 novembre 2024    │                                            │                                            │
+│                                            │ Praticien : Dr. Sophie LEBLANC, MD —       │                                            │                                            │
+│                                            │ Médecine Interne                           │                                            │                                            │
+│                                            │ Établissement...                           │                                            │                                            │
+├────────────────────────────────────────────┼────────────────────────────────────────────┼────────────────────────────────────────────┼────────────────────────────────────────────┤
+│ A Rh négatif (A-)                          │ COMPTE RENDU MÉDICAL — CONFIDENTIEL        │ Rivaroxaban 20 mg                          │ [FAIL]                                     │
+│                                            │ Patient : DURANT Jean-Pierre               │                                            │ <SPECIAL_30><SPECIAL_30><SPECIAL_30><SPEC… │
+│                                            │ Date de naissance : 14/03/1962 (63 ans)    │                                            │                                            │
+│                                            │ Numéro de dossier : 2024-CHU-04471         │                                            │                                            │
+│                                            │ Date de consultation : 18 novembre 2024    │                                            │                                            │
+│                                            │ Praticien : Dr. Sophie LEBLANC, MD —       │                                            │                                            │
+│                                            │ Médecine Interne                           │                                            │                                            │
+│                                            │ Établissement...                           │                                            │                                            │
+├────────────────────────────────────────────┼────────────────────────────────────────────┼────────────────────────────────────────────┼────────────────────────────────────────────┤
+│ B Rh positif (B+)                          │ COMPTE RENDU MÉDICAL — CONFIDENTIEL        │ Pantoprazole 40 mg                         │ [FAIL]                                     │
+│                                            │ Patient : DURANT Jean-Pierre               │                                            │ <SPECIAL_30><SPECIAL_30><SPECIAL_30><SPEC… │
+│                                            │ Date de naissance : 14/03/1962 (63 ans)    │                                            │                                            │
+│                                            │ Numéro de dossier : 2024-CHU-04471         │                                            │                                            │
+│                                            │ Date de consultation : 18 novembre 2024    │                                            │                                            │
+│                                            │ Praticien : Dr. Sophie LEBLANC, MD —       │                                            │                                            │
+│                                            │ Médecine Interne                           │                                            │                                            │
+│                                            │ Établissement...                           │                                            │                                            │
+├────────────────────────────────────────────┼────────────────────────────────────────────┼────────────────────────────────────────────┼────────────────────────────────────────────┤
+│ AB Rh négatif (AB-)                        │ COMPTE RENDU MÉDICAL — CONFIDENTIEL        │ Colchicine 1 mg                            │ [FAIL]                                     │
+│                                            │ Patient : DURANT Jean-Pierre               │                                            │ <SPECIAL_30><SPECIAL_30><SPECIAL_30><SPEC… │
+│                                            │ Date de naissance : 14/03/1962 (63 ans)    │                                            │                                            │
+│                                            │ Numéro de dossier : 2024-CHU-04471         │                                            │                                            │
+│                                            │ Date de consultation : 18 novembre 2024    │                                            │                                            │
+│                                            │ Praticien : Dr. Sophie LEBLANC, MD —       │                                            │                                            │
+│                                            │ Médecine Interne                           │                                            │                                            │
+│                                            │ Établissement...                           │                                            │                                            │
+└────────────────────────────────────────────┴────────────────────────────────────────────┴────────────────────────────────────────────┴────────────────────────────────────────────┘
+✓ Eval complete (ID: eval-Hng-2026-04-26T06:50:01)
+
+» View results: promptfoo view
+» Share with your team: https://promptfoo.app
+» Feedback: https://promptfoo.dev/feedback
+
+Total Tokens: 42,954
+  Eval: 42,954 (33,322 prompt, 9,632 completion)
+
+Results:
+  ✓ 15 passed (75.00%)
+  ✗ 5 failed (25.00%)
+  0 errors (0%)
+Duration: 4m 20s (concurrency: 4)
+
+#

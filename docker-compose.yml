@@ -1,0 +1,18 @@
+services:
+  promptfoo:
+    image: ghcr.io/promptfoo/promptfoo:latest
+    container_name: promptfoo_local
+    ports:
+      - "15500:15500"
+    volumes:
+      - .:/app
+    working_dir: /app
+    environment:
+      - PROMPTFOO_CONFIG_DIR=/app
+      - LLM_MODEL=${LLM_MODEL:-mistral}
+      # Le provider openai de Promptfoo lit ces deux vars nativement (sans templating YAML)
+      - OPENAI_BASE_URL=${LLM_BASE_URL:-http://host.docker.internal:11434}/v1
+      - OPENAI_API_KEY=${LLM_API_KEY:-none}
+    extra_hosts:
+      - "host.docker.internal:host-gateway" # résout localhost depuis le container (Linux/WSL)
+    command: ["/usr/local/bin/promptfoo", "view", "--port", "15500"]

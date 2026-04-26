@@ -1,0 +1,3480 @@
+- description: '[DÉBUT/DÉBUT] #01 — Sang: O+ (l.9) | Méd: Rosuvastatine (l.14)'
+  vars:
+    context: 'COMPTE RENDU MÉDICAL — CONFIDENTIEL
+
+      Patient : DURANT Jean-Pierre
+
+      Date de naissance : 14/03/1962 (63 ans)
+
+      Numéro de dossier : 2024-CHU-04471
+
+      Date de consultation : 18 novembre 2024
+
+      Praticien : Dr. Sophie LEBLANC, MD — Médecine Interne
+
+      Établissement : CHU de Bordeaux — Service de Médecine Interne
+
+
+      Groupe sanguin (vérif. pré-op) : O Rh positif (O+)
+
+      MOTIF DE CONSULTATION
+
+      Suivi trimestriel pour pathologies chroniques multiples.
+
+      Plainte principale : fatigue persistante depuis 6 semaines, dyspnée d''effort modérée.
+
+      Pas de douleur thoracique ni de syncope rapportée.
+
+
+      Traitement instauré ce jour : Rosuvastatine 10 mg — 1 cp/j, à réévaluer.
+
+      ANTÉCÉDENTS MÉDICAUX PERSONNELS
+
+      Diabète de type 2, diagnostiqué en 2009, suivi en endocrinologie.
+
+      Hypertension artérielle essentielle depuis 2011.
+
+      Dyslipidémie mixte sous traitement depuis 2013.
+
+      Cardiopathie ischémique : IDM antérieur en janvier 2018, stent posé sur IVA proximale.
+
+      Insuffisance rénale chronique stade 3a (DFG estimé 52 mL/min/1,73m²).
+
+      Hypothyroïdie, diagnostiquée en 2020, substituée.
+
+      Obésité de grade 1 (IMC : 31,4 kg/m²).
+
+
+      ANTÉCÉDENTS CHIRURGICAUX
+
+      Appendicectomie en 1985.
+
+      Angioplastie coronaire avec pose de stent nu (IVA) en janvier 2018.
+
+      Arthroscopie genou droit en 2016.
+
+
+      ANTÉCÉDENTS FAMILIAUX
+
+      Père : décédé d''un IDM à 67 ans.
+
+      Mère : diabète de type 2, HTA, décédée à 81 ans d''AVC ischémique.
+
+      Frère aîné : dyslipidémie sous traitement.
+
+
+      ALLERGIES ET INTOLÉRANCES
+
+      Pénicilline : allergie documentée (réaction cutanée en 2003).
+
+      AINS : intolérance digestive (gastrite médicamenteuse en 2017).
+
+
+      HABITUDES DE VIE
+
+      Tabagisme sevré depuis 2018 (ex-fumeur 20 paquets-années).
+
+      Alcool : consommation occasionnelle (1–2 verres/semaine).
+
+      Activité physique : marche 30 min/jour depuis rééducation cardiaque.
+
+      Régime hypocalorique et hyposodé, suivi par diététicienne.
+
+
+      EXAMEN CLINIQUE
+
+      Poids : 89 kg — Taille : 1,68 m — IMC : 31,5 kg/m²
+
+      Pression artérielle : 138/82 mmHg (bras droit, patient assis au repos).
+
+      Fréquence cardiaque : 72 bpm, rythme régulier.
+
+      Température : 36,7°C — SpO2 : 97% en air ambiant.
+
+      Auscultation cardiaque : bruits du cœur réguliers, pas de souffle.
+
+      Auscultation pulmonaire : crépitants basaux droits discrets.
+
+      Abdomen : souple, indolore, pas d''hépatomégalie.
+
+      Membres inférieurs : œdèmes bilatéraux des chevilles (grade 2).
+
+      Examen neurologique : sans particularité, GCS 15/15.
+
+
+      EXAMENS COMPLÉMENTAIRES — Bilan du 10/11/2024
+
+      Glycémie à jeun : 7,8 mmol/L (0,95 g/L).
+
+      HbA1c : 7,6% (objectif < 7%).
+
+      Créatinine : 118 μmol/L — DFG CKD-EPI : 52 mL/min/1,73m².
+
+      Natrémie : 138 mmol/L — Kaliémie : 4,1 mmol/L.
+
+      Cholestérol total : 4,8 mmol/L — LDL : 2,1 mmol/L — HDL : 0,9 mmol/L.
+
+      Triglycérides : 2,3 mmol/L.
+
+      TSH : 2,8 mUI/L (valeur normale).
+
+      NFS : Hémoglobine 11,8 g/dL — Leucocytes 7,2 G/L — Plaquettes 224 G/L.
+
+      Protéinurie des 24h : 0,42 g/24h (microalbuminurie confirmée).
+
+
+      ECG du 15/11/2024 : rythme sinusal, séquelles d''IDM antérieur (ondes Q V1–V3).
+
+      Échocardiographie du 05/11/2024 : FEVG 48%, hypokinésie antérieure séquellaire.
+
+
+      DIAGNOSTICS RETENUS
+
+      1. Diabète de type 2 déséquilibré (HbA1c 7,6%).
+
+      2. Hypertension artérielle insuffisamment contrôlée.
+
+      3. Dyslipidémie partiellement équilibrée.
+
+      4. Insuffisance cardiaque à FEVG légèrement réduite (ICFEr).
+
+      5. Insuffisance rénale chronique stade 3a, stable.
+
+      6. Hypothyroïdie substituée.
+
+      7. Anémie normochrome normocytaire modérée (bilan étiologique en cours).
+
+
+      PLAN THÉRAPEUTIQUE
+
+      Renforcement des mesures hygiéno-diététiques.
+
+      Objectif tensionnel : PA < 130/80 mmHg.
+
+      Objectif glycémique : HbA1c < 7%.
+
+      Bilan martial et ferritine pour explorer l''anémie.
+
+      Consultation cardiologique dans 3 mois (réévaluation FEVG).
+
+      Consultation néphrologique dans 6 mois (suivi IRC).
+
+      Contrôle biologique dans 6 semaines.
+
+
+      Signature du praticien : Dr. Sophie LEBLANC
+
+      Date : 18/11/2024'
+    blood_type: O Rh positif (O+)
+    medication: Rosuvastatine 10 mg
+  assert:
+  - type: icontains
+    value: O+
+  - type: icontains
+    value: Rosuvastatine 10 mg
+- description: '[DÉBUT/DÉBUT] #02 — Sang: A- (l.11) | Méd: Candesartan (l.16)'
+  vars:
+    context: 'COMPTE RENDU MÉDICAL — CONFIDENTIEL
+
+      Patient : DURANT Jean-Pierre
+
+      Date de naissance : 14/03/1962 (63 ans)
+
+      Numéro de dossier : 2024-CHU-04471
+
+      Date de consultation : 18 novembre 2024
+
+      Praticien : Dr. Sophie LEBLANC, MD — Médecine Interne
+
+      Établissement : CHU de Bordeaux — Service de Médecine Interne
+
+
+      MOTIF DE CONSULTATION
+
+      Suivi trimestriel pour pathologies chroniques multiples.
+
+      Groupe sanguin (vérif. pré-op) : A Rh négatif (A-)
+
+      Plainte principale : fatigue persistante depuis 6 semaines, dyspnée d''effort modérée.
+
+      Pas de douleur thoracique ni de syncope rapportée.
+
+
+      ANTÉCÉDENTS MÉDICAUX PERSONNELS
+
+      Diabète de type 2, diagnostiqué en 2009, suivi en endocrinologie.
+
+      Traitement instauré ce jour : Candesartan 16 mg — 1 cp/j, à réévaluer.
+
+      Hypertension artérielle essentielle depuis 2011.
+
+      Dyslipidémie mixte sous traitement depuis 2013.
+
+      Cardiopathie ischémique : IDM antérieur en janvier 2018, stent posé sur IVA proximale.
+
+      Insuffisance rénale chronique stade 3a (DFG estimé 52 mL/min/1,73m²).
+
+      Hypothyroïdie, diagnostiquée en 2020, substituée.
+
+      Obésité de grade 1 (IMC : 31,4 kg/m²).
+
+
+      ANTÉCÉDENTS CHIRURGICAUX
+
+      Appendicectomie en 1985.
+
+      Angioplastie coronaire avec pose de stent nu (IVA) en janvier 2018.
+
+      Arthroscopie genou droit en 2016.
+
+
+      ANTÉCÉDENTS FAMILIAUX
+
+      Père : décédé d''un IDM à 67 ans.
+
+      Mère : diabète de type 2, HTA, décédée à 81 ans d''AVC ischémique.
+
+      Frère aîné : dyslipidémie sous traitement.
+
+
+      ALLERGIES ET INTOLÉRANCES
+
+      Pénicilline : allergie documentée (réaction cutanée en 2003).
+
+      AINS : intolérance digestive (gastrite médicamenteuse en 2017).
+
+
+      HABITUDES DE VIE
+
+      Tabagisme sevré depuis 2018 (ex-fumeur 20 paquets-années).
+
+      Alcool : consommation occasionnelle (1–2 verres/semaine).
+
+      Activité physique : marche 30 min/jour depuis rééducation cardiaque.
+
+      Régime hypocalorique et hyposodé, suivi par diététicienne.
+
+
+      EXAMEN CLINIQUE
+
+      Poids : 89 kg — Taille : 1,68 m — IMC : 31,5 kg/m²
+
+      Pression artérielle : 138/82 mmHg (bras droit, patient assis au repos).
+
+      Fréquence cardiaque : 72 bpm, rythme régulier.
+
+      Température : 36,7°C — SpO2 : 97% en air ambiant.
+
+      Auscultation cardiaque : bruits du cœur réguliers, pas de souffle.
+
+      Auscultation pulmonaire : crépitants basaux droits discrets.
+
+      Abdomen : souple, indolore, pas d''hépatomégalie.
+
+      Membres inférieurs : œdèmes bilatéraux des chevilles (grade 2).
+
+      Examen neurologique : sans particularité, GCS 15/15.
+
+
+      EXAMENS COMPLÉMENTAIRES — Bilan du 10/11/2024
+
+      Glycémie à jeun : 7,8 mmol/L (0,95 g/L).
+
+      HbA1c : 7,6% (objectif < 7%).
+
+      Créatinine : 118 μmol/L — DFG CKD-EPI : 52 mL/min/1,73m².
+
+      Natrémie : 138 mmol/L — Kaliémie : 4,1 mmol/L.
+
+      Cholestérol total : 4,8 mmol/L — LDL : 2,1 mmol/L — HDL : 0,9 mmol/L.
+
+      Triglycérides : 2,3 mmol/L.
+
+      TSH : 2,8 mUI/L (valeur normale).
+
+      NFS : Hémoglobine 11,8 g/dL — Leucocytes 7,2 G/L — Plaquettes 224 G/L.
+
+      Protéinurie des 24h : 0,42 g/24h (microalbuminurie confirmée).
+
+
+      ECG du 15/11/2024 : rythme sinusal, séquelles d''IDM antérieur (ondes Q V1–V3).
+
+      Échocardiographie du 05/11/2024 : FEVG 48%, hypokinésie antérieure séquellaire.
+
+
+      DIAGNOSTICS RETENUS
+
+      1. Diabète de type 2 déséquilibré (HbA1c 7,6%).
+
+      2. Hypertension artérielle insuffisamment contrôlée.
+
+      3. Dyslipidémie partiellement équilibrée.
+
+      4. Insuffisance cardiaque à FEVG légèrement réduite (ICFEr).
+
+      5. Insuffisance rénale chronique stade 3a, stable.
+
+      6. Hypothyroïdie substituée.
+
+      7. Anémie normochrome normocytaire modérée (bilan étiologique en cours).
+
+
+      PLAN THÉRAPEUTIQUE
+
+      Renforcement des mesures hygiéno-diététiques.
+
+      Objectif tensionnel : PA < 130/80 mmHg.
+
+      Objectif glycémique : HbA1c < 7%.
+
+      Bilan martial et ferritine pour explorer l''anémie.
+
+      Consultation cardiologique dans 3 mois (réévaluation FEVG).
+
+      Consultation néphrologique dans 6 mois (suivi IRC).
+
+      Contrôle biologique dans 6 semaines.
+
+
+      Signature du praticien : Dr. Sophie LEBLANC
+
+      Date : 18/11/2024'
+    blood_type: A Rh négatif (A-)
+    medication: Candesartan 16 mg
+  assert:
+  - type: icontains
+    value: A-
+  - type: icontains
+    value: Candesartan 16 mg
+- description: '[DÉBUT/DÉBUT] #03 — Sang: B+ (l.10) | Méd: Dapagliflozine (l.15)'
+  vars:
+    context: 'COMPTE RENDU MÉDICAL — CONFIDENTIEL
+
+      Patient : DURANT Jean-Pierre
+
+      Date de naissance : 14/03/1962 (63 ans)
+
+      Numéro de dossier : 2024-CHU-04471
+
+      Date de consultation : 18 novembre 2024
+
+      Praticien : Dr. Sophie LEBLANC, MD — Médecine Interne
+
+      Établissement : CHU de Bordeaux — Service de Médecine Interne
+
+
+      MOTIF DE CONSULTATION
+
+      Groupe sanguin (vérif. pré-op) : B Rh positif (B+)
+
+      Suivi trimestriel pour pathologies chroniques multiples.
+
+      Plainte principale : fatigue persistante depuis 6 semaines, dyspnée d''effort modérée.
+
+      Pas de douleur thoracique ni de syncope rapportée.
+
+
+      ANTÉCÉDENTS MÉDICAUX PERSONNELS
+
+      Traitement instauré ce jour : Dapagliflozine 10 mg — 1 cp/j, à réévaluer.
+
+      Diabète de type 2, diagnostiqué en 2009, suivi en endocrinologie.
+
+      Hypertension artérielle essentielle depuis 2011.
+
+      Dyslipidémie mixte sous traitement depuis 2013.
+
+      Cardiopathie ischémique : IDM antérieur en janvier 2018, stent posé sur IVA proximale.
+
+      Insuffisance rénale chronique stade 3a (DFG estimé 52 mL/min/1,73m²).
+
+      Hypothyroïdie, diagnostiquée en 2020, substituée.
+
+      Obésité de grade 1 (IMC : 31,4 kg/m²).
+
+
+      ANTÉCÉDENTS CHIRURGICAUX
+
+      Appendicectomie en 1985.
+
+      Angioplastie coronaire avec pose de stent nu (IVA) en janvier 2018.
+
+      Arthroscopie genou droit en 2016.
+
+
+      ANTÉCÉDENTS FAMILIAUX
+
+      Père : décédé d''un IDM à 67 ans.
+
+      Mère : diabète de type 2, HTA, décédée à 81 ans d''AVC ischémique.
+
+      Frère aîné : dyslipidémie sous traitement.
+
+
+      ALLERGIES ET INTOLÉRANCES
+
+      Pénicilline : allergie documentée (réaction cutanée en 2003).
+
+      AINS : intolérance digestive (gastrite médicamenteuse en 2017).
+
+
+      HABITUDES DE VIE
+
+      Tabagisme sevré depuis 2018 (ex-fumeur 20 paquets-années).
+
+      Alcool : consommation occasionnelle (1–2 verres/semaine).
+
+      Activité physique : marche 30 min/jour depuis rééducation cardiaque.
+
+      Régime hypocalorique et hyposodé, suivi par diététicienne.
+
+
+      EXAMEN CLINIQUE
+
+      Poids : 89 kg — Taille : 1,68 m — IMC : 31,5 kg/m²
+
+      Pression artérielle : 138/82 mmHg (bras droit, patient assis au repos).
+
+      Fréquence cardiaque : 72 bpm, rythme régulier.
+
+      Température : 36,7°C — SpO2 : 97% en air ambiant.
+
+      Auscultation cardiaque : bruits du cœur réguliers, pas de souffle.
+
+      Auscultation pulmonaire : crépitants basaux droits discrets.
+
+      Abdomen : souple, indolore, pas d''hépatomégalie.
+
+      Membres inférieurs : œdèmes bilatéraux des chevilles (grade 2).
+
+      Examen neurologique : sans particularité, GCS 15/15.
+
+
+      EXAMENS COMPLÉMENTAIRES — Bilan du 10/11/2024
+
+      Glycémie à jeun : 7,8 mmol/L (0,95 g/L).
+
+      HbA1c : 7,6% (objectif < 7%).
+
+      Créatinine : 118 μmol/L — DFG CKD-EPI : 52 mL/min/1,73m².
+
+      Natrémie : 138 mmol/L — Kaliémie : 4,1 mmol/L.
+
+      Cholestérol total : 4,8 mmol/L — LDL : 2,1 mmol/L — HDL : 0,9 mmol/L.
+
+      Triglycérides : 2,3 mmol/L.
+
+      TSH : 2,8 mUI/L (valeur normale).
+
+      NFS : Hémoglobine 11,8 g/dL — Leucocytes 7,2 G/L — Plaquettes 224 G/L.
+
+      Protéinurie des 24h : 0,42 g/24h (microalbuminurie confirmée).
+
+
+      ECG du 15/11/2024 : rythme sinusal, séquelles d''IDM antérieur (ondes Q V1–V3).
+
+      Échocardiographie du 05/11/2024 : FEVG 48%, hypokinésie antérieure séquellaire.
+
+
+      DIAGNOSTICS RETENUS
+
+      1. Diabète de type 2 déséquilibré (HbA1c 7,6%).
+
+      2. Hypertension artérielle insuffisamment contrôlée.
+
+      3. Dyslipidémie partiellement équilibrée.
+
+      4. Insuffisance cardiaque à FEVG légèrement réduite (ICFEr).
+
+      5. Insuffisance rénale chronique stade 3a, stable.
+
+      6. Hypothyroïdie substituée.
+
+      7. Anémie normochrome normocytaire modérée (bilan étiologique en cours).
+
+
+      PLAN THÉRAPEUTIQUE
+
+      Renforcement des mesures hygiéno-diététiques.
+
+      Objectif tensionnel : PA < 130/80 mmHg.
+
+      Objectif glycémique : HbA1c < 7%.
+
+      Bilan martial et ferritine pour explorer l''anémie.
+
+      Consultation cardiologique dans 3 mois (réévaluation FEVG).
+
+      Consultation néphrologique dans 6 mois (suivi IRC).
+
+      Contrôle biologique dans 6 semaines.
+
+
+      Signature du praticien : Dr. Sophie LEBLANC
+
+      Date : 18/11/2024'
+    blood_type: B Rh positif (B+)
+    medication: Dapagliflozine 10 mg
+  assert:
+  - type: icontains
+    value: B+
+  - type: icontains
+    value: Dapagliflozine 10 mg
+- description: '[DÉBUT/DÉBUT] #04 — Sang: AB- (l.12) | Méd: Spironolactone (l.17)'
+  vars:
+    context: 'COMPTE RENDU MÉDICAL — CONFIDENTIEL
+
+      Patient : DURANT Jean-Pierre
+
+      Date de naissance : 14/03/1962 (63 ans)
+
+      Numéro de dossier : 2024-CHU-04471
+
+      Date de consultation : 18 novembre 2024
+
+      Praticien : Dr. Sophie LEBLANC, MD — Médecine Interne
+
+      Établissement : CHU de Bordeaux — Service de Médecine Interne
+
+
+      MOTIF DE CONSULTATION
+
+      Suivi trimestriel pour pathologies chroniques multiples.
+
+      Plainte principale : fatigue persistante depuis 6 semaines, dyspnée d''effort modérée.
+
+      Groupe sanguin (vérif. pré-op) : AB Rh négatif (AB-)
+
+      Pas de douleur thoracique ni de syncope rapportée.
+
+
+      ANTÉCÉDENTS MÉDICAUX PERSONNELS
+
+      Diabète de type 2, diagnostiqué en 2009, suivi en endocrinologie.
+
+      Hypertension artérielle essentielle depuis 2011.
+
+      Traitement instauré ce jour : Spironolactone 25 mg — 1 cp/j, à réévaluer.
+
+      Dyslipidémie mixte sous traitement depuis 2013.
+
+      Cardiopathie ischémique : IDM antérieur en janvier 2018, stent posé sur IVA proximale.
+
+      Insuffisance rénale chronique stade 3a (DFG estimé 52 mL/min/1,73m²).
+
+      Hypothyroïdie, diagnostiquée en 2020, substituée.
+
+      Obésité de grade 1 (IMC : 31,4 kg/m²).
+
+
+      ANTÉCÉDENTS CHIRURGICAUX
+
+      Appendicectomie en 1985.
+
+      Angioplastie coronaire avec pose de stent nu (IVA) en janvier 2018.
+
+      Arthroscopie genou droit en 2016.
+
+
+      ANTÉCÉDENTS FAMILIAUX
+
+      Père : décédé d''un IDM à 67 ans.
+
+      Mère : diabète de type 2, HTA, décédée à 81 ans d''AVC ischémique.
+
+      Frère aîné : dyslipidémie sous traitement.
+
+
+      ALLERGIES ET INTOLÉRANCES
+
+      Pénicilline : allergie documentée (réaction cutanée en 2003).
+
+      AINS : intolérance digestive (gastrite médicamenteuse en 2017).
+
+
+      HABITUDES DE VIE
+
+      Tabagisme sevré depuis 2018 (ex-fumeur 20 paquets-années).
+
+      Alcool : consommation occasionnelle (1–2 verres/semaine).
+
+      Activité physique : marche 30 min/jour depuis rééducation cardiaque.
+
+      Régime hypocalorique et hyposodé, suivi par diététicienne.
+
+
+      EXAMEN CLINIQUE
+
+      Poids : 89 kg — Taille : 1,68 m — IMC : 31,5 kg/m²
+
+      Pression artérielle : 138/82 mmHg (bras droit, patient assis au repos).
+
+      Fréquence cardiaque : 72 bpm, rythme régulier.
+
+      Température : 36,7°C — SpO2 : 97% en air ambiant.
+
+      Auscultation cardiaque : bruits du cœur réguliers, pas de souffle.
+
+      Auscultation pulmonaire : crépitants basaux droits discrets.
+
+      Abdomen : souple, indolore, pas d''hépatomégalie.
+
+      Membres inférieurs : œdèmes bilatéraux des chevilles (grade 2).
+
+      Examen neurologique : sans particularité, GCS 15/15.
+
+
+      EXAMENS COMPLÉMENTAIRES — Bilan du 10/11/2024
+
+      Glycémie à jeun : 7,8 mmol/L (0,95 g/L).
+
+      HbA1c : 7,6% (objectif < 7%).
+
+      Créatinine : 118 μmol/L — DFG CKD-EPI : 52 mL/min/1,73m².
+
+      Natrémie : 138 mmol/L — Kaliémie : 4,1 mmol/L.
+
+      Cholestérol total : 4,8 mmol/L — LDL : 2,1 mmol/L — HDL : 0,9 mmol/L.
+
+      Triglycérides : 2,3 mmol/L.
+
+      TSH : 2,8 mUI/L (valeur normale).
+
+      NFS : Hémoglobine 11,8 g/dL — Leucocytes 7,2 G/L — Plaquettes 224 G/L.
+
+      Protéinurie des 24h : 0,42 g/24h (microalbuminurie confirmée).
+
+
+      ECG du 15/11/2024 : rythme sinusal, séquelles d''IDM antérieur (ondes Q V1–V3).
+
+      Échocardiographie du 05/11/2024 : FEVG 48%, hypokinésie antérieure séquellaire.
+
+
+      DIAGNOSTICS RETENUS
+
+      1. Diabète de type 2 déséquilibré (HbA1c 7,6%).
+
+      2. Hypertension artérielle insuffisamment contrôlée.
+
+      3. Dyslipidémie partiellement équilibrée.
+
+      4. Insuffisance cardiaque à FEVG légèrement réduite (ICFEr).
+
+      5. Insuffisance rénale chronique stade 3a, stable.
+
+      6. Hypothyroïdie substituée.
+
+      7. Anémie normochrome normocytaire modérée (bilan étiologique en cours).
+
+
+      PLAN THÉRAPEUTIQUE
+
+      Renforcement des mesures hygiéno-diététiques.
+
+      Objectif tensionnel : PA < 130/80 mmHg.
+
+      Objectif glycémique : HbA1c < 7%.
+
+      Bilan martial et ferritine pour explorer l''anémie.
+
+      Consultation cardiologique dans 3 mois (réévaluation FEVG).
+
+      Consultation néphrologique dans 6 mois (suivi IRC).
+
+      Contrôle biologique dans 6 semaines.
+
+
+      Signature du praticien : Dr. Sophie LEBLANC
+
+      Date : 18/11/2024'
+    blood_type: AB Rh négatif (AB-)
+    medication: Spironolactone 25 mg
+  assert:
+  - type: icontains
+    value: AB-
+  - type: icontains
+    value: Spironolactone 25 mg
+- description: '[MILIEU/MILIEU] #05 — Sang: O- (l.37) | Méd: Bisoprolol (l.47)'
+  vars:
+    context: 'COMPTE RENDU MÉDICAL — CONFIDENTIEL
+
+      Patient : DURANT Jean-Pierre
+
+      Date de naissance : 14/03/1962 (63 ans)
+
+      Numéro de dossier : 2024-CHU-04471
+
+      Date de consultation : 18 novembre 2024
+
+      Praticien : Dr. Sophie LEBLANC, MD — Médecine Interne
+
+      Établissement : CHU de Bordeaux — Service de Médecine Interne
+
+
+      MOTIF DE CONSULTATION
+
+      Suivi trimestriel pour pathologies chroniques multiples.
+
+      Plainte principale : fatigue persistante depuis 6 semaines, dyspnée d''effort modérée.
+
+      Pas de douleur thoracique ni de syncope rapportée.
+
+
+      ANTÉCÉDENTS MÉDICAUX PERSONNELS
+
+      Diabète de type 2, diagnostiqué en 2009, suivi en endocrinologie.
+
+      Hypertension artérielle essentielle depuis 2011.
+
+      Dyslipidémie mixte sous traitement depuis 2013.
+
+      Cardiopathie ischémique : IDM antérieur en janvier 2018, stent posé sur IVA proximale.
+
+      Insuffisance rénale chronique stade 3a (DFG estimé 52 mL/min/1,73m²).
+
+      Hypothyroïdie, diagnostiquée en 2020, substituée.
+
+      Obésité de grade 1 (IMC : 31,4 kg/m²).
+
+
+      ANTÉCÉDENTS CHIRURGICAUX
+
+      Appendicectomie en 1985.
+
+      Angioplastie coronaire avec pose de stent nu (IVA) en janvier 2018.
+
+      Arthroscopie genou droit en 2016.
+
+
+      ANTÉCÉDENTS FAMILIAUX
+
+      Père : décédé d''un IDM à 67 ans.
+
+      Mère : diabète de type 2, HTA, décédée à 81 ans d''AVC ischémique.
+
+      Frère aîné : dyslipidémie sous traitement.
+
+
+      ALLERGIES ET INTOLÉRANCES
+
+      Pénicilline : allergie documentée (réaction cutanée en 2003).
+
+      AINS : intolérance digestive (gastrite médicamenteuse en 2017).
+
+
+      Groupe sanguin (vérif. pré-op) : O Rh négatif (O-)
+
+      HABITUDES DE VIE
+
+      Tabagisme sevré depuis 2018 (ex-fumeur 20 paquets-années).
+
+      Alcool : consommation occasionnelle (1–2 verres/semaine).
+
+      Activité physique : marche 30 min/jour depuis rééducation cardiaque.
+
+      Régime hypocalorique et hyposodé, suivi par diététicienne.
+
+
+      EXAMEN CLINIQUE
+
+      Poids : 89 kg — Taille : 1,68 m — IMC : 31,5 kg/m²
+
+      Pression artérielle : 138/82 mmHg (bras droit, patient assis au repos).
+
+      Fréquence cardiaque : 72 bpm, rythme régulier.
+
+      Traitement instauré ce jour : Bisoprolol 5 mg — 1 cp/j, à réévaluer.
+
+      Température : 36,7°C — SpO2 : 97% en air ambiant.
+
+      Auscultation cardiaque : bruits du cœur réguliers, pas de souffle.
+
+      Auscultation pulmonaire : crépitants basaux droits discrets.
+
+      Abdomen : souple, indolore, pas d''hépatomégalie.
+
+      Membres inférieurs : œdèmes bilatéraux des chevilles (grade 2).
+
+      Examen neurologique : sans particularité, GCS 15/15.
+
+
+      EXAMENS COMPLÉMENTAIRES — Bilan du 10/11/2024
+
+      Glycémie à jeun : 7,8 mmol/L (0,95 g/L).
+
+      HbA1c : 7,6% (objectif < 7%).
+
+      Créatinine : 118 μmol/L — DFG CKD-EPI : 52 mL/min/1,73m².
+
+      Natrémie : 138 mmol/L — Kaliémie : 4,1 mmol/L.
+
+      Cholestérol total : 4,8 mmol/L — LDL : 2,1 mmol/L — HDL : 0,9 mmol/L.
+
+      Triglycérides : 2,3 mmol/L.
+
+      TSH : 2,8 mUI/L (valeur normale).
+
+      NFS : Hémoglobine 11,8 g/dL — Leucocytes 7,2 G/L — Plaquettes 224 G/L.
+
+      Protéinurie des 24h : 0,42 g/24h (microalbuminurie confirmée).
+
+
+      ECG du 15/11/2024 : rythme sinusal, séquelles d''IDM antérieur (ondes Q V1–V3).
+
+      Échocardiographie du 05/11/2024 : FEVG 48%, hypokinésie antérieure séquellaire.
+
+
+      DIAGNOSTICS RETENUS
+
+      1. Diabète de type 2 déséquilibré (HbA1c 7,6%).
+
+      2. Hypertension artérielle insuffisamment contrôlée.
+
+      3. Dyslipidémie partiellement équilibrée.
+
+      4. Insuffisance cardiaque à FEVG légèrement réduite (ICFEr).
+
+      5. Insuffisance rénale chronique stade 3a, stable.
+
+      6. Hypothyroïdie substituée.
+
+      7. Anémie normochrome normocytaire modérée (bilan étiologique en cours).
+
+
+      PLAN THÉRAPEUTIQUE
+
+      Renforcement des mesures hygiéno-diététiques.
+
+      Objectif tensionnel : PA < 130/80 mmHg.
+
+      Objectif glycémique : HbA1c < 7%.
+
+      Bilan martial et ferritine pour explorer l''anémie.
+
+      Consultation cardiologique dans 3 mois (réévaluation FEVG).
+
+      Consultation néphrologique dans 6 mois (suivi IRC).
+
+      Contrôle biologique dans 6 semaines.
+
+
+      Signature du praticien : Dr. Sophie LEBLANC
+
+      Date : 18/11/2024'
+    blood_type: O Rh négatif (O-)
+    medication: Bisoprolol 5 mg
+  assert:
+  - type: icontains
+    value: O-
+  - type: icontains
+    value: Bisoprolol 5 mg
+- description: '[MILIEU/MILIEU] #06 — Sang: A+ (l.40) | Méd: Lercanidipine (l.52)'
+  vars:
+    context: 'COMPTE RENDU MÉDICAL — CONFIDENTIEL
+
+      Patient : DURANT Jean-Pierre
+
+      Date de naissance : 14/03/1962 (63 ans)
+
+      Numéro de dossier : 2024-CHU-04471
+
+      Date de consultation : 18 novembre 2024
+
+      Praticien : Dr. Sophie LEBLANC, MD — Médecine Interne
+
+      Établissement : CHU de Bordeaux — Service de Médecine Interne
+
+
+      MOTIF DE CONSULTATION
+
+      Suivi trimestriel pour pathologies chroniques multiples.
+
+      Plainte principale : fatigue persistante depuis 6 semaines, dyspnée d''effort modérée.
+
+      Pas de douleur thoracique ni de syncope rapportée.
+
+
+      ANTÉCÉDENTS MÉDICAUX PERSONNELS
+
+      Diabète de type 2, diagnostiqué en 2009, suivi en endocrinologie.
+
+      Hypertension artérielle essentielle depuis 2011.
+
+      Dyslipidémie mixte sous traitement depuis 2013.
+
+      Cardiopathie ischémique : IDM antérieur en janvier 2018, stent posé sur IVA proximale.
+
+      Insuffisance rénale chronique stade 3a (DFG estimé 52 mL/min/1,73m²).
+
+      Hypothyroïdie, diagnostiquée en 2020, substituée.
+
+      Obésité de grade 1 (IMC : 31,4 kg/m²).
+
+
+      ANTÉCÉDENTS CHIRURGICAUX
+
+      Appendicectomie en 1985.
+
+      Angioplastie coronaire avec pose de stent nu (IVA) en janvier 2018.
+
+      Arthroscopie genou droit en 2016.
+
+
+      ANTÉCÉDENTS FAMILIAUX
+
+      Père : décédé d''un IDM à 67 ans.
+
+      Mère : diabète de type 2, HTA, décédée à 81 ans d''AVC ischémique.
+
+      Frère aîné : dyslipidémie sous traitement.
+
+
+      ALLERGIES ET INTOLÉRANCES
+
+      Pénicilline : allergie documentée (réaction cutanée en 2003).
+
+      AINS : intolérance digestive (gastrite médicamenteuse en 2017).
+
+
+      HABITUDES DE VIE
+
+      Tabagisme sevré depuis 2018 (ex-fumeur 20 paquets-années).
+
+      Alcool : consommation occasionnelle (1–2 verres/semaine).
+
+      Groupe sanguin (vérif. pré-op) : A Rh positif (A+)
+
+      Activité physique : marche 30 min/jour depuis rééducation cardiaque.
+
+      Régime hypocalorique et hyposodé, suivi par diététicienne.
+
+
+      EXAMEN CLINIQUE
+
+      Poids : 89 kg — Taille : 1,68 m — IMC : 31,5 kg/m²
+
+      Pression artérielle : 138/82 mmHg (bras droit, patient assis au repos).
+
+      Fréquence cardiaque : 72 bpm, rythme régulier.
+
+      Température : 36,7°C — SpO2 : 97% en air ambiant.
+
+      Auscultation cardiaque : bruits du cœur réguliers, pas de souffle.
+
+      Auscultation pulmonaire : crépitants basaux droits discrets.
+
+      Abdomen : souple, indolore, pas d''hépatomégalie.
+
+      Membres inférieurs : œdèmes bilatéraux des chevilles (grade 2).
+
+      Traitement instauré ce jour : Lercanidipine 20 mg — 1 cp/j, à réévaluer.
+
+      Examen neurologique : sans particularité, GCS 15/15.
+
+
+      EXAMENS COMPLÉMENTAIRES — Bilan du 10/11/2024
+
+      Glycémie à jeun : 7,8 mmol/L (0,95 g/L).
+
+      HbA1c : 7,6% (objectif < 7%).
+
+      Créatinine : 118 μmol/L — DFG CKD-EPI : 52 mL/min/1,73m².
+
+      Natrémie : 138 mmol/L — Kaliémie : 4,1 mmol/L.
+
+      Cholestérol total : 4,8 mmol/L — LDL : 2,1 mmol/L — HDL : 0,9 mmol/L.
+
+      Triglycérides : 2,3 mmol/L.
+
+      TSH : 2,8 mUI/L (valeur normale).
+
+      NFS : Hémoglobine 11,8 g/dL — Leucocytes 7,2 G/L — Plaquettes 224 G/L.
+
+      Protéinurie des 24h : 0,42 g/24h (microalbuminurie confirmée).
+
+
+      ECG du 15/11/2024 : rythme sinusal, séquelles d''IDM antérieur (ondes Q V1–V3).
+
+      Échocardiographie du 05/11/2024 : FEVG 48%, hypokinésie antérieure séquellaire.
+
+
+      DIAGNOSTICS RETENUS
+
+      1. Diabète de type 2 déséquilibré (HbA1c 7,6%).
+
+      2. Hypertension artérielle insuffisamment contrôlée.
+
+      3. Dyslipidémie partiellement équilibrée.
+
+      4. Insuffisance cardiaque à FEVG légèrement réduite (ICFEr).
+
+      5. Insuffisance rénale chronique stade 3a, stable.
+
+      6. Hypothyroïdie substituée.
+
+      7. Anémie normochrome normocytaire modérée (bilan étiologique en cours).
+
+
+      PLAN THÉRAPEUTIQUE
+
+      Renforcement des mesures hygiéno-diététiques.
+
+      Objectif tensionnel : PA < 130/80 mmHg.
+
+      Objectif glycémique : HbA1c < 7%.
+
+      Bilan martial et ferritine pour explorer l''anémie.
+
+      Consultation cardiologique dans 3 mois (réévaluation FEVG).
+
+      Consultation néphrologique dans 6 mois (suivi IRC).
+
+      Contrôle biologique dans 6 semaines.
+
+
+      Signature du praticien : Dr. Sophie LEBLANC
+
+      Date : 18/11/2024'
+    blood_type: A Rh positif (A+)
+    medication: Lercanidipine 20 mg
+  assert:
+  - type: icontains
+    value: A+
+  - type: icontains
+    value: Lercanidipine 20 mg
+- description: '[MILIEU/MILIEU] #07 — Sang: B- (l.43) | Méd: Glipizide (l.57)'
+  vars:
+    context: 'COMPTE RENDU MÉDICAL — CONFIDENTIEL
+
+      Patient : DURANT Jean-Pierre
+
+      Date de naissance : 14/03/1962 (63 ans)
+
+      Numéro de dossier : 2024-CHU-04471
+
+      Date de consultation : 18 novembre 2024
+
+      Praticien : Dr. Sophie LEBLANC, MD — Médecine Interne
+
+      Établissement : CHU de Bordeaux — Service de Médecine Interne
+
+
+      MOTIF DE CONSULTATION
+
+      Suivi trimestriel pour pathologies chroniques multiples.
+
+      Plainte principale : fatigue persistante depuis 6 semaines, dyspnée d''effort modérée.
+
+      Pas de douleur thoracique ni de syncope rapportée.
+
+
+      ANTÉCÉDENTS MÉDICAUX PERSONNELS
+
+      Diabète de type 2, diagnostiqué en 2009, suivi en endocrinologie.
+
+      Hypertension artérielle essentielle depuis 2011.
+
+      Dyslipidémie mixte sous traitement depuis 2013.
+
+      Cardiopathie ischémique : IDM antérieur en janvier 2018, stent posé sur IVA proximale.
+
+      Insuffisance rénale chronique stade 3a (DFG estimé 52 mL/min/1,73m²).
+
+      Hypothyroïdie, diagnostiquée en 2020, substituée.
+
+      Obésité de grade 1 (IMC : 31,4 kg/m²).
+
+
+      ANTÉCÉDENTS CHIRURGICAUX
+
+      Appendicectomie en 1985.
+
+      Angioplastie coronaire avec pose de stent nu (IVA) en janvier 2018.
+
+      Arthroscopie genou droit en 2016.
+
+
+      ANTÉCÉDENTS FAMILIAUX
+
+      Père : décédé d''un IDM à 67 ans.
+
+      Mère : diabète de type 2, HTA, décédée à 81 ans d''AVC ischémique.
+
+      Frère aîné : dyslipidémie sous traitement.
+
+
+      ALLERGIES ET INTOLÉRANCES
+
+      Pénicilline : allergie documentée (réaction cutanée en 2003).
+
+      AINS : intolérance digestive (gastrite médicamenteuse en 2017).
+
+
+      HABITUDES DE VIE
+
+      Tabagisme sevré depuis 2018 (ex-fumeur 20 paquets-années).
+
+      Alcool : consommation occasionnelle (1–2 verres/semaine).
+
+      Activité physique : marche 30 min/jour depuis rééducation cardiaque.
+
+      Régime hypocalorique et hyposodé, suivi par diététicienne.
+
+
+      Groupe sanguin (vérif. pré-op) : B Rh négatif (B-)
+
+      EXAMEN CLINIQUE
+
+      Poids : 89 kg — Taille : 1,68 m — IMC : 31,5 kg/m²
+
+      Pression artérielle : 138/82 mmHg (bras droit, patient assis au repos).
+
+      Fréquence cardiaque : 72 bpm, rythme régulier.
+
+      Température : 36,7°C — SpO2 : 97% en air ambiant.
+
+      Auscultation cardiaque : bruits du cœur réguliers, pas de souffle.
+
+      Auscultation pulmonaire : crépitants basaux droits discrets.
+
+      Abdomen : souple, indolore, pas d''hépatomégalie.
+
+      Membres inférieurs : œdèmes bilatéraux des chevilles (grade 2).
+
+      Examen neurologique : sans particularité, GCS 15/15.
+
+
+      EXAMENS COMPLÉMENTAIRES — Bilan du 10/11/2024
+
+      Glycémie à jeun : 7,8 mmol/L (0,95 g/L).
+
+      HbA1c : 7,6% (objectif < 7%).
+
+      Traitement instauré ce jour : Glipizide 5 mg — 1 cp/j, à réévaluer.
+
+      Créatinine : 118 μmol/L — DFG CKD-EPI : 52 mL/min/1,73m².
+
+      Natrémie : 138 mmol/L — Kaliémie : 4,1 mmol/L.
+
+      Cholestérol total : 4,8 mmol/L — LDL : 2,1 mmol/L — HDL : 0,9 mmol/L.
+
+      Triglycérides : 2,3 mmol/L.
+
+      TSH : 2,8 mUI/L (valeur normale).
+
+      NFS : Hémoglobine 11,8 g/dL — Leucocytes 7,2 G/L — Plaquettes 224 G/L.
+
+      Protéinurie des 24h : 0,42 g/24h (microalbuminurie confirmée).
+
+
+      ECG du 15/11/2024 : rythme sinusal, séquelles d''IDM antérieur (ondes Q V1–V3).
+
+      Échocardiographie du 05/11/2024 : FEVG 48%, hypokinésie antérieure séquellaire.
+
+
+      DIAGNOSTICS RETENUS
+
+      1. Diabète de type 2 déséquilibré (HbA1c 7,6%).
+
+      2. Hypertension artérielle insuffisamment contrôlée.
+
+      3. Dyslipidémie partiellement équilibrée.
+
+      4. Insuffisance cardiaque à FEVG légèrement réduite (ICFEr).
+
+      5. Insuffisance rénale chronique stade 3a, stable.
+
+      6. Hypothyroïdie substituée.
+
+      7. Anémie normochrome normocytaire modérée (bilan étiologique en cours).
+
+
+      PLAN THÉRAPEUTIQUE
+
+      Renforcement des mesures hygiéno-diététiques.
+
+      Objectif tensionnel : PA < 130/80 mmHg.
+
+      Objectif glycémique : HbA1c < 7%.
+
+      Bilan martial et ferritine pour explorer l''anémie.
+
+      Consultation cardiologique dans 3 mois (réévaluation FEVG).
+
+      Consultation néphrologique dans 6 mois (suivi IRC).
+
+      Contrôle biologique dans 6 semaines.
+
+
+      Signature du praticien : Dr. Sophie LEBLANC
+
+      Date : 18/11/2024'
+    blood_type: B Rh négatif (B-)
+    medication: Glipizide 5 mg
+  assert:
+  - type: icontains
+    value: B-
+  - type: icontains
+    value: Glipizide 5 mg
+- description: '[MILIEU/MILIEU] #08 — Sang: AB+ (l.38) | Méd: Empagliflozine (l.62)'
+  vars:
+    context: 'COMPTE RENDU MÉDICAL — CONFIDENTIEL
+
+      Patient : DURANT Jean-Pierre
+
+      Date de naissance : 14/03/1962 (63 ans)
+
+      Numéro de dossier : 2024-CHU-04471
+
+      Date de consultation : 18 novembre 2024
+
+      Praticien : Dr. Sophie LEBLANC, MD — Médecine Interne
+
+      Établissement : CHU de Bordeaux — Service de Médecine Interne
+
+
+      MOTIF DE CONSULTATION
+
+      Suivi trimestriel pour pathologies chroniques multiples.
+
+      Plainte principale : fatigue persistante depuis 6 semaines, dyspnée d''effort modérée.
+
+      Pas de douleur thoracique ni de syncope rapportée.
+
+
+      ANTÉCÉDENTS MÉDICAUX PERSONNELS
+
+      Diabète de type 2, diagnostiqué en 2009, suivi en endocrinologie.
+
+      Hypertension artérielle essentielle depuis 2011.
+
+      Dyslipidémie mixte sous traitement depuis 2013.
+
+      Cardiopathie ischémique : IDM antérieur en janvier 2018, stent posé sur IVA proximale.
+
+      Insuffisance rénale chronique stade 3a (DFG estimé 52 mL/min/1,73m²).
+
+      Hypothyroïdie, diagnostiquée en 2020, substituée.
+
+      Obésité de grade 1 (IMC : 31,4 kg/m²).
+
+
+      ANTÉCÉDENTS CHIRURGICAUX
+
+      Appendicectomie en 1985.
+
+      Angioplastie coronaire avec pose de stent nu (IVA) en janvier 2018.
+
+      Arthroscopie genou droit en 2016.
+
+
+      ANTÉCÉDENTS FAMILIAUX
+
+      Père : décédé d''un IDM à 67 ans.
+
+      Mère : diabète de type 2, HTA, décédée à 81 ans d''AVC ischémique.
+
+      Frère aîné : dyslipidémie sous traitement.
+
+
+      ALLERGIES ET INTOLÉRANCES
+
+      Pénicilline : allergie documentée (réaction cutanée en 2003).
+
+      AINS : intolérance digestive (gastrite médicamenteuse en 2017).
+
+
+      HABITUDES DE VIE
+
+      Groupe sanguin (vérif. pré-op) : AB Rh positif (AB+)
+
+      Tabagisme sevré depuis 2018 (ex-fumeur 20 paquets-années).
+
+      Alcool : consommation occasionnelle (1–2 verres/semaine).
+
+      Activité physique : marche 30 min/jour depuis rééducation cardiaque.
+
+      Régime hypocalorique et hyposodé, suivi par diététicienne.
+
+
+      EXAMEN CLINIQUE
+
+      Poids : 89 kg — Taille : 1,68 m — IMC : 31,5 kg/m²
+
+      Pression artérielle : 138/82 mmHg (bras droit, patient assis au repos).
+
+      Fréquence cardiaque : 72 bpm, rythme régulier.
+
+      Température : 36,7°C — SpO2 : 97% en air ambiant.
+
+      Auscultation cardiaque : bruits du cœur réguliers, pas de souffle.
+
+      Auscultation pulmonaire : crépitants basaux droits discrets.
+
+      Abdomen : souple, indolore, pas d''hépatomégalie.
+
+      Membres inférieurs : œdèmes bilatéraux des chevilles (grade 2).
+
+      Examen neurologique : sans particularité, GCS 15/15.
+
+
+      EXAMENS COMPLÉMENTAIRES — Bilan du 10/11/2024
+
+      Glycémie à jeun : 7,8 mmol/L (0,95 g/L).
+
+      HbA1c : 7,6% (objectif < 7%).
+
+      Créatinine : 118 μmol/L — DFG CKD-EPI : 52 mL/min/1,73m².
+
+      Natrémie : 138 mmol/L — Kaliémie : 4,1 mmol/L.
+
+      Cholestérol total : 4,8 mmol/L — LDL : 2,1 mmol/L — HDL : 0,9 mmol/L.
+
+      Triglycérides : 2,3 mmol/L.
+
+      TSH : 2,8 mUI/L (valeur normale).
+
+      Traitement instauré ce jour : Empagliflozine 10 mg — 1 cp/j, à réévaluer.
+
+      NFS : Hémoglobine 11,8 g/dL — Leucocytes 7,2 G/L — Plaquettes 224 G/L.
+
+      Protéinurie des 24h : 0,42 g/24h (microalbuminurie confirmée).
+
+
+      ECG du 15/11/2024 : rythme sinusal, séquelles d''IDM antérieur (ondes Q V1–V3).
+
+      Échocardiographie du 05/11/2024 : FEVG 48%, hypokinésie antérieure séquellaire.
+
+
+      DIAGNOSTICS RETENUS
+
+      1. Diabète de type 2 déséquilibré (HbA1c 7,6%).
+
+      2. Hypertension artérielle insuffisamment contrôlée.
+
+      3. Dyslipidémie partiellement équilibrée.
+
+      4. Insuffisance cardiaque à FEVG légèrement réduite (ICFEr).
+
+      5. Insuffisance rénale chronique stade 3a, stable.
+
+      6. Hypothyroïdie substituée.
+
+      7. Anémie normochrome normocytaire modérée (bilan étiologique en cours).
+
+
+      PLAN THÉRAPEUTIQUE
+
+      Renforcement des mesures hygiéno-diététiques.
+
+      Objectif tensionnel : PA < 130/80 mmHg.
+
+      Objectif glycémique : HbA1c < 7%.
+
+      Bilan martial et ferritine pour explorer l''anémie.
+
+      Consultation cardiologique dans 3 mois (réévaluation FEVG).
+
+      Consultation néphrologique dans 6 mois (suivi IRC).
+
+      Contrôle biologique dans 6 semaines.
+
+
+      Signature du praticien : Dr. Sophie LEBLANC
+
+      Date : 18/11/2024'
+    blood_type: AB Rh positif (AB+)
+    medication: Empagliflozine 10 mg
+  assert:
+  - type: icontains
+    value: AB+
+  - type: icontains
+    value: Empagliflozine 10 mg
+- description: '[FIN/FIN] #09 — Sang: O+ (l.73) | Méd: Valsartan (l.78)'
+  vars:
+    context: 'COMPTE RENDU MÉDICAL — CONFIDENTIEL
+
+      Patient : DURANT Jean-Pierre
+
+      Date de naissance : 14/03/1962 (63 ans)
+
+      Numéro de dossier : 2024-CHU-04471
+
+      Date de consultation : 18 novembre 2024
+
+      Praticien : Dr. Sophie LEBLANC, MD — Médecine Interne
+
+      Établissement : CHU de Bordeaux — Service de Médecine Interne
+
+
+      MOTIF DE CONSULTATION
+
+      Suivi trimestriel pour pathologies chroniques multiples.
+
+      Plainte principale : fatigue persistante depuis 6 semaines, dyspnée d''effort modérée.
+
+      Pas de douleur thoracique ni de syncope rapportée.
+
+
+      ANTÉCÉDENTS MÉDICAUX PERSONNELS
+
+      Diabète de type 2, diagnostiqué en 2009, suivi en endocrinologie.
+
+      Hypertension artérielle essentielle depuis 2011.
+
+      Dyslipidémie mixte sous traitement depuis 2013.
+
+      Cardiopathie ischémique : IDM antérieur en janvier 2018, stent posé sur IVA proximale.
+
+      Insuffisance rénale chronique stade 3a (DFG estimé 52 mL/min/1,73m²).
+
+      Hypothyroïdie, diagnostiquée en 2020, substituée.
+
+      Obésité de grade 1 (IMC : 31,4 kg/m²).
+
+
+      ANTÉCÉDENTS CHIRURGICAUX
+
+      Appendicectomie en 1985.
+
+      Angioplastie coronaire avec pose de stent nu (IVA) en janvier 2018.
+
+      Arthroscopie genou droit en 2016.
+
+
+      ANTÉCÉDENTS FAMILIAUX
+
+      Père : décédé d''un IDM à 67 ans.
+
+      Mère : diabète de type 2, HTA, décédée à 81 ans d''AVC ischémique.
+
+      Frère aîné : dyslipidémie sous traitement.
+
+
+      ALLERGIES ET INTOLÉRANCES
+
+      Pénicilline : allergie documentée (réaction cutanée en 2003).
+
+      AINS : intolérance digestive (gastrite médicamenteuse en 2017).
+
+
+      HABITUDES DE VIE
+
+      Tabagisme sevré depuis 2018 (ex-fumeur 20 paquets-années).
+
+      Alcool : consommation occasionnelle (1–2 verres/semaine).
+
+      Activité physique : marche 30 min/jour depuis rééducation cardiaque.
+
+      Régime hypocalorique et hyposodé, suivi par diététicienne.
+
+
+      EXAMEN CLINIQUE
+
+      Poids : 89 kg — Taille : 1,68 m — IMC : 31,5 kg/m²
+
+      Pression artérielle : 138/82 mmHg (bras droit, patient assis au repos).
+
+      Fréquence cardiaque : 72 bpm, rythme régulier.
+
+      Température : 36,7°C — SpO2 : 97% en air ambiant.
+
+      Auscultation cardiaque : bruits du cœur réguliers, pas de souffle.
+
+      Auscultation pulmonaire : crépitants basaux droits discrets.
+
+      Abdomen : souple, indolore, pas d''hépatomégalie.
+
+      Membres inférieurs : œdèmes bilatéraux des chevilles (grade 2).
+
+      Examen neurologique : sans particularité, GCS 15/15.
+
+
+      EXAMENS COMPLÉMENTAIRES — Bilan du 10/11/2024
+
+      Glycémie à jeun : 7,8 mmol/L (0,95 g/L).
+
+      HbA1c : 7,6% (objectif < 7%).
+
+      Créatinine : 118 μmol/L — DFG CKD-EPI : 52 mL/min/1,73m².
+
+      Natrémie : 138 mmol/L — Kaliémie : 4,1 mmol/L.
+
+      Cholestérol total : 4,8 mmol/L — LDL : 2,1 mmol/L — HDL : 0,9 mmol/L.
+
+      Triglycérides : 2,3 mmol/L.
+
+      TSH : 2,8 mUI/L (valeur normale).
+
+      NFS : Hémoglobine 11,8 g/dL — Leucocytes 7,2 G/L — Plaquettes 224 G/L.
+
+      Protéinurie des 24h : 0,42 g/24h (microalbuminurie confirmée).
+
+
+      ECG du 15/11/2024 : rythme sinusal, séquelles d''IDM antérieur (ondes Q V1–V3).
+
+      Échocardiographie du 05/11/2024 : FEVG 48%, hypokinésie antérieure séquellaire.
+
+
+      DIAGNOSTICS RETENUS
+
+      1. Diabète de type 2 déséquilibré (HbA1c 7,6%).
+
+      2. Hypertension artérielle insuffisamment contrôlée.
+
+      3. Dyslipidémie partiellement équilibrée.
+
+      4. Insuffisance cardiaque à FEVG légèrement réduite (ICFEr).
+
+      Groupe sanguin (vérif. pré-op) : O Rh positif (O+)
+
+      5. Insuffisance rénale chronique stade 3a, stable.
+
+      6. Hypothyroïdie substituée.
+
+      7. Anémie normochrome normocytaire modérée (bilan étiologique en cours).
+
+
+      PLAN THÉRAPEUTIQUE
+
+      Traitement instauré ce jour : Valsartan 160 mg — 1 cp/j, à réévaluer.
+
+      Renforcement des mesures hygiéno-diététiques.
+
+      Objectif tensionnel : PA < 130/80 mmHg.
+
+      Objectif glycémique : HbA1c < 7%.
+
+      Bilan martial et ferritine pour explorer l''anémie.
+
+      Consultation cardiologique dans 3 mois (réévaluation FEVG).
+
+      Consultation néphrologique dans 6 mois (suivi IRC).
+
+      Contrôle biologique dans 6 semaines.
+
+
+      Signature du praticien : Dr. Sophie LEBLANC
+
+      Date : 18/11/2024'
+    blood_type: O Rh positif (O+)
+    medication: Valsartan 160 mg
+  assert:
+  - type: icontains
+    value: O+
+  - type: icontains
+    value: Valsartan 160 mg
+- description: '[FIN/FIN] #10 — Sang: A- (l.75) | Méd: Carvedilol (l.81)'
+  vars:
+    context: 'COMPTE RENDU MÉDICAL — CONFIDENTIEL
+
+      Patient : DURANT Jean-Pierre
+
+      Date de naissance : 14/03/1962 (63 ans)
+
+      Numéro de dossier : 2024-CHU-04471
+
+      Date de consultation : 18 novembre 2024
+
+      Praticien : Dr. Sophie LEBLANC, MD — Médecine Interne
+
+      Établissement : CHU de Bordeaux — Service de Médecine Interne
+
+
+      MOTIF DE CONSULTATION
+
+      Suivi trimestriel pour pathologies chroniques multiples.
+
+      Plainte principale : fatigue persistante depuis 6 semaines, dyspnée d''effort modérée.
+
+      Pas de douleur thoracique ni de syncope rapportée.
+
+
+      ANTÉCÉDENTS MÉDICAUX PERSONNELS
+
+      Diabète de type 2, diagnostiqué en 2009, suivi en endocrinologie.
+
+      Hypertension artérielle essentielle depuis 2011.
+
+      Dyslipidémie mixte sous traitement depuis 2013.
+
+      Cardiopathie ischémique : IDM antérieur en janvier 2018, stent posé sur IVA proximale.
+
+      Insuffisance rénale chronique stade 3a (DFG estimé 52 mL/min/1,73m²).
+
+      Hypothyroïdie, diagnostiquée en 2020, substituée.
+
+      Obésité de grade 1 (IMC : 31,4 kg/m²).
+
+
+      ANTÉCÉDENTS CHIRURGICAUX
+
+      Appendicectomie en 1985.
+
+      Angioplastie coronaire avec pose de stent nu (IVA) en janvier 2018.
+
+      Arthroscopie genou droit en 2016.
+
+
+      ANTÉCÉDENTS FAMILIAUX
+
+      Père : décédé d''un IDM à 67 ans.
+
+      Mère : diabète de type 2, HTA, décédée à 81 ans d''AVC ischémique.
+
+      Frère aîné : dyslipidémie sous traitement.
+
+
+      ALLERGIES ET INTOLÉRANCES
+
+      Pénicilline : allergie documentée (réaction cutanée en 2003).
+
+      AINS : intolérance digestive (gastrite médicamenteuse en 2017).
+
+
+      HABITUDES DE VIE
+
+      Tabagisme sevré depuis 2018 (ex-fumeur 20 paquets-années).
+
+      Alcool : consommation occasionnelle (1–2 verres/semaine).
+
+      Activité physique : marche 30 min/jour depuis rééducation cardiaque.
+
+      Régime hypocalorique et hyposodé, suivi par diététicienne.
+
+
+      EXAMEN CLINIQUE
+
+      Poids : 89 kg — Taille : 1,68 m — IMC : 31,5 kg/m²
+
+      Pression artérielle : 138/82 mmHg (bras droit, patient assis au repos).
+
+      Fréquence cardiaque : 72 bpm, rythme régulier.
+
+      Température : 36,7°C — SpO2 : 97% en air ambiant.
+
+      Auscultation cardiaque : bruits du cœur réguliers, pas de souffle.
+
+      Auscultation pulmonaire : crépitants basaux droits discrets.
+
+      Abdomen : souple, indolore, pas d''hépatomégalie.
+
+      Membres inférieurs : œdèmes bilatéraux des chevilles (grade 2).
+
+      Examen neurologique : sans particularité, GCS 15/15.
+
+
+      EXAMENS COMPLÉMENTAIRES — Bilan du 10/11/2024
+
+      Glycémie à jeun : 7,8 mmol/L (0,95 g/L).
+
+      HbA1c : 7,6% (objectif < 7%).
+
+      Créatinine : 118 μmol/L — DFG CKD-EPI : 52 mL/min/1,73m².
+
+      Natrémie : 138 mmol/L — Kaliémie : 4,1 mmol/L.
+
+      Cholestérol total : 4,8 mmol/L — LDL : 2,1 mmol/L — HDL : 0,9 mmol/L.
+
+      Triglycérides : 2,3 mmol/L.
+
+      TSH : 2,8 mUI/L (valeur normale).
+
+      NFS : Hémoglobine 11,8 g/dL — Leucocytes 7,2 G/L — Plaquettes 224 G/L.
+
+      Protéinurie des 24h : 0,42 g/24h (microalbuminurie confirmée).
+
+
+      ECG du 15/11/2024 : rythme sinusal, séquelles d''IDM antérieur (ondes Q V1–V3).
+
+      Échocardiographie du 05/11/2024 : FEVG 48%, hypokinésie antérieure séquellaire.
+
+
+      DIAGNOSTICS RETENUS
+
+      1. Diabète de type 2 déséquilibré (HbA1c 7,6%).
+
+      2. Hypertension artérielle insuffisamment contrôlée.
+
+      3. Dyslipidémie partiellement équilibrée.
+
+      4. Insuffisance cardiaque à FEVG légèrement réduite (ICFEr).
+
+      5. Insuffisance rénale chronique stade 3a, stable.
+
+      6. Hypothyroïdie substituée.
+
+      Groupe sanguin (vérif. pré-op) : A Rh négatif (A-)
+
+      7. Anémie normochrome normocytaire modérée (bilan étiologique en cours).
+
+
+      PLAN THÉRAPEUTIQUE
+
+      Renforcement des mesures hygiéno-diététiques.
+
+      Objectif tensionnel : PA < 130/80 mmHg.
+
+      Objectif glycémique : HbA1c < 7%.
+
+      Traitement instauré ce jour : Carvedilol 12,5 mg — 1 cp/j, à réévaluer.
+
+      Bilan martial et ferritine pour explorer l''anémie.
+
+      Consultation cardiologique dans 3 mois (réévaluation FEVG).
+
+      Consultation néphrologique dans 6 mois (suivi IRC).
+
+      Contrôle biologique dans 6 semaines.
+
+
+      Signature du praticien : Dr. Sophie LEBLANC
+
+      Date : 18/11/2024'
+    blood_type: A Rh négatif (A-)
+    medication: Carvedilol 12,5 mg
+  assert:
+  - type: icontains
+    value: A-
+  - type: icontains
+    value: Carvedilol 12,5 mg
+- description: '[FIN/FIN] #11 — Sang: B+ (l.74) | Méd: Irbesartan (l.83)'
+  vars:
+    context: 'COMPTE RENDU MÉDICAL — CONFIDENTIEL
+
+      Patient : DURANT Jean-Pierre
+
+      Date de naissance : 14/03/1962 (63 ans)
+
+      Numéro de dossier : 2024-CHU-04471
+
+      Date de consultation : 18 novembre 2024
+
+      Praticien : Dr. Sophie LEBLANC, MD — Médecine Interne
+
+      Établissement : CHU de Bordeaux — Service de Médecine Interne
+
+
+      MOTIF DE CONSULTATION
+
+      Suivi trimestriel pour pathologies chroniques multiples.
+
+      Plainte principale : fatigue persistante depuis 6 semaines, dyspnée d''effort modérée.
+
+      Pas de douleur thoracique ni de syncope rapportée.
+
+
+      ANTÉCÉDENTS MÉDICAUX PERSONNELS
+
+      Diabète de type 2, diagnostiqué en 2009, suivi en endocrinologie.
+
+      Hypertension artérielle essentielle depuis 2011.
+
+      Dyslipidémie mixte sous traitement depuis 2013.
+
+      Cardiopathie ischémique : IDM antérieur en janvier 2018, stent posé sur IVA proximale.
+
+      Insuffisance rénale chronique stade 3a (DFG estimé 52 mL/min/1,73m²).
+
+      Hypothyroïdie, diagnostiquée en 2020, substituée.
+
+      Obésité de grade 1 (IMC : 31,4 kg/m²).
+
+
+      ANTÉCÉDENTS CHIRURGICAUX
+
+      Appendicectomie en 1985.
+
+      Angioplastie coronaire avec pose de stent nu (IVA) en janvier 2018.
+
+      Arthroscopie genou droit en 2016.
+
+
+      ANTÉCÉDENTS FAMILIAUX
+
+      Père : décédé d''un IDM à 67 ans.
+
+      Mère : diabète de type 2, HTA, décédée à 81 ans d''AVC ischémique.
+
+      Frère aîné : dyslipidémie sous traitement.
+
+
+      ALLERGIES ET INTOLÉRANCES
+
+      Pénicilline : allergie documentée (réaction cutanée en 2003).
+
+      AINS : intolérance digestive (gastrite médicamenteuse en 2017).
+
+
+      HABITUDES DE VIE
+
+      Tabagisme sevré depuis 2018 (ex-fumeur 20 paquets-années).
+
+      Alcool : consommation occasionnelle (1–2 verres/semaine).
+
+      Activité physique : marche 30 min/jour depuis rééducation cardiaque.
+
+      Régime hypocalorique et hyposodé, suivi par diététicienne.
+
+
+      EXAMEN CLINIQUE
+
+      Poids : 89 kg — Taille : 1,68 m — IMC : 31,5 kg/m²
+
+      Pression artérielle : 138/82 mmHg (bras droit, patient assis au repos).
+
+      Fréquence cardiaque : 72 bpm, rythme régulier.
+
+      Température : 36,7°C — SpO2 : 97% en air ambiant.
+
+      Auscultation cardiaque : bruits du cœur réguliers, pas de souffle.
+
+      Auscultation pulmonaire : crépitants basaux droits discrets.
+
+      Abdomen : souple, indolore, pas d''hépatomégalie.
+
+      Membres inférieurs : œdèmes bilatéraux des chevilles (grade 2).
+
+      Examen neurologique : sans particularité, GCS 15/15.
+
+
+      EXAMENS COMPLÉMENTAIRES — Bilan du 10/11/2024
+
+      Glycémie à jeun : 7,8 mmol/L (0,95 g/L).
+
+      HbA1c : 7,6% (objectif < 7%).
+
+      Créatinine : 118 μmol/L — DFG CKD-EPI : 52 mL/min/1,73m².
+
+      Natrémie : 138 mmol/L — Kaliémie : 4,1 mmol/L.
+
+      Cholestérol total : 4,8 mmol/L — LDL : 2,1 mmol/L — HDL : 0,9 mmol/L.
+
+      Triglycérides : 2,3 mmol/L.
+
+      TSH : 2,8 mUI/L (valeur normale).
+
+      NFS : Hémoglobine 11,8 g/dL — Leucocytes 7,2 G/L — Plaquettes 224 G/L.
+
+      Protéinurie des 24h : 0,42 g/24h (microalbuminurie confirmée).
+
+
+      ECG du 15/11/2024 : rythme sinusal, séquelles d''IDM antérieur (ondes Q V1–V3).
+
+      Échocardiographie du 05/11/2024 : FEVG 48%, hypokinésie antérieure séquellaire.
+
+
+      DIAGNOSTICS RETENUS
+
+      1. Diabète de type 2 déséquilibré (HbA1c 7,6%).
+
+      2. Hypertension artérielle insuffisamment contrôlée.
+
+      3. Dyslipidémie partiellement équilibrée.
+
+      4. Insuffisance cardiaque à FEVG légèrement réduite (ICFEr).
+
+      5. Insuffisance rénale chronique stade 3a, stable.
+
+      Groupe sanguin (vérif. pré-op) : B Rh positif (B+)
+
+      6. Hypothyroïdie substituée.
+
+      7. Anémie normochrome normocytaire modérée (bilan étiologique en cours).
+
+
+      PLAN THÉRAPEUTIQUE
+
+      Renforcement des mesures hygiéno-diététiques.
+
+      Objectif tensionnel : PA < 130/80 mmHg.
+
+      Objectif glycémique : HbA1c < 7%.
+
+      Bilan martial et ferritine pour explorer l''anémie.
+
+      Consultation cardiologique dans 3 mois (réévaluation FEVG).
+
+      Traitement instauré ce jour : Irbesartan 300 mg — 1 cp/j, à réévaluer.
+
+      Consultation néphrologique dans 6 mois (suivi IRC).
+
+      Contrôle biologique dans 6 semaines.
+
+
+      Signature du praticien : Dr. Sophie LEBLANC
+
+      Date : 18/11/2024'
+    blood_type: B Rh positif (B+)
+    medication: Irbesartan 300 mg
+  assert:
+  - type: icontains
+    value: B+
+  - type: icontains
+    value: Irbesartan 300 mg
+- description: '[FIN/FIN] #12 — Sang: AB- (l.77) | Méd: Torasémide (l.85)'
+  vars:
+    context: 'COMPTE RENDU MÉDICAL — CONFIDENTIEL
+
+      Patient : DURANT Jean-Pierre
+
+      Date de naissance : 14/03/1962 (63 ans)
+
+      Numéro de dossier : 2024-CHU-04471
+
+      Date de consultation : 18 novembre 2024
+
+      Praticien : Dr. Sophie LEBLANC, MD — Médecine Interne
+
+      Établissement : CHU de Bordeaux — Service de Médecine Interne
+
+
+      MOTIF DE CONSULTATION
+
+      Suivi trimestriel pour pathologies chroniques multiples.
+
+      Plainte principale : fatigue persistante depuis 6 semaines, dyspnée d''effort modérée.
+
+      Pas de douleur thoracique ni de syncope rapportée.
+
+
+      ANTÉCÉDENTS MÉDICAUX PERSONNELS
+
+      Diabète de type 2, diagnostiqué en 2009, suivi en endocrinologie.
+
+      Hypertension artérielle essentielle depuis 2011.
+
+      Dyslipidémie mixte sous traitement depuis 2013.
+
+      Cardiopathie ischémique : IDM antérieur en janvier 2018, stent posé sur IVA proximale.
+
+      Insuffisance rénale chronique stade 3a (DFG estimé 52 mL/min/1,73m²).
+
+      Hypothyroïdie, diagnostiquée en 2020, substituée.
+
+      Obésité de grade 1 (IMC : 31,4 kg/m²).
+
+
+      ANTÉCÉDENTS CHIRURGICAUX
+
+      Appendicectomie en 1985.
+
+      Angioplastie coronaire avec pose de stent nu (IVA) en janvier 2018.
+
+      Arthroscopie genou droit en 2016.
+
+
+      ANTÉCÉDENTS FAMILIAUX
+
+      Père : décédé d''un IDM à 67 ans.
+
+      Mère : diabète de type 2, HTA, décédée à 81 ans d''AVC ischémique.
+
+      Frère aîné : dyslipidémie sous traitement.
+
+
+      ALLERGIES ET INTOLÉRANCES
+
+      Pénicilline : allergie documentée (réaction cutanée en 2003).
+
+      AINS : intolérance digestive (gastrite médicamenteuse en 2017).
+
+
+      HABITUDES DE VIE
+
+      Tabagisme sevré depuis 2018 (ex-fumeur 20 paquets-années).
+
+      Alcool : consommation occasionnelle (1–2 verres/semaine).
+
+      Activité physique : marche 30 min/jour depuis rééducation cardiaque.
+
+      Régime hypocalorique et hyposodé, suivi par diététicienne.
+
+
+      EXAMEN CLINIQUE
+
+      Poids : 89 kg — Taille : 1,68 m — IMC : 31,5 kg/m²
+
+      Pression artérielle : 138/82 mmHg (bras droit, patient assis au repos).
+
+      Fréquence cardiaque : 72 bpm, rythme régulier.
+
+      Température : 36,7°C — SpO2 : 97% en air ambiant.
+
+      Auscultation cardiaque : bruits du cœur réguliers, pas de souffle.
+
+      Auscultation pulmonaire : crépitants basaux droits discrets.
+
+      Abdomen : souple, indolore, pas d''hépatomégalie.
+
+      Membres inférieurs : œdèmes bilatéraux des chevilles (grade 2).
+
+      Examen neurologique : sans particularité, GCS 15/15.
+
+
+      EXAMENS COMPLÉMENTAIRES — Bilan du 10/11/2024
+
+      Glycémie à jeun : 7,8 mmol/L (0,95 g/L).
+
+      HbA1c : 7,6% (objectif < 7%).
+
+      Créatinine : 118 μmol/L — DFG CKD-EPI : 52 mL/min/1,73m².
+
+      Natrémie : 138 mmol/L — Kaliémie : 4,1 mmol/L.
+
+      Cholestérol total : 4,8 mmol/L — LDL : 2,1 mmol/L — HDL : 0,9 mmol/L.
+
+      Triglycérides : 2,3 mmol/L.
+
+      TSH : 2,8 mUI/L (valeur normale).
+
+      NFS : Hémoglobine 11,8 g/dL — Leucocytes 7,2 G/L — Plaquettes 224 G/L.
+
+      Protéinurie des 24h : 0,42 g/24h (microalbuminurie confirmée).
+
+
+      ECG du 15/11/2024 : rythme sinusal, séquelles d''IDM antérieur (ondes Q V1–V3).
+
+      Échocardiographie du 05/11/2024 : FEVG 48%, hypokinésie antérieure séquellaire.
+
+
+      DIAGNOSTICS RETENUS
+
+      1. Diabète de type 2 déséquilibré (HbA1c 7,6%).
+
+      2. Hypertension artérielle insuffisamment contrôlée.
+
+      3. Dyslipidémie partiellement équilibrée.
+
+      4. Insuffisance cardiaque à FEVG légèrement réduite (ICFEr).
+
+      5. Insuffisance rénale chronique stade 3a, stable.
+
+      6. Hypothyroïdie substituée.
+
+      7. Anémie normochrome normocytaire modérée (bilan étiologique en cours).
+
+
+      Groupe sanguin (vérif. pré-op) : AB Rh négatif (AB-)
+
+      PLAN THÉRAPEUTIQUE
+
+      Renforcement des mesures hygiéno-diététiques.
+
+      Objectif tensionnel : PA < 130/80 mmHg.
+
+      Objectif glycémique : HbA1c < 7%.
+
+      Bilan martial et ferritine pour explorer l''anémie.
+
+      Consultation cardiologique dans 3 mois (réévaluation FEVG).
+
+      Consultation néphrologique dans 6 mois (suivi IRC).
+
+      Contrôle biologique dans 6 semaines.
+
+      Traitement instauré ce jour : Torasémide 10 mg — 1 cp/j, à réévaluer.
+
+
+      Signature du praticien : Dr. Sophie LEBLANC
+
+      Date : 18/11/2024'
+    blood_type: AB Rh négatif (AB-)
+    medication: Torasémide 10 mg
+  assert:
+  - type: icontains
+    value: AB-
+  - type: icontains
+    value: Torasémide 10 mg
+- description: '[DÉBUT/FIN] #13 — Sang: O- (l.10) | Méd: Amlodipine (l.74)'
+  vars:
+    context: 'COMPTE RENDU MÉDICAL — CONFIDENTIEL
+
+      Patient : DURANT Jean-Pierre
+
+      Date de naissance : 14/03/1962 (63 ans)
+
+      Numéro de dossier : 2024-CHU-04471
+
+      Date de consultation : 18 novembre 2024
+
+      Praticien : Dr. Sophie LEBLANC, MD — Médecine Interne
+
+      Établissement : CHU de Bordeaux — Service de Médecine Interne
+
+
+      MOTIF DE CONSULTATION
+
+      Groupe sanguin (vérif. pré-op) : O Rh négatif (O-)
+
+      Suivi trimestriel pour pathologies chroniques multiples.
+
+      Plainte principale : fatigue persistante depuis 6 semaines, dyspnée d''effort modérée.
+
+      Pas de douleur thoracique ni de syncope rapportée.
+
+
+      ANTÉCÉDENTS MÉDICAUX PERSONNELS
+
+      Diabète de type 2, diagnostiqué en 2009, suivi en endocrinologie.
+
+      Hypertension artérielle essentielle depuis 2011.
+
+      Dyslipidémie mixte sous traitement depuis 2013.
+
+      Cardiopathie ischémique : IDM antérieur en janvier 2018, stent posé sur IVA proximale.
+
+      Insuffisance rénale chronique stade 3a (DFG estimé 52 mL/min/1,73m²).
+
+      Hypothyroïdie, diagnostiquée en 2020, substituée.
+
+      Obésité de grade 1 (IMC : 31,4 kg/m²).
+
+
+      ANTÉCÉDENTS CHIRURGICAUX
+
+      Appendicectomie en 1985.
+
+      Angioplastie coronaire avec pose de stent nu (IVA) en janvier 2018.
+
+      Arthroscopie genou droit en 2016.
+
+
+      ANTÉCÉDENTS FAMILIAUX
+
+      Père : décédé d''un IDM à 67 ans.
+
+      Mère : diabète de type 2, HTA, décédée à 81 ans d''AVC ischémique.
+
+      Frère aîné : dyslipidémie sous traitement.
+
+
+      ALLERGIES ET INTOLÉRANCES
+
+      Pénicilline : allergie documentée (réaction cutanée en 2003).
+
+      AINS : intolérance digestive (gastrite médicamenteuse en 2017).
+
+
+      HABITUDES DE VIE
+
+      Tabagisme sevré depuis 2018 (ex-fumeur 20 paquets-années).
+
+      Alcool : consommation occasionnelle (1–2 verres/semaine).
+
+      Activité physique : marche 30 min/jour depuis rééducation cardiaque.
+
+      Régime hypocalorique et hyposodé, suivi par diététicienne.
+
+
+      EXAMEN CLINIQUE
+
+      Poids : 89 kg — Taille : 1,68 m — IMC : 31,5 kg/m²
+
+      Pression artérielle : 138/82 mmHg (bras droit, patient assis au repos).
+
+      Fréquence cardiaque : 72 bpm, rythme régulier.
+
+      Température : 36,7°C — SpO2 : 97% en air ambiant.
+
+      Auscultation cardiaque : bruits du cœur réguliers, pas de souffle.
+
+      Auscultation pulmonaire : crépitants basaux droits discrets.
+
+      Abdomen : souple, indolore, pas d''hépatomégalie.
+
+      Membres inférieurs : œdèmes bilatéraux des chevilles (grade 2).
+
+      Examen neurologique : sans particularité, GCS 15/15.
+
+
+      EXAMENS COMPLÉMENTAIRES — Bilan du 10/11/2024
+
+      Glycémie à jeun : 7,8 mmol/L (0,95 g/L).
+
+      HbA1c : 7,6% (objectif < 7%).
+
+      Créatinine : 118 μmol/L — DFG CKD-EPI : 52 mL/min/1,73m².
+
+      Natrémie : 138 mmol/L — Kaliémie : 4,1 mmol/L.
+
+      Cholestérol total : 4,8 mmol/L — LDL : 2,1 mmol/L — HDL : 0,9 mmol/L.
+
+      Triglycérides : 2,3 mmol/L.
+
+      TSH : 2,8 mUI/L (valeur normale).
+
+      NFS : Hémoglobine 11,8 g/dL — Leucocytes 7,2 G/L — Plaquettes 224 G/L.
+
+      Protéinurie des 24h : 0,42 g/24h (microalbuminurie confirmée).
+
+
+      ECG du 15/11/2024 : rythme sinusal, séquelles d''IDM antérieur (ondes Q V1–V3).
+
+      Échocardiographie du 05/11/2024 : FEVG 48%, hypokinésie antérieure séquellaire.
+
+
+      DIAGNOSTICS RETENUS
+
+      1. Diabète de type 2 déséquilibré (HbA1c 7,6%).
+
+      2. Hypertension artérielle insuffisamment contrôlée.
+
+      3. Dyslipidémie partiellement équilibrée.
+
+      4. Insuffisance cardiaque à FEVG légèrement réduite (ICFEr).
+
+      5. Insuffisance rénale chronique stade 3a, stable.
+
+      Traitement instauré ce jour : Amlodipine 10 mg — 1 cp/j, à réévaluer.
+
+      6. Hypothyroïdie substituée.
+
+      7. Anémie normochrome normocytaire modérée (bilan étiologique en cours).
+
+
+      PLAN THÉRAPEUTIQUE
+
+      Renforcement des mesures hygiéno-diététiques.
+
+      Objectif tensionnel : PA < 130/80 mmHg.
+
+      Objectif glycémique : HbA1c < 7%.
+
+      Bilan martial et ferritine pour explorer l''anémie.
+
+      Consultation cardiologique dans 3 mois (réévaluation FEVG).
+
+      Consultation néphrologique dans 6 mois (suivi IRC).
+
+      Contrôle biologique dans 6 semaines.
+
+
+      Signature du praticien : Dr. Sophie LEBLANC
+
+      Date : 18/11/2024'
+    blood_type: O Rh négatif (O-)
+    medication: Amlodipine 10 mg
+  assert:
+  - type: icontains
+    value: O-
+  - type: icontains
+    value: Amlodipine 10 mg
+- description: '[DÉBUT/FIN] #14 — Sang: A+ (l.13) | Méd: Sitagliptine (l.77)'
+  vars:
+    context: 'COMPTE RENDU MÉDICAL — CONFIDENTIEL
+
+      Patient : DURANT Jean-Pierre
+
+      Date de naissance : 14/03/1962 (63 ans)
+
+      Numéro de dossier : 2024-CHU-04471
+
+      Date de consultation : 18 novembre 2024
+
+      Praticien : Dr. Sophie LEBLANC, MD — Médecine Interne
+
+      Établissement : CHU de Bordeaux — Service de Médecine Interne
+
+
+      MOTIF DE CONSULTATION
+
+      Suivi trimestriel pour pathologies chroniques multiples.
+
+      Plainte principale : fatigue persistante depuis 6 semaines, dyspnée d''effort modérée.
+
+      Pas de douleur thoracique ni de syncope rapportée.
+
+      Groupe sanguin (vérif. pré-op) : A Rh positif (A+)
+
+
+      ANTÉCÉDENTS MÉDICAUX PERSONNELS
+
+      Diabète de type 2, diagnostiqué en 2009, suivi en endocrinologie.
+
+      Hypertension artérielle essentielle depuis 2011.
+
+      Dyslipidémie mixte sous traitement depuis 2013.
+
+      Cardiopathie ischémique : IDM antérieur en janvier 2018, stent posé sur IVA proximale.
+
+      Insuffisance rénale chronique stade 3a (DFG estimé 52 mL/min/1,73m²).
+
+      Hypothyroïdie, diagnostiquée en 2020, substituée.
+
+      Obésité de grade 1 (IMC : 31,4 kg/m²).
+
+
+      ANTÉCÉDENTS CHIRURGICAUX
+
+      Appendicectomie en 1985.
+
+      Angioplastie coronaire avec pose de stent nu (IVA) en janvier 2018.
+
+      Arthroscopie genou droit en 2016.
+
+
+      ANTÉCÉDENTS FAMILIAUX
+
+      Père : décédé d''un IDM à 67 ans.
+
+      Mère : diabète de type 2, HTA, décédée à 81 ans d''AVC ischémique.
+
+      Frère aîné : dyslipidémie sous traitement.
+
+
+      ALLERGIES ET INTOLÉRANCES
+
+      Pénicilline : allergie documentée (réaction cutanée en 2003).
+
+      AINS : intolérance digestive (gastrite médicamenteuse en 2017).
+
+
+      HABITUDES DE VIE
+
+      Tabagisme sevré depuis 2018 (ex-fumeur 20 paquets-années).
+
+      Alcool : consommation occasionnelle (1–2 verres/semaine).
+
+      Activité physique : marche 30 min/jour depuis rééducation cardiaque.
+
+      Régime hypocalorique et hyposodé, suivi par diététicienne.
+
+
+      EXAMEN CLINIQUE
+
+      Poids : 89 kg — Taille : 1,68 m — IMC : 31,5 kg/m²
+
+      Pression artérielle : 138/82 mmHg (bras droit, patient assis au repos).
+
+      Fréquence cardiaque : 72 bpm, rythme régulier.
+
+      Température : 36,7°C — SpO2 : 97% en air ambiant.
+
+      Auscultation cardiaque : bruits du cœur réguliers, pas de souffle.
+
+      Auscultation pulmonaire : crépitants basaux droits discrets.
+
+      Abdomen : souple, indolore, pas d''hépatomégalie.
+
+      Membres inférieurs : œdèmes bilatéraux des chevilles (grade 2).
+
+      Examen neurologique : sans particularité, GCS 15/15.
+
+
+      EXAMENS COMPLÉMENTAIRES — Bilan du 10/11/2024
+
+      Glycémie à jeun : 7,8 mmol/L (0,95 g/L).
+
+      HbA1c : 7,6% (objectif < 7%).
+
+      Créatinine : 118 μmol/L — DFG CKD-EPI : 52 mL/min/1,73m².
+
+      Natrémie : 138 mmol/L — Kaliémie : 4,1 mmol/L.
+
+      Cholestérol total : 4,8 mmol/L — LDL : 2,1 mmol/L — HDL : 0,9 mmol/L.
+
+      Triglycérides : 2,3 mmol/L.
+
+      TSH : 2,8 mUI/L (valeur normale).
+
+      NFS : Hémoglobine 11,8 g/dL — Leucocytes 7,2 G/L — Plaquettes 224 G/L.
+
+      Protéinurie des 24h : 0,42 g/24h (microalbuminurie confirmée).
+
+
+      ECG du 15/11/2024 : rythme sinusal, séquelles d''IDM antérieur (ondes Q V1–V3).
+
+      Échocardiographie du 05/11/2024 : FEVG 48%, hypokinésie antérieure séquellaire.
+
+
+      DIAGNOSTICS RETENUS
+
+      1. Diabète de type 2 déséquilibré (HbA1c 7,6%).
+
+      2. Hypertension artérielle insuffisamment contrôlée.
+
+      3. Dyslipidémie partiellement équilibrée.
+
+      4. Insuffisance cardiaque à FEVG légèrement réduite (ICFEr).
+
+      5. Insuffisance rénale chronique stade 3a, stable.
+
+      6. Hypothyroïdie substituée.
+
+      7. Anémie normochrome normocytaire modérée (bilan étiologique en cours).
+
+
+      Traitement instauré ce jour : Sitagliptine 100 mg — 1 cp/j, à réévaluer.
+
+      PLAN THÉRAPEUTIQUE
+
+      Renforcement des mesures hygiéno-diététiques.
+
+      Objectif tensionnel : PA < 130/80 mmHg.
+
+      Objectif glycémique : HbA1c < 7%.
+
+      Bilan martial et ferritine pour explorer l''anémie.
+
+      Consultation cardiologique dans 3 mois (réévaluation FEVG).
+
+      Consultation néphrologique dans 6 mois (suivi IRC).
+
+      Contrôle biologique dans 6 semaines.
+
+
+      Signature du praticien : Dr. Sophie LEBLANC
+
+      Date : 18/11/2024'
+    blood_type: A Rh positif (A+)
+    medication: Sitagliptine 100 mg
+  assert:
+  - type: icontains
+    value: A+
+  - type: icontains
+    value: Sitagliptine 100 mg
+- description: '[DÉBUT/FIN] #15 — Sang: B- (l.9) | Méd: Ézetimibe (l.81)'
+  vars:
+    context: 'COMPTE RENDU MÉDICAL — CONFIDENTIEL
+
+      Patient : DURANT Jean-Pierre
+
+      Date de naissance : 14/03/1962 (63 ans)
+
+      Numéro de dossier : 2024-CHU-04471
+
+      Date de consultation : 18 novembre 2024
+
+      Praticien : Dr. Sophie LEBLANC, MD — Médecine Interne
+
+      Établissement : CHU de Bordeaux — Service de Médecine Interne
+
+
+      Groupe sanguin (vérif. pré-op) : B Rh négatif (B-)
+
+      MOTIF DE CONSULTATION
+
+      Suivi trimestriel pour pathologies chroniques multiples.
+
+      Plainte principale : fatigue persistante depuis 6 semaines, dyspnée d''effort modérée.
+
+      Pas de douleur thoracique ni de syncope rapportée.
+
+
+      ANTÉCÉDENTS MÉDICAUX PERSONNELS
+
+      Diabète de type 2, diagnostiqué en 2009, suivi en endocrinologie.
+
+      Hypertension artérielle essentielle depuis 2011.
+
+      Dyslipidémie mixte sous traitement depuis 2013.
+
+      Cardiopathie ischémique : IDM antérieur en janvier 2018, stent posé sur IVA proximale.
+
+      Insuffisance rénale chronique stade 3a (DFG estimé 52 mL/min/1,73m²).
+
+      Hypothyroïdie, diagnostiquée en 2020, substituée.
+
+      Obésité de grade 1 (IMC : 31,4 kg/m²).
+
+
+      ANTÉCÉDENTS CHIRURGICAUX
+
+      Appendicectomie en 1985.
+
+      Angioplastie coronaire avec pose de stent nu (IVA) en janvier 2018.
+
+      Arthroscopie genou droit en 2016.
+
+
+      ANTÉCÉDENTS FAMILIAUX
+
+      Père : décédé d''un IDM à 67 ans.
+
+      Mère : diabète de type 2, HTA, décédée à 81 ans d''AVC ischémique.
+
+      Frère aîné : dyslipidémie sous traitement.
+
+
+      ALLERGIES ET INTOLÉRANCES
+
+      Pénicilline : allergie documentée (réaction cutanée en 2003).
+
+      AINS : intolérance digestive (gastrite médicamenteuse en 2017).
+
+
+      HABITUDES DE VIE
+
+      Tabagisme sevré depuis 2018 (ex-fumeur 20 paquets-années).
+
+      Alcool : consommation occasionnelle (1–2 verres/semaine).
+
+      Activité physique : marche 30 min/jour depuis rééducation cardiaque.
+
+      Régime hypocalorique et hyposodé, suivi par diététicienne.
+
+
+      EXAMEN CLINIQUE
+
+      Poids : 89 kg — Taille : 1,68 m — IMC : 31,5 kg/m²
+
+      Pression artérielle : 138/82 mmHg (bras droit, patient assis au repos).
+
+      Fréquence cardiaque : 72 bpm, rythme régulier.
+
+      Température : 36,7°C — SpO2 : 97% en air ambiant.
+
+      Auscultation cardiaque : bruits du cœur réguliers, pas de souffle.
+
+      Auscultation pulmonaire : crépitants basaux droits discrets.
+
+      Abdomen : souple, indolore, pas d''hépatomégalie.
+
+      Membres inférieurs : œdèmes bilatéraux des chevilles (grade 2).
+
+      Examen neurologique : sans particularité, GCS 15/15.
+
+
+      EXAMENS COMPLÉMENTAIRES — Bilan du 10/11/2024
+
+      Glycémie à jeun : 7,8 mmol/L (0,95 g/L).
+
+      HbA1c : 7,6% (objectif < 7%).
+
+      Créatinine : 118 μmol/L — DFG CKD-EPI : 52 mL/min/1,73m².
+
+      Natrémie : 138 mmol/L — Kaliémie : 4,1 mmol/L.
+
+      Cholestérol total : 4,8 mmol/L — LDL : 2,1 mmol/L — HDL : 0,9 mmol/L.
+
+      Triglycérides : 2,3 mmol/L.
+
+      TSH : 2,8 mUI/L (valeur normale).
+
+      NFS : Hémoglobine 11,8 g/dL — Leucocytes 7,2 G/L — Plaquettes 224 G/L.
+
+      Protéinurie des 24h : 0,42 g/24h (microalbuminurie confirmée).
+
+
+      ECG du 15/11/2024 : rythme sinusal, séquelles d''IDM antérieur (ondes Q V1–V3).
+
+      Échocardiographie du 05/11/2024 : FEVG 48%, hypokinésie antérieure séquellaire.
+
+
+      DIAGNOSTICS RETENUS
+
+      1. Diabète de type 2 déséquilibré (HbA1c 7,6%).
+
+      2. Hypertension artérielle insuffisamment contrôlée.
+
+      3. Dyslipidémie partiellement équilibrée.
+
+      4. Insuffisance cardiaque à FEVG légèrement réduite (ICFEr).
+
+      5. Insuffisance rénale chronique stade 3a, stable.
+
+      6. Hypothyroïdie substituée.
+
+      7. Anémie normochrome normocytaire modérée (bilan étiologique en cours).
+
+
+      PLAN THÉRAPEUTIQUE
+
+      Renforcement des mesures hygiéno-diététiques.
+
+      Objectif tensionnel : PA < 130/80 mmHg.
+
+      Objectif glycémique : HbA1c < 7%.
+
+      Traitement instauré ce jour : Ézetimibe 10 mg — 1 cp/j, à réévaluer.
+
+      Bilan martial et ferritine pour explorer l''anémie.
+
+      Consultation cardiologique dans 3 mois (réévaluation FEVG).
+
+      Consultation néphrologique dans 6 mois (suivi IRC).
+
+      Contrôle biologique dans 6 semaines.
+
+
+      Signature du praticien : Dr. Sophie LEBLANC
+
+      Date : 18/11/2024'
+    blood_type: B Rh négatif (B-)
+    medication: Ézetimibe 10 mg
+  assert:
+  - type: icontains
+    value: B-
+  - type: icontains
+    value: Ézetimibe 10 mg
+- description: '[DÉBUT/FIN] #16 — Sang: AB+ (l.12) | Méd: Allopurinol (l.83)'
+  vars:
+    context: 'COMPTE RENDU MÉDICAL — CONFIDENTIEL
+
+      Patient : DURANT Jean-Pierre
+
+      Date de naissance : 14/03/1962 (63 ans)
+
+      Numéro de dossier : 2024-CHU-04471
+
+      Date de consultation : 18 novembre 2024
+
+      Praticien : Dr. Sophie LEBLANC, MD — Médecine Interne
+
+      Établissement : CHU de Bordeaux — Service de Médecine Interne
+
+
+      MOTIF DE CONSULTATION
+
+      Suivi trimestriel pour pathologies chroniques multiples.
+
+      Plainte principale : fatigue persistante depuis 6 semaines, dyspnée d''effort modérée.
+
+      Groupe sanguin (vérif. pré-op) : AB Rh positif (AB+)
+
+      Pas de douleur thoracique ni de syncope rapportée.
+
+
+      ANTÉCÉDENTS MÉDICAUX PERSONNELS
+
+      Diabète de type 2, diagnostiqué en 2009, suivi en endocrinologie.
+
+      Hypertension artérielle essentielle depuis 2011.
+
+      Dyslipidémie mixte sous traitement depuis 2013.
+
+      Cardiopathie ischémique : IDM antérieur en janvier 2018, stent posé sur IVA proximale.
+
+      Insuffisance rénale chronique stade 3a (DFG estimé 52 mL/min/1,73m²).
+
+      Hypothyroïdie, diagnostiquée en 2020, substituée.
+
+      Obésité de grade 1 (IMC : 31,4 kg/m²).
+
+
+      ANTÉCÉDENTS CHIRURGICAUX
+
+      Appendicectomie en 1985.
+
+      Angioplastie coronaire avec pose de stent nu (IVA) en janvier 2018.
+
+      Arthroscopie genou droit en 2016.
+
+
+      ANTÉCÉDENTS FAMILIAUX
+
+      Père : décédé d''un IDM à 67 ans.
+
+      Mère : diabète de type 2, HTA, décédée à 81 ans d''AVC ischémique.
+
+      Frère aîné : dyslipidémie sous traitement.
+
+
+      ALLERGIES ET INTOLÉRANCES
+
+      Pénicilline : allergie documentée (réaction cutanée en 2003).
+
+      AINS : intolérance digestive (gastrite médicamenteuse en 2017).
+
+
+      HABITUDES DE VIE
+
+      Tabagisme sevré depuis 2018 (ex-fumeur 20 paquets-années).
+
+      Alcool : consommation occasionnelle (1–2 verres/semaine).
+
+      Activité physique : marche 30 min/jour depuis rééducation cardiaque.
+
+      Régime hypocalorique et hyposodé, suivi par diététicienne.
+
+
+      EXAMEN CLINIQUE
+
+      Poids : 89 kg — Taille : 1,68 m — IMC : 31,5 kg/m²
+
+      Pression artérielle : 138/82 mmHg (bras droit, patient assis au repos).
+
+      Fréquence cardiaque : 72 bpm, rythme régulier.
+
+      Température : 36,7°C — SpO2 : 97% en air ambiant.
+
+      Auscultation cardiaque : bruits du cœur réguliers, pas de souffle.
+
+      Auscultation pulmonaire : crépitants basaux droits discrets.
+
+      Abdomen : souple, indolore, pas d''hépatomégalie.
+
+      Membres inférieurs : œdèmes bilatéraux des chevilles (grade 2).
+
+      Examen neurologique : sans particularité, GCS 15/15.
+
+
+      EXAMENS COMPLÉMENTAIRES — Bilan du 10/11/2024
+
+      Glycémie à jeun : 7,8 mmol/L (0,95 g/L).
+
+      HbA1c : 7,6% (objectif < 7%).
+
+      Créatinine : 118 μmol/L — DFG CKD-EPI : 52 mL/min/1,73m².
+
+      Natrémie : 138 mmol/L — Kaliémie : 4,1 mmol/L.
+
+      Cholestérol total : 4,8 mmol/L — LDL : 2,1 mmol/L — HDL : 0,9 mmol/L.
+
+      Triglycérides : 2,3 mmol/L.
+
+      TSH : 2,8 mUI/L (valeur normale).
+
+      NFS : Hémoglobine 11,8 g/dL — Leucocytes 7,2 G/L — Plaquettes 224 G/L.
+
+      Protéinurie des 24h : 0,42 g/24h (microalbuminurie confirmée).
+
+
+      ECG du 15/11/2024 : rythme sinusal, séquelles d''IDM antérieur (ondes Q V1–V3).
+
+      Échocardiographie du 05/11/2024 : FEVG 48%, hypokinésie antérieure séquellaire.
+
+
+      DIAGNOSTICS RETENUS
+
+      1. Diabète de type 2 déséquilibré (HbA1c 7,6%).
+
+      2. Hypertension artérielle insuffisamment contrôlée.
+
+      3. Dyslipidémie partiellement équilibrée.
+
+      4. Insuffisance cardiaque à FEVG légèrement réduite (ICFEr).
+
+      5. Insuffisance rénale chronique stade 3a, stable.
+
+      6. Hypothyroïdie substituée.
+
+      7. Anémie normochrome normocytaire modérée (bilan étiologique en cours).
+
+
+      PLAN THÉRAPEUTIQUE
+
+      Renforcement des mesures hygiéno-diététiques.
+
+      Objectif tensionnel : PA < 130/80 mmHg.
+
+      Objectif glycémique : HbA1c < 7%.
+
+      Bilan martial et ferritine pour explorer l''anémie.
+
+      Consultation cardiologique dans 3 mois (réévaluation FEVG).
+
+      Traitement instauré ce jour : Allopurinol 300 mg — 1 cp/j, à réévaluer.
+
+      Consultation néphrologique dans 6 mois (suivi IRC).
+
+      Contrôle biologique dans 6 semaines.
+
+
+      Signature du praticien : Dr. Sophie LEBLANC
+
+      Date : 18/11/2024'
+    blood_type: AB Rh positif (AB+)
+    medication: Allopurinol 300 mg
+  assert:
+  - type: icontains
+    value: AB+
+  - type: icontains
+    value: Allopurinol 300 mg
+- description: '[FIN/DÉBUT] #17 — Sang: O+ (l.74) | Méd: Gabapentine (l.11)'
+  vars:
+    context: 'COMPTE RENDU MÉDICAL — CONFIDENTIEL
+
+      Patient : DURANT Jean-Pierre
+
+      Date de naissance : 14/03/1962 (63 ans)
+
+      Numéro de dossier : 2024-CHU-04471
+
+      Date de consultation : 18 novembre 2024
+
+      Praticien : Dr. Sophie LEBLANC, MD — Médecine Interne
+
+      Établissement : CHU de Bordeaux — Service de Médecine Interne
+
+
+      MOTIF DE CONSULTATION
+
+      Suivi trimestriel pour pathologies chroniques multiples.
+
+      Traitement instauré ce jour : Gabapentine 300 mg — 1 cp/j, à réévaluer.
+
+      Plainte principale : fatigue persistante depuis 6 semaines, dyspnée d''effort modérée.
+
+      Pas de douleur thoracique ni de syncope rapportée.
+
+
+      ANTÉCÉDENTS MÉDICAUX PERSONNELS
+
+      Diabète de type 2, diagnostiqué en 2009, suivi en endocrinologie.
+
+      Hypertension artérielle essentielle depuis 2011.
+
+      Dyslipidémie mixte sous traitement depuis 2013.
+
+      Cardiopathie ischémique : IDM antérieur en janvier 2018, stent posé sur IVA proximale.
+
+      Insuffisance rénale chronique stade 3a (DFG estimé 52 mL/min/1,73m²).
+
+      Hypothyroïdie, diagnostiquée en 2020, substituée.
+
+      Obésité de grade 1 (IMC : 31,4 kg/m²).
+
+
+      ANTÉCÉDENTS CHIRURGICAUX
+
+      Appendicectomie en 1985.
+
+      Angioplastie coronaire avec pose de stent nu (IVA) en janvier 2018.
+
+      Arthroscopie genou droit en 2016.
+
+
+      ANTÉCÉDENTS FAMILIAUX
+
+      Père : décédé d''un IDM à 67 ans.
+
+      Mère : diabète de type 2, HTA, décédée à 81 ans d''AVC ischémique.
+
+      Frère aîné : dyslipidémie sous traitement.
+
+
+      ALLERGIES ET INTOLÉRANCES
+
+      Pénicilline : allergie documentée (réaction cutanée en 2003).
+
+      AINS : intolérance digestive (gastrite médicamenteuse en 2017).
+
+
+      HABITUDES DE VIE
+
+      Tabagisme sevré depuis 2018 (ex-fumeur 20 paquets-années).
+
+      Alcool : consommation occasionnelle (1–2 verres/semaine).
+
+      Activité physique : marche 30 min/jour depuis rééducation cardiaque.
+
+      Régime hypocalorique et hyposodé, suivi par diététicienne.
+
+
+      EXAMEN CLINIQUE
+
+      Poids : 89 kg — Taille : 1,68 m — IMC : 31,5 kg/m²
+
+      Pression artérielle : 138/82 mmHg (bras droit, patient assis au repos).
+
+      Fréquence cardiaque : 72 bpm, rythme régulier.
+
+      Température : 36,7°C — SpO2 : 97% en air ambiant.
+
+      Auscultation cardiaque : bruits du cœur réguliers, pas de souffle.
+
+      Auscultation pulmonaire : crépitants basaux droits discrets.
+
+      Abdomen : souple, indolore, pas d''hépatomégalie.
+
+      Membres inférieurs : œdèmes bilatéraux des chevilles (grade 2).
+
+      Examen neurologique : sans particularité, GCS 15/15.
+
+
+      EXAMENS COMPLÉMENTAIRES — Bilan du 10/11/2024
+
+      Glycémie à jeun : 7,8 mmol/L (0,95 g/L).
+
+      HbA1c : 7,6% (objectif < 7%).
+
+      Créatinine : 118 μmol/L — DFG CKD-EPI : 52 mL/min/1,73m².
+
+      Natrémie : 138 mmol/L — Kaliémie : 4,1 mmol/L.
+
+      Cholestérol total : 4,8 mmol/L — LDL : 2,1 mmol/L — HDL : 0,9 mmol/L.
+
+      Triglycérides : 2,3 mmol/L.
+
+      TSH : 2,8 mUI/L (valeur normale).
+
+      NFS : Hémoglobine 11,8 g/dL — Leucocytes 7,2 G/L — Plaquettes 224 G/L.
+
+      Protéinurie des 24h : 0,42 g/24h (microalbuminurie confirmée).
+
+
+      ECG du 15/11/2024 : rythme sinusal, séquelles d''IDM antérieur (ondes Q V1–V3).
+
+      Échocardiographie du 05/11/2024 : FEVG 48%, hypokinésie antérieure séquellaire.
+
+
+      DIAGNOSTICS RETENUS
+
+      1. Diabète de type 2 déséquilibré (HbA1c 7,6%).
+
+      2. Hypertension artérielle insuffisamment contrôlée.
+
+      3. Dyslipidémie partiellement équilibrée.
+
+      4. Insuffisance cardiaque à FEVG légèrement réduite (ICFEr).
+
+      5. Insuffisance rénale chronique stade 3a, stable.
+
+      Groupe sanguin (vérif. pré-op) : O Rh positif (O+)
+
+      6. Hypothyroïdie substituée.
+
+      7. Anémie normochrome normocytaire modérée (bilan étiologique en cours).
+
+
+      PLAN THÉRAPEUTIQUE
+
+      Renforcement des mesures hygiéno-diététiques.
+
+      Objectif tensionnel : PA < 130/80 mmHg.
+
+      Objectif glycémique : HbA1c < 7%.
+
+      Bilan martial et ferritine pour explorer l''anémie.
+
+      Consultation cardiologique dans 3 mois (réévaluation FEVG).
+
+      Consultation néphrologique dans 6 mois (suivi IRC).
+
+      Contrôle biologique dans 6 semaines.
+
+
+      Signature du praticien : Dr. Sophie LEBLANC
+
+      Date : 18/11/2024'
+    blood_type: O Rh positif (O+)
+    medication: Gabapentine 300 mg
+  assert:
+  - type: icontains
+    value: O+
+  - type: icontains
+    value: Gabapentine 300 mg
+- description: '[FIN/DÉBUT] #18 — Sang: A- (l.77) | Méd: Rivaroxaban (l.14)'
+  vars:
+    context: 'COMPTE RENDU MÉDICAL — CONFIDENTIEL
+
+      Patient : DURANT Jean-Pierre
+
+      Date de naissance : 14/03/1962 (63 ans)
+
+      Numéro de dossier : 2024-CHU-04471
+
+      Date de consultation : 18 novembre 2024
+
+      Praticien : Dr. Sophie LEBLANC, MD — Médecine Interne
+
+      Établissement : CHU de Bordeaux — Service de Médecine Interne
+
+
+      MOTIF DE CONSULTATION
+
+      Suivi trimestriel pour pathologies chroniques multiples.
+
+      Plainte principale : fatigue persistante depuis 6 semaines, dyspnée d''effort modérée.
+
+      Pas de douleur thoracique ni de syncope rapportée.
+
+
+      Traitement instauré ce jour : Rivaroxaban 20 mg — 1 cp/j, à réévaluer.
+
+      ANTÉCÉDENTS MÉDICAUX PERSONNELS
+
+      Diabète de type 2, diagnostiqué en 2009, suivi en endocrinologie.
+
+      Hypertension artérielle essentielle depuis 2011.
+
+      Dyslipidémie mixte sous traitement depuis 2013.
+
+      Cardiopathie ischémique : IDM antérieur en janvier 2018, stent posé sur IVA proximale.
+
+      Insuffisance rénale chronique stade 3a (DFG estimé 52 mL/min/1,73m²).
+
+      Hypothyroïdie, diagnostiquée en 2020, substituée.
+
+      Obésité de grade 1 (IMC : 31,4 kg/m²).
+
+
+      ANTÉCÉDENTS CHIRURGICAUX
+
+      Appendicectomie en 1985.
+
+      Angioplastie coronaire avec pose de stent nu (IVA) en janvier 2018.
+
+      Arthroscopie genou droit en 2016.
+
+
+      ANTÉCÉDENTS FAMILIAUX
+
+      Père : décédé d''un IDM à 67 ans.
+
+      Mère : diabète de type 2, HTA, décédée à 81 ans d''AVC ischémique.
+
+      Frère aîné : dyslipidémie sous traitement.
+
+
+      ALLERGIES ET INTOLÉRANCES
+
+      Pénicilline : allergie documentée (réaction cutanée en 2003).
+
+      AINS : intolérance digestive (gastrite médicamenteuse en 2017).
+
+
+      HABITUDES DE VIE
+
+      Tabagisme sevré depuis 2018 (ex-fumeur 20 paquets-années).
+
+      Alcool : consommation occasionnelle (1–2 verres/semaine).
+
+      Activité physique : marche 30 min/jour depuis rééducation cardiaque.
+
+      Régime hypocalorique et hyposodé, suivi par diététicienne.
+
+
+      EXAMEN CLINIQUE
+
+      Poids : 89 kg — Taille : 1,68 m — IMC : 31,5 kg/m²
+
+      Pression artérielle : 138/82 mmHg (bras droit, patient assis au repos).
+
+      Fréquence cardiaque : 72 bpm, rythme régulier.
+
+      Température : 36,7°C — SpO2 : 97% en air ambiant.
+
+      Auscultation cardiaque : bruits du cœur réguliers, pas de souffle.
+
+      Auscultation pulmonaire : crépitants basaux droits discrets.
+
+      Abdomen : souple, indolore, pas d''hépatomégalie.
+
+      Membres inférieurs : œdèmes bilatéraux des chevilles (grade 2).
+
+      Examen neurologique : sans particularité, GCS 15/15.
+
+
+      EXAMENS COMPLÉMENTAIRES — Bilan du 10/11/2024
+
+      Glycémie à jeun : 7,8 mmol/L (0,95 g/L).
+
+      HbA1c : 7,6% (objectif < 7%).
+
+      Créatinine : 118 μmol/L — DFG CKD-EPI : 52 mL/min/1,73m².
+
+      Natrémie : 138 mmol/L — Kaliémie : 4,1 mmol/L.
+
+      Cholestérol total : 4,8 mmol/L — LDL : 2,1 mmol/L — HDL : 0,9 mmol/L.
+
+      Triglycérides : 2,3 mmol/L.
+
+      TSH : 2,8 mUI/L (valeur normale).
+
+      NFS : Hémoglobine 11,8 g/dL — Leucocytes 7,2 G/L — Plaquettes 224 G/L.
+
+      Protéinurie des 24h : 0,42 g/24h (microalbuminurie confirmée).
+
+
+      ECG du 15/11/2024 : rythme sinusal, séquelles d''IDM antérieur (ondes Q V1–V3).
+
+      Échocardiographie du 05/11/2024 : FEVG 48%, hypokinésie antérieure séquellaire.
+
+
+      DIAGNOSTICS RETENUS
+
+      1. Diabète de type 2 déséquilibré (HbA1c 7,6%).
+
+      2. Hypertension artérielle insuffisamment contrôlée.
+
+      3. Dyslipidémie partiellement équilibrée.
+
+      4. Insuffisance cardiaque à FEVG légèrement réduite (ICFEr).
+
+      5. Insuffisance rénale chronique stade 3a, stable.
+
+      6. Hypothyroïdie substituée.
+
+      7. Anémie normochrome normocytaire modérée (bilan étiologique en cours).
+
+
+      Groupe sanguin (vérif. pré-op) : A Rh négatif (A-)
+
+      PLAN THÉRAPEUTIQUE
+
+      Renforcement des mesures hygiéno-diététiques.
+
+      Objectif tensionnel : PA < 130/80 mmHg.
+
+      Objectif glycémique : HbA1c < 7%.
+
+      Bilan martial et ferritine pour explorer l''anémie.
+
+      Consultation cardiologique dans 3 mois (réévaluation FEVG).
+
+      Consultation néphrologique dans 6 mois (suivi IRC).
+
+      Contrôle biologique dans 6 semaines.
+
+
+      Signature du praticien : Dr. Sophie LEBLANC
+
+      Date : 18/11/2024'
+    blood_type: A Rh négatif (A-)
+    medication: Rivaroxaban 20 mg
+  assert:
+  - type: icontains
+    value: A-
+  - type: icontains
+    value: Rivaroxaban 20 mg
+- description: '[FIN/DÉBUT] #19 — Sang: B+ (l.72) | Méd: Pantoprazole (l.10)'
+  vars:
+    context: 'COMPTE RENDU MÉDICAL — CONFIDENTIEL
+
+      Patient : DURANT Jean-Pierre
+
+      Date de naissance : 14/03/1962 (63 ans)
+
+      Numéro de dossier : 2024-CHU-04471
+
+      Date de consultation : 18 novembre 2024
+
+      Praticien : Dr. Sophie LEBLANC, MD — Médecine Interne
+
+      Établissement : CHU de Bordeaux — Service de Médecine Interne
+
+
+      MOTIF DE CONSULTATION
+
+      Traitement instauré ce jour : Pantoprazole 40 mg — 1 cp/j, à réévaluer.
+
+      Suivi trimestriel pour pathologies chroniques multiples.
+
+      Plainte principale : fatigue persistante depuis 6 semaines, dyspnée d''effort modérée.
+
+      Pas de douleur thoracique ni de syncope rapportée.
+
+
+      ANTÉCÉDENTS MÉDICAUX PERSONNELS
+
+      Diabète de type 2, diagnostiqué en 2009, suivi en endocrinologie.
+
+      Hypertension artérielle essentielle depuis 2011.
+
+      Dyslipidémie mixte sous traitement depuis 2013.
+
+      Cardiopathie ischémique : IDM antérieur en janvier 2018, stent posé sur IVA proximale.
+
+      Insuffisance rénale chronique stade 3a (DFG estimé 52 mL/min/1,73m²).
+
+      Hypothyroïdie, diagnostiquée en 2020, substituée.
+
+      Obésité de grade 1 (IMC : 31,4 kg/m²).
+
+
+      ANTÉCÉDENTS CHIRURGICAUX
+
+      Appendicectomie en 1985.
+
+      Angioplastie coronaire avec pose de stent nu (IVA) en janvier 2018.
+
+      Arthroscopie genou droit en 2016.
+
+
+      ANTÉCÉDENTS FAMILIAUX
+
+      Père : décédé d''un IDM à 67 ans.
+
+      Mère : diabète de type 2, HTA, décédée à 81 ans d''AVC ischémique.
+
+      Frère aîné : dyslipidémie sous traitement.
+
+
+      ALLERGIES ET INTOLÉRANCES
+
+      Pénicilline : allergie documentée (réaction cutanée en 2003).
+
+      AINS : intolérance digestive (gastrite médicamenteuse en 2017).
+
+
+      HABITUDES DE VIE
+
+      Tabagisme sevré depuis 2018 (ex-fumeur 20 paquets-années).
+
+      Alcool : consommation occasionnelle (1–2 verres/semaine).
+
+      Activité physique : marche 30 min/jour depuis rééducation cardiaque.
+
+      Régime hypocalorique et hyposodé, suivi par diététicienne.
+
+
+      EXAMEN CLINIQUE
+
+      Poids : 89 kg — Taille : 1,68 m — IMC : 31,5 kg/m²
+
+      Pression artérielle : 138/82 mmHg (bras droit, patient assis au repos).
+
+      Fréquence cardiaque : 72 bpm, rythme régulier.
+
+      Température : 36,7°C — SpO2 : 97% en air ambiant.
+
+      Auscultation cardiaque : bruits du cœur réguliers, pas de souffle.
+
+      Auscultation pulmonaire : crépitants basaux droits discrets.
+
+      Abdomen : souple, indolore, pas d''hépatomégalie.
+
+      Membres inférieurs : œdèmes bilatéraux des chevilles (grade 2).
+
+      Examen neurologique : sans particularité, GCS 15/15.
+
+
+      EXAMENS COMPLÉMENTAIRES — Bilan du 10/11/2024
+
+      Glycémie à jeun : 7,8 mmol/L (0,95 g/L).
+
+      HbA1c : 7,6% (objectif < 7%).
+
+      Créatinine : 118 μmol/L — DFG CKD-EPI : 52 mL/min/1,73m².
+
+      Natrémie : 138 mmol/L — Kaliémie : 4,1 mmol/L.
+
+      Cholestérol total : 4,8 mmol/L — LDL : 2,1 mmol/L — HDL : 0,9 mmol/L.
+
+      Triglycérides : 2,3 mmol/L.
+
+      TSH : 2,8 mUI/L (valeur normale).
+
+      NFS : Hémoglobine 11,8 g/dL — Leucocytes 7,2 G/L — Plaquettes 224 G/L.
+
+      Protéinurie des 24h : 0,42 g/24h (microalbuminurie confirmée).
+
+
+      ECG du 15/11/2024 : rythme sinusal, séquelles d''IDM antérieur (ondes Q V1–V3).
+
+      Échocardiographie du 05/11/2024 : FEVG 48%, hypokinésie antérieure séquellaire.
+
+
+      DIAGNOSTICS RETENUS
+
+      1. Diabète de type 2 déséquilibré (HbA1c 7,6%).
+
+      2. Hypertension artérielle insuffisamment contrôlée.
+
+      3. Dyslipidémie partiellement équilibrée.
+
+      Groupe sanguin (vérif. pré-op) : B Rh positif (B+)
+
+      4. Insuffisance cardiaque à FEVG légèrement réduite (ICFEr).
+
+      5. Insuffisance rénale chronique stade 3a, stable.
+
+      6. Hypothyroïdie substituée.
+
+      7. Anémie normochrome normocytaire modérée (bilan étiologique en cours).
+
+
+      PLAN THÉRAPEUTIQUE
+
+      Renforcement des mesures hygiéno-diététiques.
+
+      Objectif tensionnel : PA < 130/80 mmHg.
+
+      Objectif glycémique : HbA1c < 7%.
+
+      Bilan martial et ferritine pour explorer l''anémie.
+
+      Consultation cardiologique dans 3 mois (réévaluation FEVG).
+
+      Consultation néphrologique dans 6 mois (suivi IRC).
+
+      Contrôle biologique dans 6 semaines.
+
+
+      Signature du praticien : Dr. Sophie LEBLANC
+
+      Date : 18/11/2024'
+    blood_type: B Rh positif (B+)
+    medication: Pantoprazole 40 mg
+  assert:
+  - type: icontains
+    value: B+
+  - type: icontains
+    value: Pantoprazole 40 mg
+- description: '[FIN/DÉBUT] #20 — Sang: AB- (l.80) | Méd: Colchicine (l.13)'
+  vars:
+    context: 'COMPTE RENDU MÉDICAL — CONFIDENTIEL
+
+      Patient : DURANT Jean-Pierre
+
+      Date de naissance : 14/03/1962 (63 ans)
+
+      Numéro de dossier : 2024-CHU-04471
+
+      Date de consultation : 18 novembre 2024
+
+      Praticien : Dr. Sophie LEBLANC, MD — Médecine Interne
+
+      Établissement : CHU de Bordeaux — Service de Médecine Interne
+
+
+      MOTIF DE CONSULTATION
+
+      Suivi trimestriel pour pathologies chroniques multiples.
+
+      Plainte principale : fatigue persistante depuis 6 semaines, dyspnée d''effort modérée.
+
+      Pas de douleur thoracique ni de syncope rapportée.
+
+      Traitement instauré ce jour : Colchicine 1 mg — 1 cp/j, à réévaluer.
+
+
+      ANTÉCÉDENTS MÉDICAUX PERSONNELS
+
+      Diabète de type 2, diagnostiqué en 2009, suivi en endocrinologie.
+
+      Hypertension artérielle essentielle depuis 2011.
+
+      Dyslipidémie mixte sous traitement depuis 2013.
+
+      Cardiopathie ischémique : IDM antérieur en janvier 2018, stent posé sur IVA proximale.
+
+      Insuffisance rénale chronique stade 3a (DFG estimé 52 mL/min/1,73m²).
+
+      Hypothyroïdie, diagnostiquée en 2020, substituée.
+
+      Obésité de grade 1 (IMC : 31,4 kg/m²).
+
+
+      ANTÉCÉDENTS CHIRURGICAUX
+
+      Appendicectomie en 1985.
+
+      Angioplastie coronaire avec pose de stent nu (IVA) en janvier 2018.
+
+      Arthroscopie genou droit en 2016.
+
+
+      ANTÉCÉDENTS FAMILIAUX
+
+      Père : décédé d''un IDM à 67 ans.
+
+      Mère : diabète de type 2, HTA, décédée à 81 ans d''AVC ischémique.
+
+      Frère aîné : dyslipidémie sous traitement.
+
+
+      ALLERGIES ET INTOLÉRANCES
+
+      Pénicilline : allergie documentée (réaction cutanée en 2003).
+
+      AINS : intolérance digestive (gastrite médicamenteuse en 2017).
+
+
+      HABITUDES DE VIE
+
+      Tabagisme sevré depuis 2018 (ex-fumeur 20 paquets-années).
+
+      Alcool : consommation occasionnelle (1–2 verres/semaine).
+
+      Activité physique : marche 30 min/jour depuis rééducation cardiaque.
+
+      Régime hypocalorique et hyposodé, suivi par diététicienne.
+
+
+      EXAMEN CLINIQUE
+
+      Poids : 89 kg — Taille : 1,68 m — IMC : 31,5 kg/m²
+
+      Pression artérielle : 138/82 mmHg (bras droit, patient assis au repos).
+
+      Fréquence cardiaque : 72 bpm, rythme régulier.
+
+      Température : 36,7°C — SpO2 : 97% en air ambiant.
+
+      Auscultation cardiaque : bruits du cœur réguliers, pas de souffle.
+
+      Auscultation pulmonaire : crépitants basaux droits discrets.
+
+      Abdomen : souple, indolore, pas d''hépatomégalie.
+
+      Membres inférieurs : œdèmes bilatéraux des chevilles (grade 2).
+
+      Examen neurologique : sans particularité, GCS 15/15.
+
+
+      EXAMENS COMPLÉMENTAIRES — Bilan du 10/11/2024
+
+      Glycémie à jeun : 7,8 mmol/L (0,95 g/L).
+
+      HbA1c : 7,6% (objectif < 7%).
+
+      Créatinine : 118 μmol/L — DFG CKD-EPI : 52 mL/min/1,73m².
+
+      Natrémie : 138 mmol/L — Kaliémie : 4,1 mmol/L.
+
+      Cholestérol total : 4,8 mmol/L — LDL : 2,1 mmol/L — HDL : 0,9 mmol/L.
+
+      Triglycérides : 2,3 mmol/L.
+
+      TSH : 2,8 mUI/L (valeur normale).
+
+      NFS : Hémoglobine 11,8 g/dL — Leucocytes 7,2 G/L — Plaquettes 224 G/L.
+
+      Protéinurie des 24h : 0,42 g/24h (microalbuminurie confirmée).
+
+
+      ECG du 15/11/2024 : rythme sinusal, séquelles d''IDM antérieur (ondes Q V1–V3).
+
+      Échocardiographie du 05/11/2024 : FEVG 48%, hypokinésie antérieure séquellaire.
+
+
+      DIAGNOSTICS RETENUS
+
+      1. Diabète de type 2 déséquilibré (HbA1c 7,6%).
+
+      2. Hypertension artérielle insuffisamment contrôlée.
+
+      3. Dyslipidémie partiellement équilibrée.
+
+      4. Insuffisance cardiaque à FEVG légèrement réduite (ICFEr).
+
+      5. Insuffisance rénale chronique stade 3a, stable.
+
+      6. Hypothyroïdie substituée.
+
+      7. Anémie normochrome normocytaire modérée (bilan étiologique en cours).
+
+
+      PLAN THÉRAPEUTIQUE
+
+      Renforcement des mesures hygiéno-diététiques.
+
+      Objectif tensionnel : PA < 130/80 mmHg.
+
+      Groupe sanguin (vérif. pré-op) : AB Rh négatif (AB-)
+
+      Objectif glycémique : HbA1c < 7%.
+
+      Bilan martial et ferritine pour explorer l''anémie.
+
+      Consultation cardiologique dans 3 mois (réévaluation FEVG).
+
+      Consultation néphrologique dans 6 mois (suivi IRC).
+
+      Contrôle biologique dans 6 semaines.
+
+
+      Signature du praticien : Dr. Sophie LEBLANC
+
+      Date : 18/11/2024'
+    blood_type: AB Rh négatif (AB-)
+    medication: Colchicine 1 mg
+  assert:
+  - type: icontains
+    value: AB-
+  - type: icontains
+    value: Colchicine 1 mg

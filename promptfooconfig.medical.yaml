@@ -1,0 +1,28 @@
+description: "Needle in a Haystack Médical — Compte rendu Mr. Durant"
+
+prompts:
+  - id: medical_extraction
+    raw: |
+      Vous êtes un assistant médical. Lisez attentivement le compte rendu suivant.
+
+      ---
+      {{context}}
+      ---
+
+      Répondez aux deux questions ci-dessous en vous basant UNIQUEMENT sur le texte fourni.
+
+      1. Quel est le groupe sanguin de Mr. Durant ?
+      2. Quel médicament a été instauré ce jour (nom et posologie) ?
+
+      Format de réponse OBLIGATOIRE (deux lignes exactes, rien d'autre) :
+      Groupe sanguin: <valeur exacte du document>
+      Médicament: <valeur exacte du document>
+
+providers:
+  - id: "openai:chat:{{env.LLM_MODEL}}"
+    config:
+      temperature: 0
+      max_tokens: 800   # modèle thinking : laisse de la place au raisonnement + réponse
+
+# Généré par generate_medical_tests.py
+tests: medical_tests.yaml
