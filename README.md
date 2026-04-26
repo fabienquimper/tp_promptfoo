@@ -248,19 +248,57 @@ Un test est **vert** uniquement si le LLM retourne les **deux** valeurs correcte
 
 ---
 
+## Interface web (alternative à la ligne de commande)
+
+Une application Vue 3 / Node.js permet de visualiser, éditer et exécuter les tests directement dans le navigateur, sans passer par `docker exec`.
+
+### Démarrage
+
+```bash
+cd app
+npm install   # une seule fois
+npm run dev   # backend :3000 + frontend :5173
+```
+
+Ouvre **http://localhost:5173**.
+
+> En production : `npm run build && node server.js` (tout sur `:3000`)
+
+### Fonctionnalités
+
+| Zone | Description |
+|---|---|
+| **En-tête** | Modèle, URL du LLM, indicateur de connexion, bouton ping |
+| **Sélecteur** | Bascule entre `promptfooconfig.yaml` et `promptfooconfig.medical.yaml` |
+| **Tableau** | Groupe (chip coloré), cible, résultat attendu, boutons Run / Éditer, résultat PASS/FAIL |
+| **Tout exécuter** | Lance tous les tests séquentiellement avec barre de progression en temps réel |
+| **Dialog résultat** | Prompt rendu complet, réponse brute du LLM, usage de tokens |
+| **Dialog édition** | Modifie les variables et assertions, sauvegarde dans le fichier YAML |
+
+Le backend lit le `.env` du dossier parent — aucune configuration supplémentaire nécessaire.
+
+---
+
 ## Structure des fichiers
 
 ```
 promptfoo/
-├── docker-compose.yml              # Container Promptfoo (viewer + eval)
+├── docker-compose.yml              # Container Promptfoo (viewer + résultats)
 ├── promptfooconfig.yaml            # Tests synthétiques (codes alphanumériques)
 ├── promptfooconfig.medical.yaml    # Tests médicaux (compte rendu Mr. Durant)
-├── tests.yaml                      # 20 tests synthétiques (généré)
-├── medical_tests.yaml              # 20 tests médicaux (généré)
 ├── generate_tests.py               # Générateur synthétique (seed 42)
 ├── generate_medical_tests.py       # Générateur médical
 ├── .env.example                    # Modèle de configuration LLM
-└── .env                            # Ta config locale (non versionné)
+├── .env                            # Ta config locale (non versionné)
+└── app/                            # Interface web Vue 3 + Node
+    ├── server.js                   # Backend Express (API + proxy LLM)
+    ├── src/
+    │   ├── App.vue
+    │   └── components/
+    │       ├── LlmBar.vue          # Statut connexion LLM
+    │       ├── TestRunner.vue      # Tableau de tests + run
+    │       └── EditDialog.vue      # Édition d'un test
+    └── package.json
 ```
 
 ---
@@ -275,3 +313,5 @@ promptfoo/
 | `medical_tests.yaml not found` | Script non exécuté | Lance `python generate_medical_tests.py` |
 | Toutes les réponses sont vides | `max_tokens: 50` trop court ? | Augmente `max_tokens` dans `promptfooconfig.yaml` |
 | Score MILIEU très bas | Comportement normal pour les petits modèles | C'est précisément ce que ce test mesure |
+| App : `Cannot find module` au démarrage | `npm install` non exécuté | Lance `cd app && npm install` |
+| App : LLM non accessible | `.env` absent ou `LLM_BASE_URL` incorrect | Vérifie le `.env` à la racine du projet |

@@ -27,3 +27,7 @@ __pycache__/
 *.pyc
 *.pyo
 .venv/
+
+# App Vue/Node
+app/node_modules/
+app/dist/
