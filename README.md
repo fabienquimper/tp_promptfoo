@@ -20,6 +20,7 @@ Le test insère un ID secret (`ID-XXXX?-XX`) associé à un nom-code dans un blo
 
 - [Docker](https://docs.docker.com/get-docker/) + Compose v2
 - Python 3.8+ avec PyYAML (`pip install pyyaml`)
+- Node.js 18+ avec npm — uniquement pour l'interface web (`cd app && npm install`)
 - Un LLM accessible via une API compatible OpenAI (`/v1/chat/completions`)
 
 ---
@@ -41,7 +42,7 @@ cp .env.example .env
 docker compose up -d
 
 # 4. Lance les 20 tests
-docker exec -it promptfoo_local promptfoo eval
+docker exec -it promptfoo_local sh /app/eval.sh
 
 # 5. Ouvre les résultats
 #    http://localhost:15500
@@ -131,15 +132,14 @@ LLM_API_KEY=sk-or-xxxxxxxxxxxxxxxxxxxx
 ## Lancer les tests
 
 ```bash
-# Évaluation complète (20 tests)
-docker exec -it promptfoo_local promptfoo eval
+# Évaluation complète (20 tests synthétiques)
+docker exec -it promptfoo_local sh /app/eval.sh
 
-# Évaluation avec verbose (voir les réponses brutes)
-docker exec -it promptfoo_local promptfoo eval --verbose
-
-# Relance uniquement les tests en échec
-docker exec -it promptfoo_local promptfoo eval --filter-failing
+# Tests médicaux
+docker exec -it promptfoo_local sh /app/eval.sh /app/promptfooconfig.medical.yaml
 ```
+
+> `eval.sh` contourne un bug de promptfoo : `{{env.LLM_MODEL}}` n'est pas résolu dans la section `providers` — le script substitue la valeur avant d'appeler promptfoo.
 
 ---
 
@@ -174,7 +174,7 @@ Score global :  12/20  (60%)
 
 **Exporter les résultats :**
 - Bouton **Export** dans l'interface → JSON ou CSV
-- Ou en CLI : `docker exec -it promptfoo_local promptfoo eval --output results.json`
+- Ou en CLI : `docker exec -it promptfoo_local sh -c "sh /app/eval.sh && promptfoo eval --output /app/results.json"`
 
 ---
 
@@ -233,7 +233,7 @@ Les 4 derniers groupes (croisés) sont les plus difficiles : les deux cibles son
 python generate_medical_tests.py
 
 # 2. Évaluer
-docker exec -it promptfoo_local promptfoo eval -c promptfooconfig.medical.yaml
+docker exec -it promptfoo_local sh /app/eval.sh /app/promptfooconfig.medical.yaml
 
 # 3. Résultats sur http://localhost:15500
 ```
@@ -284,6 +284,7 @@ Le backend lit le `.env` du dossier parent — aucune configuration supplémenta
 ```
 promptfoo/
 ├── docker-compose.yml              # Container Promptfoo (viewer + résultats)
+├── eval.sh                         # Wrapper d'évaluation (contourne le bug LLM_MODEL)
 ├── promptfooconfig.yaml            # Tests synthétiques (codes alphanumériques)
 ├── promptfooconfig.medical.yaml    # Tests médicaux (compte rendu Mr. Durant)
 ├── generate_tests.py               # Générateur synthétique (seed 42)
@@ -307,6 +308,7 @@ promptfoo/
 
 | Symptôme | Cause probable | Solution |
 |---|---|---|
+| `The model {{env.llm_model}} does not exist` | Promptfoo ne résout pas `{{env.LLM_MODEL}}` dans la config provider | Utilise `docker exec -it promptfoo_local sh /app/eval.sh` au lieu de `promptfoo eval` directement |
 | `Connection refused` depuis le container | `host.docker.internal` ne résout pas | Vérifie `extra_hosts` dans compose, ou utilise l'IP LAN |
 | `401 Unauthorized` | Clé API absente ou invalide | Renseigne `LLM_API_KEY` dans `.env` |
 | `tests.yaml not found` | Script non exécuté | Lance `python generate_tests.py` |

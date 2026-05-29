@@ -20,7 +20,7 @@ prompts:
 
 providers:
   # Modèle dans l'ID (plus fiable que config.model pour la résolution de variables)
-  - id: "openai:chat:{{env.LLM_MODEL}}"
+  - id: "openai:chat:llama-3.1-8b-instant"
     config:
       temperature: 0
       max_tokens: 800

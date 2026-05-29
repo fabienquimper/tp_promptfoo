@@ -35,8 +35,9 @@ de la position sur la capacité de rappel.
 
 - Docker installé et fonctionnel
 - Python 3.8+ avec PyYAML (`pip install pyyaml`)
+- Node.js 18+ avec npm — pour l'interface web (recommandée)
 - Un LLM accessible via une API compatible OpenAI (`/v1/chat/completions`)
-  - Exemples : Ollama, LM Studio, vLLM, ou une API cloud (OpenAI, Mistral…)
+  - Exemples : Ollama, LM Studio, vLLM, ou une API cloud (OpenAI, Mistral, Groq…)
 
 ---
 
@@ -55,8 +56,12 @@ cp .env.example .env
 python generate_tests.py          # Tests synthétiques (40 lignes de codes)
 python generate_medical_tests.py  # Tests médicaux (compte rendu Mr. Durant)
 
-# 4. Démarrer l'interface
-docker-compose up -d
+# 4a. Interface web (recommandée — fonctionne sans Docker)
+cd app && npm install && npm run dev
+# → http://localhost:5173
+
+# 4b. Viewer Promptfoo (nécessite Docker)
+docker compose up -d
 # → http://localhost:15500
 ```
 
@@ -77,7 +82,7 @@ Le modèle doit retrouver l'ID exact associé à un nom-code.
 
 ### Lancer les tests
 ```bash
-docker exec -it promptfoo_local promptfoo eval
+docker exec -it promptfoo_local sh /app/eval.sh
 ```
 
 ### Questions d'observation
@@ -87,12 +92,16 @@ docker exec -it promptfoo_local promptfoo eval
 
 > **Q2.** Note le score global (X/20). À quoi t'attendais-tu pour un modèle "intelligent" ?
 
-> **Q3.** Essaie de modifier `max_tokens` dans `promptfooconfig.yaml` (passe de 50 à 20).
-> Relance. Qu'est-ce qui change ?
+> **Q3.** Essaie de modifier `max_tokens` dans `promptfooconfig.yaml` (passe-le à 50, puis à 20).
+> Relance à chaque fois. Qu'est-ce qui change ?
 
 ---
 
 ## Expérience 2 — Tests médicaux (compte rendu Mr. Durant)
+
+> **Comment ça marche ?** Le fichier de config passé à `eval.sh` détermine quel jeu de tests est chargé :
+> `promptfooconfig.yaml` → `tests.yaml` (synthétique) et `promptfooconfig.medical.yaml` → `medical_tests.yaml`.
+> Si tu n'as pas encore généré les données médicales : `python generate_medical_tests.py`
 
 ### Description
 Le **même** compte rendu médical de 87 lignes sert de base pour tous les tests.
@@ -114,7 +123,7 @@ Le modèle doit retrouver les **deux** valeurs dans une seule réponse.
 
 ### Lancer les tests
 ```bash
-docker exec -it promptfoo_local promptfoo eval -c promptfooconfig.medical.yaml
+docker exec -it promptfoo_local sh /app/eval.sh /app/promptfooconfig.medical.yaml
 ```
 
 ### Questions d'observation
@@ -122,10 +131,12 @@ docker exec -it promptfoo_local promptfoo eval -c promptfooconfig.medical.yaml
 > **Q4.** Quels groupes (DÉBUT/DÉBUT, MILIEU/MILIEU, FIN/FIN, DÉBUT/FIN, FIN/DÉBUT)
 > obtiennent les meilleurs scores ? Et les pires ?
 
-> **Q5.** Observe les réponses qui commencent par `[THINK]`. Que fait le modèle avant de répondre ?
+> **Q5.** *(Modèles reasoning uniquement : Ministral, Deepseek R1, QwQ…)*
+> Observe les réponses qui commencent par `[THINK]`. Que fait le modèle avant de répondre ?
 > Est-ce une qualité ou un défaut dans ce contexte ?
 
-> **Q6.** Certaines réponses affichent `<SPECIAL_30>`. Cherche dans la documentation ce que
+> **Q6.** *(Modèles locaux via LM Studio uniquement)*
+> Certaines réponses affichent `<SPECIAL_30>`. Cherche dans la documentation ce que
 > cela signifie. Quelle est la conséquence sur le test ?
 
 > **Q7.** Compare les scores entre les groupes **croisés** (DÉBUT/FIN et FIN/DÉBUT) et les
@@ -153,7 +164,7 @@ config:
 ```
 Puis relance :
 ```bash
-docker exec -it promptfoo_local promptfoo eval -c promptfooconfig.medical.yaml
+docker exec -it promptfoo_local sh /app/eval.sh /app/promptfooconfig.medical.yaml
 ```
 
 > **Q8.** À partir de quelle valeur les scores s'améliorent significativement ?
@@ -166,12 +177,18 @@ docker exec -it promptfoo_local promptfoo eval -c promptfooconfig.medical.yaml
 
 ## Expérience 4 — Changer de modèle (si disponible)
 
-Si tu as accès à plusieurs modèles, teste le même jeu avec un modèle plus grand
-(7B, 13B…) en changeant `LLM_MODEL` dans `.env` et en redémarrant le container :
+Si tu as accès à plusieurs modèles, teste le même jeu avec un modèle plus grand (7B, 13B…).
 
+**Via l'interface web** — modifie `LLM_MODEL` dans `.env`, puis redémarre :
 ```bash
-docker-compose up -d
-docker exec -it promptfoo_local promptfoo eval -c promptfooconfig.medical.yaml
+# Ctrl+C pour arrêter, puis relancer :
+cd app && npm run dev
+```
+
+**Via Docker** — modifie `LLM_MODEL` dans `.env`, puis **recrée** le container :
+```bash
+docker compose up -d --force-recreate
+docker exec -it promptfoo_local sh /app/eval.sh /app/promptfooconfig.medical.yaml
 ```
 
 > **Q10.** Le score s'améliore-t-il ? Le biais de position est-il toujours présent ?
@@ -181,11 +198,19 @@ docker exec -it promptfoo_local promptfoo eval -c promptfooconfig.medical.yaml
 
 ## Grille de résultats à remplir
 
-| Expérience | Modèle | max_tokens | Score global | DÉBUT/DÉBUT | MILIEU/MILIEU | FIN/FIN | DÉBUT/FIN | FIN/DÉBUT |
+### Tests synthétiques (Expérience 1)
+
+| Modèle | max_tokens | DÉBUT (/6) | MILIEU (/8) | FIN (/6) | Score global (/20) |
+|---|---|---|---|---|---|
+| | 2000 | /6 | /8 | /6 | /20 |
+
+### Tests médicaux (Expériences 2 et 3)
+
+| Run | Modèle | max_tokens | Score global | DÉBUT/DÉBUT | MILIEU/MILIEU | FIN/FIN | DÉBUT/FIN | FIN/DÉBUT |
 |---|---|---|---|---|---|---|---|---|
-| Run 1 | | 150 | /20 | /4 | /4 | /4 | /4 | /4 |
-| Run 2 | | 800 | /20 | /4 | /4 | /4 | /4 | /4 |
-| Run 3 | | | /20 | /4 | /4 | /4 | /4 | /4 |
+| 1 | | 150 | /20 | /4 | /4 | /4 | /4 | /4 |
+| 2 | | 800 | /20 | /4 | /4 | /4 | /4 | /4 |
+| 3 | | | /20 | /4 | /4 | /4 | /4 | /4 |
 
 ---
 

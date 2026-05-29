@@ -18,6 +18,28 @@
       </v-col>
 
       <v-col cols="auto">
+        <v-text-field
+          v-model.number="retries"
+          type="number" min="0" max="10"
+          label="Retries" suffix="×"
+          variant="outlined" density="compact"
+          hide-details style="width: 100px"
+          :disabled="runningAll"
+        />
+      </v-col>
+
+      <v-col cols="auto">
+        <v-text-field
+          v-model.number="retryDelaySec"
+          type="number" min="1" max="120"
+          label="Délai initial" suffix="s"
+          variant="outlined" density="compact"
+          hide-details style="width: 120px"
+          :disabled="runningAll"
+        />
+      </v-col>
+
+      <v-col cols="auto">
         <v-btn
           color="primary"
           prepend-icon="mdi-play-box-multiple-outline"
@@ -30,19 +52,13 @@
         </v-btn>
       </v-col>
 
-      <!-- Résumé pass/fail -->
       <v-col v-if="summary" cols="auto" class="d-flex align-center" style="gap: 6px">
-        <v-chip color="success" size="small" prepend-icon="mdi-check">
-          {{ summary.pass }}
-        </v-chip>
-        <v-chip color="error" size="small" prepend-icon="mdi-close">
-          {{ summary.fail }}
-        </v-chip>
+        <v-chip color="success" size="small" prepend-icon="mdi-check">{{ summary.pass }}</v-chip>
+        <v-chip color="error"   size="small" prepend-icon="mdi-close">{{ summary.fail }}</v-chip>
         <span class="text-caption text-medium-emphasis">/ {{ tests.length }}</span>
       </v-col>
     </v-row>
 
-    <!-- Barre de progression run-all -->
     <v-progress-linear
       v-if="runningAll"
       :model-value="progress"
@@ -53,7 +69,6 @@
       :aria-label="`Progression : ${Math.round(progress)} %`"
     />
 
-    <!-- Erreur de chargement -->
     <v-alert
       v-if="loadError"
       type="error"
@@ -68,24 +83,24 @@
     <!-- ── Tableau ───────────────────────────────────────────────────────── -->
     <v-data-table
       v-if="rows.length"
+      v-model:expanded="expanded"
       :headers="headers"
       :items="rows"
       :loading="loading"
       item-value="idx"
+      show-expand
       :items-per-page="25"
       :items-per-page-options="[10, 25, 50, -1]"
       :aria-label="`Tableau de ${tests.length} tests`"
       hover
       class="rounded border"
     >
-      <!-- Groupe — chip coloré -->
+      <!-- Groupe -->
       <template #item.group="{ item }">
-        <v-chip :color="groupColor(item.group)" size="small" label>
-          {{ item.group }}
-        </v-chip>
+        <v-chip :color="groupColor(item.group)" size="small" label>{{ item.group }}</v-chip>
       </template>
 
-      <!-- Résultat attendu — type + valeur -->
+      <!-- Résultat attendu -->
       <template #item.assertValue="{ item }">
         <code class="text-caption">
           <span class="text-medium-emphasis mr-1">{{ assertLabel(item.assertType) }}</span>{{ truncate(item.assertValue, 35) }}
@@ -99,7 +114,7 @@
           size="small"
           variant="text"
           :aria-label="`Modifier le test ${item.num}`"
-          @click="openEdit(item.idx)"
+          @click.stop="openEdit(item.idx)"
         />
         <v-btn
           icon="mdi-play-circle-outline"
@@ -109,7 +124,7 @@
           :loading="runningIndex === item.idx"
           :disabled="runningAll"
           :aria-label="`Exécuter le test ${item.num}`"
-          @click="runSingle(item.idx)"
+          @click.stop="runSingle(item.idx)"
         />
       </template>
 
@@ -140,12 +155,87 @@
               size="x-small"
               density="compact"
               :aria-label="`Voir la réponse du test ${item.num}`"
-              @click="openOutput(item.idx)"
+              @click.stop="openOutput(item.idx)"
             >
-              {{ truncate(results[item.idx].output, 55) }}
+              {{ truncate(results[item.idx].output, 50) }}
             </v-btn>
           </div>
         </template>
+      </template>
+
+      <!-- ── Ligne étendue ──────────────────────────────────────────────── -->
+      <template #expanded-row="{ columns, item }">
+        <tr>
+          <td :colspan="columns.length" class="pa-0">
+            <div class="expanded-panel pa-4">
+              <v-row>
+
+                <!-- Colonne gauche : prompt rendu -->
+                <v-col cols="12" md="7">
+                  <p class="text-subtitle-2 mb-2 d-flex align-center" style="gap: 6px">
+                    <v-icon icon="mdi-text-box-outline" size="16" aria-hidden="true" />
+                    Prompt envoyé au LLM
+                  </p>
+                  <pre class="expanded-pre">{{ renderPromptForTest(item.idx) }}</pre>
+                </v-col>
+
+                <!-- Colonne droite : variables + assertions -->
+                <v-col cols="12" md="5">
+
+                  <!-- Variables -->
+                  <p class="text-subtitle-2 mb-2 d-flex align-center" style="gap: 6px">
+                    <v-icon icon="mdi-variable" size="16" aria-hidden="true" />
+                    Variables
+                  </p>
+                  <v-table density="compact" class="mb-3 rounded border">
+                    <tbody>
+                      <tr v-for="(val, key) in tests[item.idx]?.vars" :key="key">
+                        <td class="text-caption font-weight-medium" style="width: 110px; vertical-align: top; padding-top: 8px">
+                          {{ key }}
+                        </td>
+                        <td class="text-caption">
+                          <template v-if="key === 'context'">
+                            <span class="text-medium-emphasis">
+                              {{ String(val).split('\n').length }} lignes
+                            </span>
+                            <v-btn
+                              variant="text"
+                              size="x-small"
+                              class="ml-1"
+                              @click="openContextDialog(item.idx)"
+                              :aria-label="`Voir le contexte complet du test ${item.num}`"
+                            >
+                              Voir tout
+                            </v-btn>
+                          </template>
+                          <template v-else>
+                            <code>{{ val }}</code>
+                          </template>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </v-table>
+
+                  <!-- Assertions -->
+                  <p class="text-subtitle-2 mb-2 d-flex align-center" style="gap: 6px">
+                    <v-icon icon="mdi-check-circle-outline" size="16" aria-hidden="true" />
+                    Assertions
+                  </p>
+                  <div
+                    v-for="(a, i) in tests[item.idx]?.assert"
+                    :key="i"
+                    class="d-flex align-center mb-1"
+                    style="gap: 6px"
+                  >
+                    <v-chip size="x-small" variant="outlined">{{ assertLabel(a.type) }}</v-chip>
+                    <code class="text-caption">{{ a.value }}</code>
+                  </div>
+                </v-col>
+
+              </v-row>
+            </div>
+          </td>
+        </tr>
       </template>
     </v-data-table>
 
@@ -155,24 +245,39 @@
       <p>Sélectionnez un fichier de configuration pour afficher les tests.</p>
     </div>
 
-    <!-- ── Dialog : édition d'un test ───────────────────────────────────── -->
+    <!-- ── Dialog : édition ──────────────────────────────────────────────── -->
     <EditDialog
       v-if="editIndex !== null"
       v-model="editDialogOpen"
       :test="tests[editIndex]"
       :index="editIndex"
+      :prompt-template="promptTemplate"
       @save="saveTest"
     />
 
-    <!-- ── Dialog : visualisation du résultat ───────────────────────────── -->
+    <!-- ── Dialog : contexte complet ────────────────────────────────────── -->
+    <v-dialog v-model="contextDialogOpen" max-width="640" scrollable>
+      <v-card v-if="contextIndex !== null">
+        <v-card-title class="pt-4">
+          Contexte complet — Test {{ contextIndex + 1 }}
+        </v-card-title>
+        <v-divider />
+        <v-card-text>
+          <pre class="expanded-pre" style="max-height: 70vh">{{ tests[contextIndex]?.vars?.context }}</pre>
+        </v-card-text>
+        <v-card-actions>
+          <v-spacer />
+          <v-btn variant="text" @click="contextDialogOpen = false">Fermer</v-btn>
+        </v-card-actions>
+      </v-card>
+    </v-dialog>
+
+    <!-- ── Dialog : résultat d'exécution ────────────────────────────────── -->
     <v-dialog v-model="outputDialogOpen" max-width="860" scrollable>
       <v-card v-if="outputIndex !== null">
         <v-card-title class="d-flex align-center pt-4" style="gap: 8px">
-          Test {{ (outputIndex + 1) }}
-          <v-chip
-            :color="results[outputIndex]?.pass ? 'success' : 'error'"
-            size="small"
-          >
+          Test {{ outputIndex + 1 }}
+          <v-chip :color="results[outputIndex]?.pass ? 'success' : 'error'" size="small">
             {{ results[outputIndex]?.pass ? 'PASS' : 'FAIL' }}
           </v-chip>
           <v-spacer />
@@ -185,11 +290,8 @@
             {{ results[outputIndex].usage.prompt_tokens }} + {{ results[outputIndex].usage.completion_tokens }} tokens
           </v-chip>
         </v-card-title>
-
         <v-divider />
-
         <v-card-text class="pa-4">
-          <!-- Assertions -->
           <div class="mb-4">
             <p class="text-subtitle-2 mb-2">Assertions</p>
             <v-chip
@@ -203,8 +305,6 @@
               {{ assertLabel(a.type) }} {{ truncate(String(a.value), 40) }}
             </v-chip>
           </div>
-
-          <!-- Prompt rendu (repliable) -->
           <v-expansion-panels variant="accordion" class="mb-4">
             <v-expansion-panel title="Prompt envoyé au LLM">
               <v-expansion-panel-text>
@@ -212,12 +312,9 @@
               </v-expansion-panel-text>
             </v-expansion-panel>
           </v-expansion-panels>
-
-          <!-- Réponse du LLM -->
           <p class="text-subtitle-2 mb-2">Réponse du modèle</p>
           <pre class="result-pre">{{ results[outputIndex]?.output }}</pre>
         </v-card-text>
-
         <v-card-actions>
           <v-spacer />
           <v-btn variant="text" @click="outputDialogOpen = false">Fermer</v-btn>
@@ -233,30 +330,36 @@ import { ref, computed, onMounted } from 'vue'
 import EditDialog from './EditDialog.vue'
 
 // ── état ──────────────────────────────────────────────────────────────────
-const configs     = ref([])
-const configFile  = ref('')
-const tests       = ref([])
-const results     = ref({})
-const loading     = ref(false)
-const loadError   = ref(null)
-const runningAll  = ref(false)
-const runningIndex = ref(null)
-const progress    = ref(0)
+const configs        = ref([])
+const configFile     = ref('')
+const tests          = ref([])
+const promptTemplate = ref('')
+const results        = ref({})
+const loading        = ref(false)
+const loadError      = ref(null)
+const runningAll     = ref(false)
+const runningIndex   = ref(null)
+const progress       = ref(0)
+const expanded       = ref([])
 
-const editDialogOpen = ref(false)
-const editIndex      = ref(null)
+const retries        = ref(3)
+const retryDelaySec  = ref(5)
 
-const outputDialogOpen = ref(false)
-const outputIndex      = ref(null)
+const editDialogOpen    = ref(false)
+const editIndex         = ref(null)
+const outputDialogOpen  = ref(false)
+const outputIndex       = ref(null)
+const contextDialogOpen = ref(false)
+const contextIndex      = ref(null)
 
-// ── en-têtes du tableau ───────────────────────────────────────────────────
+// ── en-têtes ──────────────────────────────────────────────────────────────
 const headers = [
-  { title: '#',               key: 'num',         width: '55px' },
-  { title: 'Groupe',          key: 'group',        width: '140px' },
-  { title: 'Cible',           key: 'target',       width: '130px' },
-  { title: 'Résultat attendu', key: 'assertValue', minWidth: '180px' },
-  { title: 'Actions',         key: 'actions',      width: '100px', sortable: false },
-  { title: 'Résultat',        key: 'result',       sortable: false, minWidth: '220px' },
+  { title: '#',                key: 'num',         width: '55px' },
+  { title: 'Groupe',           key: 'group',        width: '140px' },
+  { title: 'Cible',            key: 'target',       width: '130px' },
+  { title: 'Résultat attendu', key: 'assertValue',  minWidth: '180px' },
+  { title: 'Actions',          key: 'actions',      width: '100px', sortable: false },
+  { title: 'Résultat',         key: 'result',       sortable: false, minWidth: '220px' },
 ]
 
 // ── données dérivées ──────────────────────────────────────────────────────
@@ -266,10 +369,10 @@ const rows = computed(() =>
     idx:         i,
     group:       extractGroup(t.description ?? ''),
     target:      extractTarget(t),
-    assertType:  t.assert?.[0]?.type  ?? '—',
+    assertType:  t.assert?.[0]?.type ?? '—',
     assertValue: String(t.assert?.[0]?.value ?? '—'),
-    result:      null,  // colonne custom — rendue via slot
-    actions:     null,  // colonne custom — rendue via slot
+    result:      null,
+    actions:     null,
   }))
 )
 
@@ -303,14 +406,22 @@ function groupColor(group) {
 }
 
 const ASSERT_LABELS = { equals: '=', icontains: '⊃', contains: '∋' }
-function assertLabel(type) {
-  return ASSERT_LABELS[type] ?? type
-}
+function assertLabel(type) { return ASSERT_LABELS[type] ?? type }
 
 function truncate(str, n) {
   if (!str) return ''
   const s = String(str).replace(/\n/g, ' ').replace(/\s+/g, ' ').trim()
   return s.length > n ? s.slice(0, n) + '…' : s
+}
+
+function renderPromptForTest(idx) {
+  const test = tests.value[idx]
+  if (!test || !promptTemplate.value) return ''
+  let result = promptTemplate.value
+  for (const [key, value] of Object.entries(test.vars ?? {})) {
+    result = result.replaceAll(`{{${key}}}`, String(value))
+  }
+  return result
 }
 
 // ── appels API ────────────────────────────────────────────────────────────
@@ -332,10 +443,12 @@ async function loadConfig(file) {
   loading.value = true
   loadError.value = null
   results.value = {}
+  expanded.value = []
   try {
     const r = await fetch(`/api/config?file=${encodeURIComponent(file)}`)
     const data = await r.json()
     if (data.error) throw new Error(data.error)
+    promptTemplate.value = data.config?.prompts?.[0]?.raw ?? ''
     tests.value = data.tests ?? []
   } catch (e) {
     loadError.value = e.message
@@ -345,10 +458,14 @@ async function loadConfig(file) {
   }
 }
 
+function retryParams() {
+  return `retries=${retries.value}&retryDelayMs=${retryDelaySec.value * 1000}`
+}
+
 async function runSingle(idx) {
   runningIndex.value = idx
   try {
-    const r = await fetch(`/api/run/${idx}?file=${encodeURIComponent(configFile.value)}`, { method: 'POST' })
+    const r = await fetch(`/api/run/${idx}?file=${encodeURIComponent(configFile.value)}&${retryParams()}`, { method: 'POST' })
     const data = await r.json()
     results.value = { ...results.value, [idx]: data }
   } catch (e) {
@@ -365,36 +482,22 @@ function runAll() {
   results.value = {}
 
   const total = tests.value.length
-  const es = new EventSource(`/api/run-all?file=${encodeURIComponent(configFile.value)}`)
+  const es = new EventSource(`/api/run-all?file=${encodeURIComponent(configFile.value)}&${retryParams()}`)
 
   es.onmessage = (e) => {
     const data = JSON.parse(e.data)
-    if (data.done) {
-      es.close()
-      runningAll.value = false
-      return
-    }
+    if (data.done) { es.close(); runningAll.value = false; return }
     if (typeof data.index === 'number') {
       results.value = { ...results.value, [data.index]: data }
       progress.value = ((data.index + 1) / total) * 100
     }
   }
-
-  es.onerror = () => {
-    es.close()
-    runningAll.value = false
-  }
+  es.onerror = () => { es.close(); runningAll.value = false }
 }
 
-function openEdit(idx) {
-  editIndex.value = idx
-  editDialogOpen.value = true
-}
-
-function openOutput(idx) {
-  outputIndex.value = idx
-  outputDialogOpen.value = true
-}
+function openEdit(idx) { editIndex.value = idx; editDialogOpen.value = true }
+function openOutput(idx) { outputIndex.value = idx; outputDialogOpen.value = true }
+function openContextDialog(idx) { contextIndex.value = idx; contextDialogOpen.value = true }
 
 async function saveTest(idx, updatedTest) {
   try {
@@ -416,16 +519,24 @@ onMounted(fetchConfigs)
 </script>
 
 <style scoped>
+.expanded-panel {
+  background: rgba(0, 0, 0, 0.02);
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.expanded-pre,
 .result-pre {
   white-space: pre-wrap;
   word-break: break-word;
   font-family: monospace;
-  font-size: 13px;
-  line-height: 1.5;
-  max-height: 50vh;
-  overflow-y: auto;
+  font-size: 12.5px;
+  line-height: 1.55;
   background: rgba(0, 0, 0, 0.04);
   border-radius: 4px;
   padding: 12px;
+  overflow-y: auto;
 }
+
+.expanded-pre { max-height: 340px; }
+.result-pre   { max-height: 50vh; }
 </style>

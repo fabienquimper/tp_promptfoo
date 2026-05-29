@@ -49,33 +49,40 @@ function checkAssertion(output, assertion) {
   }
 }
 
-async function callLLM(renderedPrompt, modelConfig) {
+async function callLLM(renderedPrompt, modelConfig, { retries = 0, retryDelayMs = 1000 } = {}) {
   const { llmBaseUrl, llmModel, llmApiKey } = settings()
-  const res = await fetch(`${llmBaseUrl}/v1/chat/completions`, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      Authorization: `Bearer ${llmApiKey}`,
-    },
-    body: JSON.stringify({
-      model: llmModel,
-      messages: [{ role: 'user', content: renderedPrompt }],
-      temperature: modelConfig?.temperature ?? 0,
-      max_tokens: modelConfig?.max_tokens ?? 2000,
-    }),
-    signal: AbortSignal.timeout(120_000),
-  })
-  if (!res.ok) throw new Error(`LLM ${res.status}: ${await res.text()}`)
-  return res.json()
+  for (let attempt = 0; attempt <= retries; attempt++) {
+    if (attempt > 0) await new Promise(r => setTimeout(r, retryDelayMs * 2 ** (attempt - 1)))
+    const res = await fetch(`${llmBaseUrl}/v1/chat/completions`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        Authorization: `Bearer ${llmApiKey}`,
+      },
+      body: JSON.stringify({
+        model: llmModel,
+        messages: [{ role: 'user', content: renderedPrompt }],
+        temperature: modelConfig?.temperature ?? 0,
+        max_tokens: modelConfig?.max_tokens ?? 2000,
+      }),
+      signal: AbortSignal.timeout(120_000),
+    })
+    if (!res.ok) {
+      const body = await res.text()
+      if (res.status === 429 && attempt < retries) continue
+      throw new Error(`LLM ${res.status}: ${body}`)
+    }
+    return res.json()
+  }
 }
 
-async function runSingleTest(test, config) {
+async function runSingleTest(test, config, retryOpts = {}) {
   const { llmModel } = settings()
   const template = config.prompts[0].raw
   const modelConfig = config.providers[0].config ?? {}
   const rendered = renderPrompt(template, test.vars, { LLM_MODEL: llmModel })
 
-  const data = await callLLM(rendered, modelConfig)
+  const data = await callLLM(rendered, modelConfig, retryOpts)
   const output = data.choices?.[0]?.message?.content ?? ''
 
   const assertions = (test.assert ?? []).map(a => ({
@@ -152,7 +159,11 @@ app.put('/api/config/test/:i', (req, res) => {
 app.post('/api/run/:i', async (req, res) => {
   try {
     const { config, tests } = loadConfig(req.query.file ?? 'promptfooconfig.yaml')
-    const result = await runSingleTest(tests[Number(req.params.i)], config)
+    const retryOpts = {
+      retries: Number(req.query.retries ?? 0),
+      retryDelayMs: Number(req.query.retryDelayMs ?? 1000),
+    }
+    const result = await runSingleTest(tests[Number(req.params.i)], config, retryOpts)
     res.json(result)
   } catch (e) {
     res.status(500).json({ error: e.message })
@@ -170,9 +181,13 @@ app.get('/api/run-all', async (req, res) => {
 
   try {
     const { config, tests } = loadConfig(req.query.file ?? 'promptfooconfig.yaml')
+    const retryOpts = {
+      retries: Number(req.query.retries ?? 0),
+      retryDelayMs: Number(req.query.retryDelayMs ?? 1000),
+    }
     for (let i = 0; i < tests.length; i++) {
       try {
-        const result = await runSingleTest(tests[i], config)
+        const result = await runSingleTest(tests[i], config, retryOpts)
         send({ index: i, ...result })
       } catch (e) {
         send({ index: i, error: e.message, pass: false, output: '' })
