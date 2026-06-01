@@ -1,0 +1,22 @@
+- assert:
+  - type: icontains
+    value: country
+  vars:
+    audio_file: audio/jfk.flac
+    label: JFK inauguration 1961 (OpenAI Whisper)
+    transcript: ask not what your country can do for you ask what you can do for your
+      country
+- assert:
+  - type: icontains
+    value: dream
+  vars:
+    audio_file: audio/mlk.flac
+    label: MLK 'I have a dream' 1963
+    transcript: i have a dream
+- assert:
+  - type: icontains
+    value: kung
+  vars:
+    audio_file: audio/i-know-kung-fu.mp3
+    label: Matrix — 'I know kung fu'
+    transcript: i know kung fu

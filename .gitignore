@@ -31,3 +31,4 @@ __pycache__/
 # App Vue/Node
 app/node_modules/
 app/dist/
+venv

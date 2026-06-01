@@ -1,0 +1,104 @@
+- assert:
+  - type: icontains
+    value: cat
+  vars:
+    image: images/real/cat.jpg
+    label: Chat (Wikipedia)
+    question: What animal is shown in this photo? Reply in one word.
+    type: photo
+- assert:
+  - type: icontains
+    value: Eiffel
+  vars:
+    image: images/real/eiffel_tower.jpg
+    label: Tour Eiffel (Wikipedia)
+    question: What famous landmark is shown in this image? Reply in 1-3 words.
+    type: photo
+- assert:
+  - type: icontains
+    value: chess
+  vars:
+    image: images/real/chess.jpg
+    label: Échecs (Wikipedia)
+    question: What board game is shown in this image? Reply in one word.
+    type: photo
+- assert:
+  - type: icontains
+    value: traffic
+  vars:
+    image: images/real/traffic_light.jpg
+    label: Feu tricolore (Wikipedia)
+    question: What object or device is shown in this image? Reply in 1-3 words.
+    type: photo
+- assert:
+  - type: icontains
+    value: B+
+  vars:
+    image: images/generated/medical_1.png
+    label: Rapport médical 1 — groupe sanguin (B+)
+    question: What is the patient's blood type shown in this medical report? Reply
+      with the blood type only (e.g. A+).
+    type: document
+- assert:
+  - type: icontains
+    value: Metformin
+  vars:
+    image: images/generated/medical_1.png
+    label: Rapport médical 1 — médicament (Metformin)
+    question: What medication is prescribed in this medical report? Reply with the
+      drug name only.
+    type: document
+- assert:
+  - type: icontains
+    value: O-
+  vars:
+    image: images/generated/medical_2.png
+    label: Rapport médical 2 — groupe sanguin (O-)
+    question: What is the patient's blood type shown in this medical report? Reply
+      with the blood type only (e.g. A+).
+    type: document
+- assert:
+  - type: icontains
+    value: Lisinopril
+  vars:
+    image: images/generated/medical_2.png
+    label: Rapport médical 2 — médicament (Lisinopril)
+    question: What medication is prescribed in this medical report? Reply with the
+      drug name only.
+    type: document
+- assert:
+  - type: icontains
+    value: AB+
+  vars:
+    image: images/generated/medical_3.png
+    label: Rapport médical 3 — groupe sanguin (AB+)
+    question: What is the patient's blood type shown in this medical report? Reply
+      with the blood type only (e.g. A+).
+    type: document
+- assert:
+  - type: icontains
+    value: Atorvastatin
+  vars:
+    image: images/generated/medical_3.png
+    label: Rapport médical 3 — médicament (Atorvastatin)
+    question: What medication is prescribed in this medical report? Reply with the
+      drug name only.
+    type: document
+- assert:
+  - type: icontains
+    value: '3126'
+  vars:
+    image: images/generated/invoice_1.png
+    label: Facture 1 — montant total (€3126.00)
+    question: What is the total amount due shown in this invoice? Reply with the amount
+      only (e.g. €1234.56).
+    type: document
+- assert:
+  - type: icontains
+    value: '1620'
+  vars:
+    image: images/generated/invoice_2.png
+    label: Facture 2 — montant total (€1620.00)
+    question: What is the total amount due shown in this invoice? Reply with the amount
+      only (e.g. €1234.56).
+    type: document

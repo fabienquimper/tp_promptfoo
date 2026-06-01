@@ -34,7 +34,7 @@ de la position sur la capacité de rappel.
 ## Prérequis
 
 - Docker installé et fonctionnel
-- Python 3.8+ avec PyYAML (`pip install pyyaml`)
+- Python 3.10+ avec les dépendances : `pip install -r requirements.txt`
 - Node.js 18+ avec npm — pour l'interface web (recommandée)
 - Un LLM accessible via une API compatible OpenAI (`/v1/chat/completions`)
   - Local : Ollama, LM Studio, vLLM
@@ -49,7 +49,10 @@ de la position sur la capacité de rappel.
 git clone <url-du-repo>
 cd promptfoo
 
-# 2. Configurer le LLM (copier et éditer)
+# 2. Installer les dépendances Python
+pip install -r requirements.txt
+
+# 3. Configurer le LLM (copier et éditer)
 cp .env.example .env
 # → Renseigne LLM_BASE_URL, LLM_MODEL et LLM_API_KEY dans .env
 #
@@ -58,15 +61,15 @@ cp .env.example .env
 #   LLM_MODEL=llama-3.1-8b-instant
 #   LLM_API_KEY=gsk_xxxxxxxxxxxxxxxxxxxx
 
-# 3. Générer les données de test
+# 4. Générer les données de test
 python generate_tests.py          # Tests synthétiques (40 lignes de codes)
 python generate_medical_tests.py  # Tests médicaux (compte rendu Mr. Durant)
 
-# 4a. Interface web (recommandée — fonctionne sans Docker)
+# 5a. Interface web (recommandée — fonctionne sans Docker)
 cd app && npm install && npm run dev
 # → http://localhost:5173
 
-# 4b. Viewer Promptfoo (nécessite Docker)
+# 5b. Viewer Promptfoo (nécessite Docker)
 docker compose up -d
 # → http://localhost:15500
 ```
@@ -263,6 +266,85 @@ de génération** : le modèle est capable de lire tout le document, mais son bu
 de tokens de réponse est insuffisant pour les cas les plus complexes.
 
 </details>
+
+---
+
+## Expérience 5 — Transcription audio (Groq Whisper)
+
+> Prérequis : une clé Groq (`gsk_...`) dans `.env`.
+
+### Protocole
+
+```bash
+# dépendances (une seule fois)
+pip install -r requirements.txt
+
+# 1. Télécharger les clips audio LibriSpeech (domaine public)
+python generate_audio_tests.py
+
+# 2. Évaluer la transcription Whisper
+python eval_audio.py
+```
+
+Trois extraits de 5-10 secondes sont transcrits par `whisper-large-v3-turbo`.
+Le script affiche côte-à-côte la transcription attendue et celle produite par Whisper.
+
+### Questions d'observation
+
+> **Q11.** Whisper retranscrit-il les extraits mot pour mot, ou y a-t-il des différences
+> (ponctuation, capitalisation, mots manquants) ?
+
+> **Q12.** Le score est-il 3/3 ? Si un test échoue, lis la transcription brute.
+> S'agit-il d'une erreur de compréhension ou de formatage ?
+
+> **Q13.** *(Bonus)* Ouvre un des fichiers `.wav` dans `audio/` et écoute-le.
+> La transcription Whisper te semble-t-elle fidèle à ce que tu entends ?
+
+---
+
+## Expérience 6 — Compréhension d'images (Vision LLM)
+
+> Prérequis : `VISION_MODEL` dans `.env`.
+
+### Protocole
+
+```bash
+# dépendances (une seule fois, si pas déjà fait)
+pip install -r requirements.txt
+
+# 1. Générer les images et le fichier de tests (une seule fois)
+python generate_image_tests.py
+
+# 2. Évaluer le modèle de vision
+python eval_image.py
+```
+
+Le générateur produit :
+- **4 photos réelles** téléchargées depuis Wikipedia (chat, Tour Eiffel, échecs, feu tricolore)
+- **3 rapports médicaux** synthétiques avec groupe sanguin et médicament à extraire
+- **2 factures** synthétiques avec un montant total à lire
+
+### Grille de résultats
+
+| Catégorie | Nb tests | Score |
+|---|---|---|
+| Photos réelles | 4 | /4 |
+| Documents — groupe sanguin | 3 | /3 |
+| Documents — médicament | 3 | /3 |
+| Documents — montant facture | 2 | /2 |
+| **Total** | **12** | **/12** |
+
+### Questions d'observation
+
+> **Q14.** Le modèle identifie-t-il correctement les photos réelles (chat, Tour Eiffel…) ?
+> Les erreurs viennent-elles de la photo elle-même ou de la question posée ?
+
+> **Q15.** Le modèle extrait-il les données des documents synthétiques (groupe sanguin,
+> médicament, montant) ? Compare les scores *photo* vs *document*.
+
+> **Q16.** *(Bonus)* Ouvre une image générée dans `images/generated/` et lis-la toi-même.
+> Si le modèle échoue, est-ce que l'information était clairement lisible ?
+> Que cela suggère-t-il sur la capacité OCR des modèles de vision ?
 
 ---
 

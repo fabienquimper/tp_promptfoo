@@ -19,7 +19,7 @@ Le test insère un ID secret (`ID-XXXX?-XX`) associé à un nom-code dans un blo
 ## Prérequis
 
 - [Docker](https://docs.docker.com/get-docker/) + Compose v2
-- Python 3.8+ avec PyYAML (`pip install pyyaml`)
+- Python 3.10+ avec les dépendances : `pip install -r requirements.txt`
 - Node.js 18+ avec npm — uniquement pour l'interface web (`cd app && npm install`)
 - Un LLM accessible via une API compatible OpenAI (`/v1/chat/completions`)
 
@@ -31,20 +31,23 @@ Le test insère un ID secret (`ID-XXXX?-XX`) associé à un nom-code dans un blo
 git clone <ce-repo>
 cd promptfoo
 
-# 1. Génère les données de test (une seule fois, seed fixe = reproductible)
+# 1. Installe les dépendances Python
+pip install -r requirements.txt
+
+# 2. Génère les données de test (une seule fois, seed fixe = reproductible)
 python generate_tests.py
 
-# 2. Configure ton LLM
+# 3. Configure ton LLM
 cp .env.example .env
 # Edite .env selon ton cas (voir section Configuration)
 
-# 3. Lance le viewer Promptfoo
+# 4. Lance le viewer Promptfoo
 docker compose up -d
 
-# 4. Lance les 20 tests
+# 5. Lance les 20 tests
 docker exec -it promptfoo_local sh /app/eval.sh
 
-# 5. Ouvre les résultats
+# 6. Ouvre les résultats
 #    http://localhost:15500
 ```
 
@@ -138,6 +141,8 @@ LLM_API_KEY=sk-or-xxxxxxxxxxxxxxxxxxxx
 
 ## Lancer les tests
 
+### Tests texte (Docker + Promptfoo)
+
 ```bash
 # Évaluation complète (20 tests synthétiques)
 docker exec -it promptfoo_local sh /app/eval.sh
@@ -147,6 +152,48 @@ docker exec -it promptfoo_local sh /app/eval.sh /app/promptfooconfig.medical.yam
 ```
 
 > `eval.sh` contourne un bug de promptfoo : `{{env.LLM_MODEL}}` n'est pas résolu dans la section `providers` — le script substitue la valeur avant d'appeler promptfoo.
+
+---
+
+### Tests audio — Groq Whisper (STT)
+
+Évalue la précision de transcription sur des extraits LibriSpeech (domaine public).
+Requiert une clé Groq (`gsk_...`).
+
+```bash
+# 1. Télécharge les clips audio (une seule fois)
+python generate_audio_tests.py
+
+# 2. Transcrit et évalue
+python eval_audio.py
+```
+
+---
+
+### Tests image — Vision LLM
+
+Évalue un modèle de vision sur des photos réelles (Wikipedia) et des documents synthétiques générés.
+Requiert un modèle vision compatible (`VISION_MODEL` dans `.env`).
+
+```bash
+# 1. Génère les images et le fichier de tests (une seule fois)
+python generate_image_tests.py
+
+# 2. Évalue via le modèle de vision
+python eval_image.py
+```
+
+**Configurer le modèle de vision dans `.env` :**
+```dotenv
+# Groq (gratuit, nécessite la même clé gsk_)
+VISION_MODEL=meta-llama/llama-4-scout-17b-16e-instruct
+
+# Alternative Groq (plus léger)
+# VISION_MODEL=llama-3.2-11b-vision-preview
+
+# OpenAI
+# VISION_MODEL=gpt-4o-mini
+```
 
 ---
 
