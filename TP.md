@@ -272,6 +272,9 @@ de tokens de réponse est insuffisant pour les cas les plus complexes.
 ## Expérience 5 — Transcription audio (Groq Whisper)
 
 > Prérequis : une clé Groq (`gsk_...`) dans `.env`.
+>
+> ⚠️ Ces tests tournent en **Python standalone**, pas via le container promptfoo.
+> Les résultats s'affichent dans le terminal — ils n'apparaissent pas sur http://localhost:15500.
 
 ### Protocole
 
@@ -305,6 +308,8 @@ Le script affiche côte-à-côte la transcription attendue et celle produite par
 ## Expérience 6 — Compréhension d'images (Vision LLM)
 
 > Prérequis : `VISION_MODEL` dans `.env`.
+>
+> ⚠️ Même principe que l'Expérience 5 : **Python standalone**, résultats dans le terminal uniquement.
 
 ### Protocole
 

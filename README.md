@@ -155,10 +155,14 @@ docker exec -it promptfoo_local sh /app/eval.sh /app/promptfooconfig.medical.yam
 
 ---
 
-### Tests audio — Groq Whisper (STT)
+### Tests audio — Groq Whisper (STT) *(standalone, hors promptfoo)*
 
-Évalue la précision de transcription sur des extraits LibriSpeech (domaine public).
+Évalue la précision de transcription sur des extraits audio publics (JFK, MLK, Matrix).
 Requiert une clé Groq (`gsk_...`).
+
+> Les résultats s'affichent dans le terminal — ils ne passent **pas** par le container promptfoo
+> et ne sont pas visibles sur http://localhost:15500. Promptfoo ne supporte pas nativement
+> les appels Whisper ni les images base64.
 
 ```bash
 # 1. Télécharge les clips audio (une seule fois)
@@ -170,10 +174,12 @@ python eval_audio.py
 
 ---
 
-### Tests image — Vision LLM
+### Tests image — Vision LLM *(standalone, hors promptfoo)*
 
-Évalue un modèle de vision sur des photos réelles (Wikipedia) et des documents synthétiques générés.
+Évalue un modèle de vision sur des photos réelles (Wikipedia) et des documents synthétiques.
 Requiert un modèle vision compatible (`VISION_MODEL` dans `.env`).
+
+> Même remarque : résultats terminal uniquement, hors promptfoo.
 
 ```bash
 # 1. Génère les images et le fichier de tests (une seule fois)
