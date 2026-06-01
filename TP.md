@@ -37,7 +37,8 @@ de la position sur la capacité de rappel.
 - Python 3.8+ avec PyYAML (`pip install pyyaml`)
 - Node.js 18+ avec npm — pour l'interface web (recommandée)
 - Un LLM accessible via une API compatible OpenAI (`/v1/chat/completions`)
-  - Exemples : Ollama, LM Studio, vLLM, ou une API cloud (OpenAI, Mistral, Groq…)
+  - Local : Ollama, LM Studio, vLLM
+  - Cloud (gratuit) : **Groq** → créer un compte sur [console.groq.com](https://console.groq.com), générer une clé API (commence par `gsk_`)
 
 ---
 
@@ -50,7 +51,12 @@ cd promptfoo
 
 # 2. Configurer le LLM (copier et éditer)
 cp .env.example .env
-# → Renseigne LLM_BASE_URL et LLM_MODEL dans .env
+# → Renseigne LLM_BASE_URL, LLM_MODEL et LLM_API_KEY dans .env
+#
+# Exemple avec Groq (gratuit, sans GPU) :
+#   LLM_BASE_URL=https://api.groq.com/openai
+#   LLM_MODEL=llama-3.1-8b-instant
+#   LLM_API_KEY=gsk_xxxxxxxxxxxxxxxxxxxx
 
 # 3. Générer les données de test
 python generate_tests.py          # Tests synthétiques (40 lignes de codes)

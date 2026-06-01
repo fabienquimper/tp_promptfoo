@@ -106,6 +106,13 @@ curl http://192.168.1.42:11434/v1/models
 
 Le LLM est hébergé sur un service externe. La clé API est injectée automatiquement dans l'en-tête `Authorization`.
 
+**Groq** (rapide, gratuit jusqu'à un certain quota — clé commence par `gsk_`) :
+```dotenv
+LLM_BASE_URL=https://api.groq.com/openai
+LLM_MODEL=llama-3.1-8b-instant
+LLM_API_KEY=gsk_xxxxxxxxxxxxxxxxxxxx
+```
+
 **OpenAI :**
 ```dotenv
 LLM_BASE_URL=https://api.openai.com
